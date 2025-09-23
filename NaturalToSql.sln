@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaturalToQuery.Api", "NaturalToSql\NaturalToQuery.Api.csproj", "{BA33C012-5C32-41C4-89B4-AA18EEC232B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaturalToQuery.Core", "NaturalToQuery.Core\NaturalToQuery.Core.csproj", "{561EBBA1-1E54-4536-9A58-65123433568A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaturalToQuery.Infrastructure", "NaturalToQuery.Infrastructure\NaturalToQuery.Infrastructure.csproj", "{2258E8E6-3910-4C74-8160-8269FF8832C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaturalToQuery.Application", "NaturalToQuery.Application\NaturalToQuery.Application.csproj", "{5DF4A6A6-EE13-4174-B2A1-DD64DB40B143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaturalToQuery.SharedKernal", "NaturalToQuery.SharedKernal\NaturalToQuery.SharedKernal.csproj", "{329B99C4-D274-4808-B9CF-17464587615C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NatrualToQuery.UnitTest", "NatrualToQuery.UnitTest\NatrualToQuery.UnitTest.csproj", "{CF2F57D9-4E8A-43B7-BDF9-C0E0FD8F7E1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA33C012-5C32-41C4-89B4-AA18EEC232B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA33C012-5C32-41C4-89B4-AA18EEC232B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA33C012-5C32-41C4-89B4-AA18EEC232B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA33C012-5C32-41C4-89B4-AA18EEC232B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{561EBBA1-1E54-4536-9A58-65123433568A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561EBBA1-1E54-4536-9A58-65123433568A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561EBBA1-1E54-4536-9A58-65123433568A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561EBBA1-1E54-4536-9A58-65123433568A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2258E8E6-3910-4C74-8160-8269FF8832C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2258E8E6-3910-4C74-8160-8269FF8832C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2258E8E6-3910-4C74-8160-8269FF8832C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2258E8E6-3910-4C74-8160-8269FF8832C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF4A6A6-EE13-4174-B2A1-DD64DB40B143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF4A6A6-EE13-4174-B2A1-DD64DB40B143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF4A6A6-EE13-4174-B2A1-DD64DB40B143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF4A6A6-EE13-4174-B2A1-DD64DB40B143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329B99C4-D274-4808-B9CF-17464587615C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329B99C4-D274-4808-B9CF-17464587615C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329B99C4-D274-4808-B9CF-17464587615C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329B99C4-D274-4808-B9CF-17464587615C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2F57D9-4E8A-43B7-BDF9-C0E0FD8F7E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2F57D9-4E8A-43B7-BDF9-C0E0FD8F7E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2F57D9-4E8A-43B7-BDF9-C0E0FD8F7E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2F57D9-4E8A-43B7-BDF9-C0E0FD8F7E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A78404AD-815D-4FEC-8243-F2AA32A30EEC}
+	EndGlobalSection
+EndGlobal

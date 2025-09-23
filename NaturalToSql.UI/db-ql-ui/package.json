@@ -1,0 +1,157 @@
+{
+  "name": "natural-to-sql-ui",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Desktop application for converting natural language to SQL queries",
+  "main": "dist/main.cjs",
+  "homepage": ".",
+  "scripts": {
+    "start": "concurrently \"npm run dev:vite\" \"wait-on http://127.0.0.1:5174 && npm run dev:electron\"",
+    "dev:vite": "vite",
+    "dev:electron": "cross-env NODE_ENV=development electron .",
+    "build": "npm run build:vite && npm run build:electron",
+    "build:vite": "vite build",
+    "build:electron": "tsc -p tsconfig.electron.json && tsc -p tsconfig.preload.json && (if exist dist\\main.cjs del dist\\main.cjs) && (if exist dist\\utils.cjs del dist\\utils.cjs) && (if exist dist\\preload.cjs del dist\\preload.cjs) && ren dist\\main.js main.cjs && ren dist\\utils.js utils.cjs && ren dist\\preload.js preload.cjs",
+    "build:app": "npm run build && electron-builder && node embed-icon.cjs",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo \"Add ESLint later\""
+  },
+  "keywords": [
+    "electron",
+    "react",
+    "typescript",
+    "sql",
+    "natural-language"
+  ],
+  "author": "Natural To SQL Team",
+  "license": "MIT",
+  "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
+    "@radix-ui/react-accordion": "^1.2.12",
+    "@radix-ui/react-avatar": "^1.1.10",
+    "@radix-ui/react-collapsible": "^1.1.12",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-dropdown-menu": "^2.1.16",
+    "@radix-ui/react-menubar": "^1.1.16",
+    "@radix-ui/react-progress": "^1.1.7",
+    "@radix-ui/react-scroll-area": "^1.2.10",
+    "@radix-ui/react-select": "^2.2.6",
+    "@radix-ui/react-separator": "^1.1.7",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-switch": "^1.2.6",
+    "@radix-ui/react-tabs": "^1.1.13",
+    "@radix-ui/react-tooltip": "^1.2.8",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "@types/uuid": "^10.0.0",
+    "autoprefixer": "^10.4.21",
+    "axios": "^1.11.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.0.0",
+    "framer-motion": "^12.0.0-alpha.1",
+    "lucide-react": "^0.542.0",
+    "monaco-editor": "^0.52.2",
+    "postcss": "^8.5.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-hotkeys-hook": "^5.1.0",
+    "react-resizable-panels": "^3.0.5",
+    "react-syntax-highlighter": "^15.6.6",
+    "tailwind-merge": "^3.3.1",
+    "typescript": "^5.9.2",
+    "use-debounce": "^10.0.5",
+    "uuid": "^11.1.0",
+    "wait-on": "^8.0.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/electron-devtools-installer": "^2.2.5",
+    "@vitejs/plugin-react": "^5.0.2",
+    "electron": "^37.4.0",
+    "electron-builder": "^26.0.12",
+    "electron-devtools-installer": "^4.0.0",
+    "rcedit": "^4.0.1",
+    "tailwindcss": "^3.4.17",
+    "vite": "^7.1.3"
+  },
+  "build": {
+    "appId": "com.naturaltoSQL.app",
+    "productName": "NaturalToSQL",
+    "directories": {
+      "output": "build",
+      "buildResources": "assets"
+    },
+    "files": [
+      "dist/**/*",
+      "dist-vite/**/*",
+      "api_publish/**/*",
+      "assets/**/*",
+      "!**/node_modules/**/*",
+      "!**/*.ts",
+      "!**/*.js.map"
+    ],
+    "extraResources": [
+      {
+        "from": "api_publish",
+        "to": "api_publish",
+        "filter": "**/*"
+      },
+      {
+        "from": "assets/logo.ico",
+        "to": "logo.ico"
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "assets/logo.ico",
+      "forceCodeSigning": false,
+      "signAndEditExecutable": false,
+      "verifyUpdateCodeSignature": false,
+      "requestedExecutionLevel": "asInvoker",
+      "artifactName": "NaturalToSQL-${version}.exe",
+      "fileAssociations": [],
+      "publish": null
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "NaturalToSQL",
+      "artifactName": "NaturalToSQL-Setup-${version}.exe",
+      "license": "LICENSE.txt",
+      "installerIcon": "assets/logo.ico",
+      "uninstallerIcon": "assets/logo.ico"
+    },
+    "portable": {
+      "artifactName": "NaturalToSQL-Portable-${version}.exe"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/logo.icns"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "assets/logo.png"
+    }
+  }
+}

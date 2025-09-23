@@ -1,0 +1,25 @@
+2025-08-22 21:35:14.867 +03:00 [INF] This is a test log to file!
+2025-08-22 21:35:14.981 +03:00 [INF] Shared Kernal configured successfully.
+2025-08-22 21:35:14.991 +03:00 [INF] API configured successfully.
+2025-08-22 21:35:15.050 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-22 21:35:15.075 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-08-22 21:35:15.077 +03:00 [DBG] Hosting starting
+2025-08-22 21:35:15.092 +03:00 [DBG] Middleware loaded
+2025-08-22 21:35:15.094 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16521 B).
+2025-08-22 21:35:15.097 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-08-22 21:35:15.618 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-08-22 21:35:15.620 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-22 21:35:15.630 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-08-22 21:35:15.672 +03:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2025-08-22 21:35:15.762 +03:00 [INF] Now listening on: https://localhost:7202
+2025-08-22 21:35:15.763 +03:00 [INF] Now listening on: http://localhost:5262
+2025-08-22 21:35:15.765 +03:00 [DBG] Loaded hosting startup assembly NaturalToQuery.Api
+2025-08-22 21:35:15.766 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-08-22 21:35:15.767 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-22 21:35:15.768 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-22 21:35:15.778 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-22 21:35:15.780 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-22 21:35:15.815 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-22 21:35:15.816 +03:00 [INF] Hosting environment: Development
+2025-08-22 21:35:15.819 +03:00 [INF] Content root path: C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql
+2025-08-22 21:35:15.820 +03:00 [DBG] Hosting started

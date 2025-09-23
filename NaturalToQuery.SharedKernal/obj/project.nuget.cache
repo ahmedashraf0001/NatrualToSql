@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "ogszm9vkKf4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Zyad\\Documents\\NaturalToSql\\NaturalToSql\\NaturalToQuery.SharedKernal\\NaturalToQuery.SharedKernal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zyad\\.nuget\\packages\\ardalis.guardclauses\\5.0.0\\ardalis.guardclauses.5.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.0\\microsoft.extensions.configuration.binder.9.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0\\microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\microsoft.extensions.dependencymodel\\9.0.0\\microsoft.extensions.dependencymodel.9.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\9.0.0\\microsoft.extensions.diagnostics.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.0\\microsoft.extensions.fileproviders.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\9.0.0\\microsoft.extensions.hosting.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\microsoft.extensions.logging\\9.0.0\\microsoft.extensions.logging.9.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.0\\microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\microsoft.extensions.options\\9.0.0\\microsoft.extensions.options.9.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\serilog.aspnetcore\\9.0.0\\serilog.aspnetcore.9.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\serilog.extensions.hosting\\9.0.0\\serilog.extensions.hosting.9.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\serilog.extensions.logging\\9.0.0\\serilog.extensions.logging.9.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\serilog.formatting.compact\\3.0.0\\serilog.formatting.compact.3.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\serilog.settings.configuration\\9.0.0\\serilog.settings.configuration.9.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\serilog.sinks.console\\6.0.0\\serilog.sinks.console.6.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\serilog.sinks.debug\\3.0.0\\serilog.sinks.debug.3.0.0.nupkg.sha512",
+    "C:\\Users\\Zyad\\.nuget\\packages\\serilog.sinks.file\\7.0.0\\serilog.sinks.file.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

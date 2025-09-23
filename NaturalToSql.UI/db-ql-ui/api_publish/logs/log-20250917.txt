@@ -1,0 +1,1556 @@
+2025-09-17 02:29:57.840 +03:00 [INF] This is a test log to file!
+2025-09-17 02:29:58.030 +03:00 [INF] Shared Kernal configured successfully.
+2025-09-17 02:29:58.034 +03:00 [INF] API configured successfully.
+2025-09-17 02:29:58.104 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-17 02:29:58.154 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-09-17 02:29:58.589 +03:00 [WRN] The foreign key property 'Profile.UserInfoId1' was created in shadow state because a conflicting property with the simple name 'UserInfoId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-09-17 02:29:58.676 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ContextDB' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-09-17 02:29:58.699 +03:00 [INF] Registered 23 endpoints in 760 milliseconds.
+2025-09-17 02:29:58.706 +03:00 [DBG] 'ContextDB' disposed.
+2025-09-17 02:29:58.768 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ContextDB' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-09-17 02:29:58.854 +03:00 [DBG] Creating DbConnection.
+2025-09-17 02:29:58.866 +03:00 [DBG] Created DbConnection. (9ms).
+2025-09-17 02:29:58.868 +03:00 [DBG] Migrating using database 'main' on server 'schema_cache.db'.
+2025-09-17 02:29:58.872 +03:00 [DBG] Creating DbConnection.
+2025-09-17 02:29:58.873 +03:00 [DBG] Created DbConnection. (1ms).
+2025-09-17 02:29:58.874 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 02:29:58.879 +03:00 [DBG] An error occurred using the connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 02:29:58.881 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 02:29:58.884 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 02:29:58.884 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 02:29:58.892 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 02:29:58.894 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:58.898 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-09-17 02:29:58.900 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2025-09-17 02:29:58.905 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2025-09-17 02:29:58.942 +03:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2025-09-17 02:29:58.944 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 02:29:58.946 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (2ms).
+2025-09-17 02:29:58.946 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 02:29:58.946 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 02:29:58.947 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-09-17 02:29:58.949 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-09-17 02:29:58.950 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 02:29:58.950 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 02:29:58.950 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsLock' AND "type" = 'table';
+2025-09-17 02:29:58.958 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsLock' AND "type" = 'table';
+2025-09-17 02:29:58.958 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:58.959 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:58.959 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:58.959 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsLock" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK___EFMigrationsLock" PRIMARY KEY,
+    "Timestamp" TEXT NOT NULL
+);
+2025-09-17 02:29:58.967 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsLock" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK___EFMigrationsLock" PRIMARY KEY,
+    "Timestamp" TEXT NOT NULL
+);
+2025-09-17 02:29:58.969 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-09-17 02:29:58.969 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 02:29:58.969 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 02:29:58.969 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT OR IGNORE INTO "__EFMigrationsLock"("Id", "Timestamp") VALUES(1, '2025-09-16 23:29:58.9687612+00:00');
+SELECT changes();
+2025-09-17 02:29:58.972 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT OR IGNORE INTO "__EFMigrationsLock"("Id", "Timestamp") VALUES(1, '2025-09-16 23:29:58.9687612+00:00');
+SELECT changes();
+2025-09-17 02:29:59.046 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-09-17 02:29:59.050 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2025-09-17 02:29:59.051 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.051 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.052 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.053 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2025-09-17 02:29:59.053 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2025-09-17 02:29:59.055 +03:00 [DBG] Committing transaction.
+2025-09-17 02:29:59.061 +03:00 [DBG] Committed transaction.
+2025-09-17 02:29:59.063 +03:00 [DBG] Disposing transaction.
+2025-09-17 02:29:59.066 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-09-17 02:29:59.066 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2025-09-17 02:29:59.068 +03:00 [DBG] Creating DbConnection.
+2025-09-17 02:29:59.068 +03:00 [DBG] Created DbConnection. (0ms).
+2025-09-17 02:29:59.068 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 02:29:59.069 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 02:29:59.071 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 02:29:59.071 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 02:29:59.072 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-09-17 02:29:59.072 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 02:29:59.072 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 02:29:59.072 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2025-09-17 02:29:59.072 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2025-09-17 02:29:59.074 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-17 02:29:59.075 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 02:29:59.075 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 02:29:59.076 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-09-17 02:29:59.077 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-09-17 02:29:59.079 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 02:29:59.081 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db' is being disposed after spending 2ms reading results.
+2025-09-17 02:29:59.088 +03:00 [INF] Applying migration '20250825154106_init'.
+2025-09-17 02:29:59.113 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.113 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.114 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.115 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Profiles" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Profiles" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Provider" INTEGER NOT NULL,
+    "SecretRef" TEXT NOT NULL,
+    "CacheFile" TEXT NULL,
+    "EmbeddingStatus" INTEGER NOT NULL,
+    "CreatedUtc" TEXT NOT NULL
+);
+2025-09-17 02:29:59.116 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Profiles" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Profiles" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Provider" INTEGER NOT NULL,
+    "SecretRef" TEXT NOT NULL,
+    "CacheFile" TEXT NULL,
+    "EmbeddingStatus" INTEGER NOT NULL,
+    "CreatedUtc" TEXT NOT NULL
+);
+2025-09-17 02:29:59.116 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.116 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.116 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.117 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Queries" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Queries" PRIMARY KEY,
+    "UserQuery" TEXT NOT NULL,
+    "SqlQuery" TEXT NOT NULL,
+    "ResultJson" TEXT NOT NULL,
+    "TimestampUtc" TEXT NOT NULL,
+    "ProfileId" TEXT NOT NULL,
+    CONSTRAINT "FK_Queries_Profiles_ProfileId" FOREIGN KEY ("ProfileId") REFERENCES "Profiles" ("Id") ON DELETE CASCADE
+);
+2025-09-17 02:29:59.117 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Queries" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Queries" PRIMARY KEY,
+    "UserQuery" TEXT NOT NULL,
+    "SqlQuery" TEXT NOT NULL,
+    "ResultJson" TEXT NOT NULL,
+    "TimestampUtc" TEXT NOT NULL,
+    "ProfileId" TEXT NOT NULL,
+    CONSTRAINT "FK_Queries_Profiles_ProfileId" FOREIGN KEY ("ProfileId") REFERENCES "Profiles" ("Id") ON DELETE CASCADE
+);
+2025-09-17 02:29:59.118 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.118 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.118 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.118 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Queries_ProfileId" ON "Queries" ("ProfileId");
+2025-09-17 02:29:59.119 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Queries_ProfileId" ON "Queries" ("ProfileId");
+2025-09-17 02:29:59.119 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.119 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.119 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.119 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250825154106_init', '9.0.8');
+2025-09-17 02:29:59.119 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250825154106_init', '9.0.8');
+2025-09-17 02:29:59.120 +03:00 [INF] Applying migration '20250826210914_updatedsqlite'.
+2025-09-17 02:29:59.135 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.135 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.135 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.135 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ef_temp_Profiles" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Profiles" PRIMARY KEY,
+    "CacheFile" TEXT NULL,
+    "CreatedUtc" TEXT NOT NULL,
+    "Name" TEXT NOT NULL,
+    "Provider" INTEGER NOT NULL,
+    "SecretRef" TEXT NOT NULL
+);
+2025-09-17 02:29:59.137 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ef_temp_Profiles" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Profiles" PRIMARY KEY,
+    "CacheFile" TEXT NULL,
+    "CreatedUtc" TEXT NOT NULL,
+    "Name" TEXT NOT NULL,
+    "Provider" INTEGER NOT NULL,
+    "SecretRef" TEXT NOT NULL
+);
+2025-09-17 02:29:59.137 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.137 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.137 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.137 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ef_temp_Profiles" ("Id", "CacheFile", "CreatedUtc", "Name", "Provider", "SecretRef")
+SELECT "Id", "CacheFile", "CreatedUtc", "Name", "Provider", "SecretRef"
+FROM "Profiles";
+2025-09-17 02:29:59.137 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ef_temp_Profiles" ("Id", "CacheFile", "CreatedUtc", "Name", "Provider", "SecretRef")
+SELECT "Id", "CacheFile", "CreatedUtc", "Name", "Provider", "SecretRef"
+FROM "Profiles";
+2025-09-17 02:29:59.137 +03:00 [DBG] Committing transaction.
+2025-09-17 02:29:59.140 +03:00 [DBG] Committed transaction.
+2025-09-17 02:29:59.140 +03:00 [DBG] Disposing transaction.
+2025-09-17 02:29:59.141 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.141 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.141 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.141 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 0;
+2025-09-17 02:29:59.141 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 0;
+2025-09-17 02:29:59.141 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-09-17 02:29:59.141 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2025-09-17 02:29:59.141 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.141 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.141 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.141 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE "Profiles";
+2025-09-17 02:29:59.142 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE "Profiles";
+2025-09-17 02:29:59.142 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.142 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.142 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.143 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "ef_temp_Profiles" RENAME TO "Profiles";
+2025-09-17 02:29:59.143 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "ef_temp_Profiles" RENAME TO "Profiles";
+2025-09-17 02:29:59.144 +03:00 [DBG] Committing transaction.
+2025-09-17 02:29:59.147 +03:00 [DBG] Committed transaction.
+2025-09-17 02:29:59.147 +03:00 [DBG] Disposing transaction.
+2025-09-17 02:29:59.147 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.147 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.147 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.147 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 1;
+2025-09-17 02:29:59.147 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 1;
+2025-09-17 02:29:59.147 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.147 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.147 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.147 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250826210914_updatedsqlite', '9.0.8');
+2025-09-17 02:29:59.150 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250826210914_updatedsqlite', '9.0.8');
+2025-09-17 02:29:59.150 +03:00 [INF] Applying migration '20250831091732_setdatabasenameinprofile'.
+2025-09-17 02:29:59.156 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-09-17 02:29:59.157 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2025-09-17 02:29:59.157 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.157 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.157 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.157 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Profiles" ADD "DatabaseName" TEXT NOT NULL DEFAULT '';
+2025-09-17 02:29:59.157 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Profiles" ADD "DatabaseName" TEXT NOT NULL DEFAULT '';
+2025-09-17 02:29:59.158 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.158 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.158 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.158 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250831091732_setdatabasenameinprofile', '9.0.8');
+2025-09-17 02:29:59.158 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250831091732_setdatabasenameinprofile', '9.0.8');
+2025-09-17 02:29:59.158 +03:00 [INF] Applying migration '20250904150142_addeduser'.
+2025-09-17 02:29:59.176 +03:00 [WRN] The migration operation 'PRAGMA foreign_keys = 0;
+' from migration 'addeduser' cannot be executed in a transaction. If the app is terminated or an unrecoverable error occurs while this operation is being executed then the migration will be left in a partially applied state and would need to be reverted manually before it can be applied again. Create a separate migration that contains just this operation.
+2025-09-17 02:29:59.176 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.176 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.176 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.176 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Profiles" ADD "UserInfoId" TEXT NULL;
+2025-09-17 02:29:59.177 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Profiles" ADD "UserInfoId" TEXT NULL;
+2025-09-17 02:29:59.177 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.177 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.177 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.177 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Profiles" ADD "UserInfoId1" TEXT NULL;
+2025-09-17 02:29:59.177 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Profiles" ADD "UserInfoId1" TEXT NULL;
+2025-09-17 02:29:59.177 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.177 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.177 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.177 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "UserInfos" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_UserInfos" PRIMARY KEY,
+    "ApiKey" TEXT NOT NULL,
+    "Mode" INTEGER NOT NULL,
+    "CreatedUtc" TEXT NOT NULL,
+    "LastUpdatedUtc" TEXT NOT NULL
+);
+2025-09-17 02:29:59.177 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "UserInfos" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_UserInfos" PRIMARY KEY,
+    "ApiKey" TEXT NOT NULL,
+    "Mode" INTEGER NOT NULL,
+    "CreatedUtc" TEXT NOT NULL,
+    "LastUpdatedUtc" TEXT NOT NULL
+);
+2025-09-17 02:29:59.177 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.178 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.178 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.178 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Profiles_UserInfoId" ON "Profiles" ("UserInfoId");
+2025-09-17 02:29:59.178 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Profiles_UserInfoId" ON "Profiles" ("UserInfoId");
+2025-09-17 02:29:59.178 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.178 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.178 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.178 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Profiles_UserInfoId1" ON "Profiles" ("UserInfoId1");
+2025-09-17 02:29:59.179 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Profiles_UserInfoId1" ON "Profiles" ("UserInfoId1");
+2025-09-17 02:29:59.179 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.180 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.180 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.180 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ef_temp_Profiles" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Profiles" PRIMARY KEY,
+    "CacheFile" TEXT NULL,
+    "CreatedUtc" TEXT NOT NULL,
+    "DatabaseName" TEXT NOT NULL,
+    "Name" TEXT NOT NULL,
+    "Provider" INTEGER NOT NULL,
+    "SecretRef" TEXT NOT NULL,
+    "UserInfoId" TEXT NULL,
+    "UserInfoId1" TEXT NULL,
+    CONSTRAINT "FK_Profiles_UserInfos_UserInfoId" FOREIGN KEY ("UserInfoId") REFERENCES "UserInfos" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_Profiles_UserInfos_UserInfoId1" FOREIGN KEY ("UserInfoId1") REFERENCES "UserInfos" ("Id")
+);
+2025-09-17 02:29:59.181 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ef_temp_Profiles" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Profiles" PRIMARY KEY,
+    "CacheFile" TEXT NULL,
+    "CreatedUtc" TEXT NOT NULL,
+    "DatabaseName" TEXT NOT NULL,
+    "Name" TEXT NOT NULL,
+    "Provider" INTEGER NOT NULL,
+    "SecretRef" TEXT NOT NULL,
+    "UserInfoId" TEXT NULL,
+    "UserInfoId1" TEXT NULL,
+    CONSTRAINT "FK_Profiles_UserInfos_UserInfoId" FOREIGN KEY ("UserInfoId") REFERENCES "UserInfos" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_Profiles_UserInfos_UserInfoId1" FOREIGN KEY ("UserInfoId1") REFERENCES "UserInfos" ("Id")
+);
+2025-09-17 02:29:59.181 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.181 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.181 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.181 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ef_temp_Profiles" ("Id", "CacheFile", "CreatedUtc", "DatabaseName", "Name", "Provider", "SecretRef", "UserInfoId", "UserInfoId1")
+SELECT "Id", "CacheFile", "CreatedUtc", "DatabaseName", "Name", "Provider", "SecretRef", "UserInfoId", "UserInfoId1"
+FROM "Profiles";
+2025-09-17 02:29:59.181 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ef_temp_Profiles" ("Id", "CacheFile", "CreatedUtc", "DatabaseName", "Name", "Provider", "SecretRef", "UserInfoId", "UserInfoId1")
+SELECT "Id", "CacheFile", "CreatedUtc", "DatabaseName", "Name", "Provider", "SecretRef", "UserInfoId", "UserInfoId1"
+FROM "Profiles";
+2025-09-17 02:29:59.181 +03:00 [DBG] Committing transaction.
+2025-09-17 02:29:59.185 +03:00 [DBG] Committed transaction.
+2025-09-17 02:29:59.185 +03:00 [DBG] Disposing transaction.
+2025-09-17 02:29:59.185 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.186 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.186 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.186 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 0;
+2025-09-17 02:29:59.186 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 0;
+2025-09-17 02:29:59.186 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-09-17 02:29:59.186 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2025-09-17 02:29:59.186 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.186 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.186 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.186 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE "Profiles";
+2025-09-17 02:29:59.187 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE "Profiles";
+2025-09-17 02:29:59.187 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.187 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.187 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.187 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "ef_temp_Profiles" RENAME TO "Profiles";
+2025-09-17 02:29:59.188 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "ef_temp_Profiles" RENAME TO "Profiles";
+2025-09-17 02:29:59.188 +03:00 [DBG] Committing transaction.
+2025-09-17 02:29:59.191 +03:00 [DBG] Committed transaction.
+2025-09-17 02:29:59.191 +03:00 [DBG] Disposing transaction.
+2025-09-17 02:29:59.191 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.191 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.191 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.191 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 1;
+2025-09-17 02:29:59.191 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 1;
+2025-09-17 02:29:59.191 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-09-17 02:29:59.191 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2025-09-17 02:29:59.191 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.191 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.191 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.191 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Profiles_UserInfoId" ON "Profiles" ("UserInfoId");
+2025-09-17 02:29:59.192 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Profiles_UserInfoId" ON "Profiles" ("UserInfoId");
+2025-09-17 02:29:59.192 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.192 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.192 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.192 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Profiles_UserInfoId1" ON "Profiles" ("UserInfoId1");
+2025-09-17 02:29:59.192 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Profiles_UserInfoId1" ON "Profiles" ("UserInfoId1");
+2025-09-17 02:29:59.192 +03:00 [DBG] Committing transaction.
+2025-09-17 02:29:59.195 +03:00 [DBG] Committed transaction.
+2025-09-17 02:29:59.195 +03:00 [DBG] Disposing transaction.
+2025-09-17 02:29:59.195 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 02:29:59.195 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.195 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 02:29:59.195 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250904150142_addeduser', '9.0.8');
+2025-09-17 02:29:59.198 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250904150142_addeduser', '9.0.8');
+2025-09-17 02:29:59.198 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-09-17 02:29:59.199 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 02:29:59.199 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 02:29:59.199 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "__EFMigrationsLock";
+2025-09-17 02:29:59.202 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "__EFMigrationsLock";
+2025-09-17 02:29:59.202 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 02:29:59.202 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 02:29:59.204 +03:00 [DBG] 'ContextDB' disposed.
+2025-09-17 02:29:59.204 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 02:29:59.204 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 02:29:59.205 +03:00 [INF] Infrastructure configured successfully.
+2025-09-17 02:29:59.206 +03:00 [INF] Infrastructure configured successfully.
+2025-09-17 02:29:59.246 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-09-17 02:29:59.275 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-09-17 02:29:59.277 +03:00 [DBG] Hosting starting
+2025-09-17 02:29:59.422 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-09-17 02:29:59.424 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-09-17 02:29:59.437 +03:00 [INF] Now listening on: http://localhost:5000
+2025-09-17 02:29:59.437 +03:00 [DBG] Loaded hosting startup assembly NaturalToQuery.Api
+2025-09-17 02:29:59.437 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-17 02:29:59.437 +03:00 [INF] Hosting environment: Development
+2025-09-17 02:29:59.437 +03:00 [INF] Content root path: C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish
+2025-09-17 02:29:59.437 +03:00 [DBG] Hosting started
+2025-09-17 02:30:01.521 +03:00 [DBG] Connection id "0HNFLF3QJ8PK9" accepted.
+2025-09-17 02:30:01.521 +03:00 [DBG] Connection id "0HNFLF3QJ8PK9" started.
+2025-09-17 02:30:01.547 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/userinfo - null null
+2025-09-17 02:30:01.592 +03:00 [DBG] 1 candidate(s) found for the request path '/api/userinfo'
+2025-09-17 02:30:01.593 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/userinfo'
+2025-09-17 02:30:01.655 +03:00 [DBG] The request has an origin header: 'http://127.0.0.1:5174'.
+2025-09-17 02:30:01.655 +03:00 [INF] CORS policy execution successful.
+2025-09-17 02:30:01.663 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-09-17 02:30:01.667 +03:00 [INF] Executing endpoint 'HTTP: GET api/userinfo'
+2025-09-17 02:30:01.685 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ContextDB' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-09-17 02:30:01.717 +03:00 [INF] Getting all users
+2025-09-17 02:30:01.752 +03:00 [DBG] Compiling query expression: 
+'DbSet<UserInfo>()
+    .Include(p => p.Profiles)
+    .AsNoTracking()'
+2025-09-17 02:30:01.815 +03:00 [DBG] Including navigation: 'UserInfo.Profiles'.
+2025-09-17 02:30:02.060 +03:00 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<UserInfo>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: UserInfo.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: UserInfo.ApiKey (string) Required MaxLength(200), 1], [Property: UserInfo.CreatedUtc (DateTime) Required, 2], [Property: UserInfo.LastUpdatedUtc (DateTime) Required, 3], [Property: UserInfo.Mode (AIMode) Required, 4] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: Profile.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 5], [Property: Profile.CacheFile (string) MaxLength(500), 6], [Property: Profile.CreatedUtc (DateTimeOffset) Required, 7], [Property: Profile.DatabaseName (string) Required, 8], [Property: Profile.Name (string) Required MaxLength(200), 9], [Property: Profile.Provider (ProviderType) Required, 10], [Property: Profile.SecretRef (string) Required, 11], [Property: Profile.UserInfoId (Guid?) FK Index, 12], [Property: Profile.UserInfoId1 (no field, Guid?) Shadow FK Index, 13] }
+            3 -> 5
+        SELECT u.Id, u.ApiKey, u.CreatedUtc, u.LastUpdatedUtc, u.Mode, p.Id, p.CacheFile, p.CreatedUtc, p.DatabaseName, p.Name, p.Provider, p.SecretRef, p.UserInfoId, p.UserInfoId1
+        FROM UserInfos AS u
+        LEFT JOIN Profiles AS p ON u.Id == p.UserInfoId
+        ORDER BY u.Id ASC) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: UserInfo.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: UserInfo.ApiKey (string) Required MaxLength(200), 1], [Property: UserInfo.CreatedUtc (DateTime) Required, 2], [Property: UserInfo.LastUpdatedUtc (DateTime) Required, 3], [Property: UserInfo.Mode (AIMode) Required, 4] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: Profile.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 5], [Property: Profile.CacheFile (string) MaxLength(500), 6], [Property: Profile.CreatedUtc (DateTimeOffset) Required, 7], [Property: Profile.DatabaseName (string) Required, 8], [Property: Profile.Name (string) Required MaxLength(200), 9], [Property: Profile.Provider (ProviderType) Required, 10], [Property: Profile.SecretRef (string) Required, 11], [Property: Profile.UserInfoId (Guid?) FK Index, 12], [Property: Profile.UserInfoId1 (no field, Guid?) Shadow FK Index, 13] }
+            3 -> 5
+        SELECT u.Id, u.ApiKey, u.CreatedUtc, u.LastUpdatedUtc, u.Mode, p.Id, p.CacheFile, p.CreatedUtc, p.DatabaseName, p.Name, p.Provider, p.SecretRef, p.UserInfoId, p.UserInfoId1
+        FROM UserInfos AS u
+        LEFT JOIN Profiles AS p ON u.Id == p.UserInfoId
+        ORDER BY u.Id ASC, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        resultContext.Values == null ? 
+        {
+            UserInfo entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                UserInfo instance1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(UserInfo);
+                (object)dataReader.GetGuid(0) != null ? 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: UserInfo | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: UserInfo | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo")]: 
+                            {
+                                return 
+                                {
+                                    UserInfo instance;
+                                    instance = new UserInfo();
+                                    instance.<Id>k__BackingField = dataReader.GetGuid(0);
+                                    instance.<ApiKey>k__BackingField = dataReader.GetString(1);
+                                    instance.<CreatedUtc>k__BackingField = dataReader.GetDateTime(2);
+                                    instance.<LastUpdatedUtc>k__BackingField = dataReader.GetDateTime(3);
+                                    instance.<Mode>k__BackingField = Invoke(((EnumToNumberConverter<AIMode, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: UserInfo.Mode (AIMode) Required | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo").FindProperty("Mode")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(4));
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: NoTracking, 
+                                        structuralType: [LIFTABLE Constant: EntityType: UserInfo | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(UserInfo)
+                    }
+                    ;
+                    return instance1;
+                } : 
+                {
+                    object[] keyValues1;
+                    keyValues1 = new object[]{ (object)dataReader.GetGuid(0) };
+                    return ShapedQueryCompilingExpressionVisitor.CreateNullKeyValueInNoTrackingQuery(
+                        entityType: [LIFTABLE Constant: EntityType: UserInfo | Resolver: namelessParameter{4} => namelessParameter{4}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo")], 
+                        properties: [LIFTABLE Constant: List<RuntimeProperty> { Property: UserInfo.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd } | Resolver: c => c.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo").FindPrimaryKey().Properties], 
+                        keyValues: keyValues1);
+                };
+                return instance1;
+            };
+            resultContext.Values = new object[]{ entity };
+            ShaperProcessingExpressionVisitor.InitializeIncludeCollection<UserInfo, UserInfo>(
+                collectionId: 0, 
+                queryContext: queryContext, 
+                dbDataReader: dataReader, 
+                resultCoordinator: resultCoordinator, 
+                entity: (UserInfo)(resultContext.Values[0]), 
+                parentIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(Guid?)dataReader.GetGuid(0) }], 
+                outerIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(Guid?)dataReader.GetGuid(0) }], 
+                navigation: [LIFTABLE Constant: Navigation: UserInfo.Profiles (List<Profile>) Collection ToDependent Profile | Resolver: namelessParameter{5} => namelessParameter{5}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo").FindNavigation("Profiles")], 
+                clrCollectionAccessor: [LIFTABLE Constant: ClrICollectionAccessor<UserInfo, List<Profile>, Profile> | Resolver: namelessParameter{6} => namelessParameter{6}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo").FindNavigation("Profiles").GetCollectionAccessor()], 
+                trackingQuery: False, 
+                setLoaded: True);
+        } : default(void);
+        ShaperProcessingExpressionVisitor.PopulateIncludeCollection<UserInfo, Profile>(
+            collectionId: 0, 
+            queryContext: queryContext, 
+            dbDataReader: dataReader, 
+            resultCoordinator: resultCoordinator, 
+            parentIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(Guid?)dataReader.GetGuid(0) }], 
+            outerIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(Guid?)dataReader.GetGuid(0) }], 
+            selfIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)dataReader.IsDBNull(5) ? default(Guid?) : (Guid?)dataReader.GetGuid(5) }], 
+            parentIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]{ (left, right) => left == null ? right == null : right != null && (Guid)left == (Guid)right }], 
+            outerIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]{ (left, right) => left == null ? right == null : right != null && (Guid)left == (Guid)right }], 
+            selfIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]{ (left, right) => left == null ? right == null : right != null && (Guid)left == (Guid)right }], 
+            innerShaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+            {
+                Profile entity;
+                entity = 
+                {
+                    MaterializationContext materializationContext2;
+                    IEntityType entityType2;
+                    Profile instance2;
+                    materializationContext2 = new MaterializationContext(
+                        [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                        queryContext.Context
+                    );
+                    instance2 = default(Profile);
+                    dataReader.IsDBNull(5) ? default(object) : (object)dataReader.GetGuid(5) != null ? 
+                    {
+                        ISnapshot shadowSnapshot2;
+                        shadowSnapshot2 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                        entityType2 = [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{7} => namelessParameter{7}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")];
+                        instance2 = switch (entityType2)
+                        {
+                            case [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{8} => namelessParameter{8}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")]: 
+                                {
+                                    return 
+                                    {
+                                        Profile instance;
+                                        instance = new Profile();
+                                        instance.<Id>k__BackingField = dataReader.IsDBNull(5) ? default(Guid) : dataReader.GetGuid(5);
+                                        instance.<CacheFile>k__BackingField = dataReader.IsDBNull(6) ? default(string) : dataReader.GetString(6);
+                                        instance.<CreatedUtc>k__BackingField = dataReader.IsDBNull(7) ? default(DateTimeOffset) : dataReader.GetFieldValue<DateTimeOffset>(7);
+                                        instance.<DatabaseName>k__BackingField = dataReader.IsDBNull(8) ? default(string) : dataReader.GetString(8);
+                                        instance.<Name>k__BackingField = dataReader.IsDBNull(9) ? default(string) : dataReader.GetString(9);
+                                        instance.<Provider>k__BackingField = dataReader.IsDBNull(10) ? default(ProviderType) : Invoke(((EnumToNumberConverter<ProviderType, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: Profile.Provider (ProviderType) Required | Resolver: namelessParameter{9} => namelessParameter{9}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile").FindProperty("Provider")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(10));
+                                        instance.<SecretRef>k__BackingField = dataReader.IsDBNull(11) ? default(string) : dataReader.GetString(11);
+                                        instance.<UserInfoId>k__BackingField = dataReader.IsDBNull(12) ? default(Guid?) : (Guid?)dataReader.GetGuid(12);
+                                        (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                            context: materializationContext2.Context, 
+                                            entity: instance, 
+                                            queryTrackingBehavior: NoTracking, 
+                                            structuralType: [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{10} => namelessParameter{10}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")]) : default(void);
+                                        return instance;
+                                    }}
+                            default: 
+                                default(Profile)
+                        }
+                        ;
+                        return instance2;
+                    } : default(void);
+                    return instance2;
+                };
+                return entity;
+            }, 
+            inverseNavigation: default(INavigationBase), 
+            fixup: (namelessParameter{11}, namelessParameter{12}) => 
+            {
+                return [LIFTABLE Constant: ClrICollectionAccessor<UserInfo, List<Profile>, Profile> | Resolver: namelessParameter{13} => namelessParameter{13}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo").FindNavigation("Profiles").GetCollectionAccessor()].Add(
+                    entity: namelessParameter{11}, 
+                    value: namelessParameter{12}, 
+                    forMaterialization: True);
+            }, 
+            trackingQuery: False);
+        return IsTrue(resultCoordinator.ResultReady)
+         ? (UserInfo)(resultContext.Values[0]) : default(UserInfo);
+    }, 
+    contextType: NaturalToQuery.Infrastructure.Persistence.ContextDB, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2025-09-17 02:30:02.077 +03:00 [DBG] Creating DbConnection.
+2025-09-17 02:30:02.077 +03:00 [DBG] Created DbConnection. (0ms).
+2025-09-17 02:30:02.079 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 02:30:02.080 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 02:30:02.080 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-17 02:30:02.080 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 02:30:02.080 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 02:30:02.080 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 02:30:02.082 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 02:30:02.085 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 02:30:02.085 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db' is being disposed after spending 3ms reading results.
+2025-09-17 02:30:02.087 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 02:30:02.087 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 02:30:02.111 +03:00 [INF] Executed endpoint 'HTTP: GET api/userinfo'
+2025-09-17 02:30:02.113 +03:00 [DBG] Connection id "0HNFLF3QJ8PK9" completed keep alive response.
+2025-09-17 02:30:02.114 +03:00 [DBG] 'ContextDB' disposed.
+2025-09-17 02:30:02.116 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 02:30:02.116 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 02:30:02.117 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/userinfo - 200 null application/json; charset=utf-8 571.8339ms
+2025-09-17 02:30:02.122 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/userinfo - null null
+2025-09-17 02:30:02.124 +03:00 [DBG] 1 candidate(s) found for the request path '/api/userinfo'
+2025-09-17 02:30:02.124 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/userinfo'
+2025-09-17 02:30:02.127 +03:00 [DBG] The request has an origin header: 'http://127.0.0.1:5174'.
+2025-09-17 02:30:02.127 +03:00 [INF] CORS policy execution successful.
+2025-09-17 02:30:02.128 +03:00 [INF] Executing endpoint 'HTTP: GET api/userinfo'
+2025-09-17 02:30:02.129 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ContextDB' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-09-17 02:30:02.129 +03:00 [INF] Getting all users
+2025-09-17 02:30:02.150 +03:00 [DBG] Creating DbConnection.
+2025-09-17 02:30:02.150 +03:00 [DBG] Created DbConnection. (0ms).
+2025-09-17 02:30:02.151 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 02:30:02.151 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 02:30:02.152 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-17 02:30:02.152 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 02:30:02.152 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 02:30:02.152 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 02:30:02.152 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 02:30:02.153 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 02:30:02.154 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db' is being disposed after spending 1ms reading results.
+2025-09-17 02:30:02.155 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 02:30:02.157 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (2ms).
+2025-09-17 02:30:02.158 +03:00 [INF] Executed endpoint 'HTTP: GET api/userinfo'
+2025-09-17 02:30:02.159 +03:00 [DBG] Connection id "0HNFLF3QJ8PK9" completed keep alive response.
+2025-09-17 02:30:02.159 +03:00 [DBG] 'ContextDB' disposed.
+2025-09-17 02:30:02.163 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 02:30:02.164 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (4ms).
+2025-09-17 02:30:02.164 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/userinfo - 200 null application/json; charset=utf-8 42.3984ms
+2025-09-17 02:30:02.171 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/userinfo - null null
+2025-09-17 02:30:02.187 +03:00 [DBG] 1 candidate(s) found for the request path '/api/userinfo'
+2025-09-17 02:30:02.187 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/userinfo'
+2025-09-17 02:30:02.189 +03:00 [DBG] The request has an origin header: 'http://127.0.0.1:5174'.
+2025-09-17 02:30:02.189 +03:00 [INF] CORS policy execution successful.
+2025-09-17 02:30:02.190 +03:00 [INF] Executing endpoint 'HTTP: GET api/userinfo'
+2025-09-17 02:30:02.192 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ContextDB' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-09-17 02:30:02.193 +03:00 [INF] Getting all users
+2025-09-17 02:30:02.194 +03:00 [DBG] Creating DbConnection.
+2025-09-17 02:30:02.194 +03:00 [DBG] Created DbConnection. (0ms).
+2025-09-17 02:30:02.195 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 02:30:02.195 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 02:30:02.196 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-17 02:30:02.196 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 02:30:02.196 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 02:30:02.196 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 02:30:02.196 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 02:30:02.197 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 02:30:02.197 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db' is being disposed after spending 0ms reading results.
+2025-09-17 02:30:02.197 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 02:30:02.197 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 02:30:02.197 +03:00 [INF] Executed endpoint 'HTTP: GET api/userinfo'
+2025-09-17 02:30:02.197 +03:00 [DBG] Connection id "0HNFLF3QJ8PK9" completed keep alive response.
+2025-09-17 02:30:02.198 +03:00 [DBG] 'ContextDB' disposed.
+2025-09-17 02:30:02.198 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 02:30:02.198 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 02:30:02.199 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/userinfo - 200 null application/json; charset=utf-8 27.2356ms
+2025-09-17 16:58:51.794 +03:00 [INF] This is a test log to file!
+2025-09-17 16:58:51.951 +03:00 [INF] Shared Kernal configured successfully.
+2025-09-17 16:58:51.953 +03:00 [INF] API configured successfully.
+2025-09-17 16:58:52.018 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-17 16:58:52.063 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-09-17 16:58:52.420 +03:00 [WRN] The foreign key property 'Profile.UserInfoId1' was created in shadow state because a conflicting property with the simple name 'UserInfoId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-09-17 16:58:52.486 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ContextDB' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-09-17 16:58:52.504 +03:00 [INF] Registered 23 endpoints in 626 milliseconds.
+2025-09-17 16:58:52.508 +03:00 [DBG] 'ContextDB' disposed.
+2025-09-17 16:58:52.544 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ContextDB' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-09-17 16:58:52.621 +03:00 [DBG] Creating DbConnection.
+2025-09-17 16:58:52.630 +03:00 [DBG] Created DbConnection. (8ms).
+2025-09-17 16:58:52.632 +03:00 [DBG] Migrating using database 'main' on server 'schema_cache.db'.
+2025-09-17 16:58:52.634 +03:00 [DBG] Creating DbConnection.
+2025-09-17 16:58:52.635 +03:00 [DBG] Created DbConnection. (1ms).
+2025-09-17 16:58:52.636 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 16:58:52.671 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 16:58:52.675 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 16:58:52.679 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 16:58:52.679 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 16:58:52.681 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 16:58:52.685 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-09-17 16:58:52.688 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-09-17 16:58:52.692 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2025-09-17 16:58:52.692 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (4ms).
+2025-09-17 16:58:52.697 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsLock' AND "type" = 'table';
+2025-09-17 16:58:52.722 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsLock' AND "type" = 'table';
+2025-09-17 16:58:52.724 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-09-17 16:58:52.724 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 16:58:52.724 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 16:58:52.724 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT OR IGNORE INTO "__EFMigrationsLock"("Id", "Timestamp") VALUES(1, '2025-09-17 13:58:52.7237209+00:00');
+SELECT changes();
+2025-09-17 16:58:52.732 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT OR IGNORE INTO "__EFMigrationsLock"("Id", "Timestamp") VALUES(1, '2025-09-17 13:58:52.7237209+00:00');
+SELECT changes();
+2025-09-17 16:58:52.768 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-09-17 16:58:52.770 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2025-09-17 16:58:52.771 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 16:58:52.771 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 16:58:52.771 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 16:58:52.772 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2025-09-17 16:58:52.772 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2025-09-17 16:58:52.773 +03:00 [DBG] Committing transaction.
+2025-09-17 16:58:52.773 +03:00 [DBG] Committed transaction.
+2025-09-17 16:58:52.774 +03:00 [DBG] Disposing transaction.
+2025-09-17 16:58:52.775 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-09-17 16:58:52.775 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2025-09-17 16:58:52.777 +03:00 [DBG] Creating DbConnection.
+2025-09-17 16:58:52.777 +03:00 [DBG] Created DbConnection. (0ms).
+2025-09-17 16:58:52.777 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 16:58:52.777 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 16:58:52.777 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 16:58:52.777 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 16:58:52.777 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-09-17 16:58:52.778 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 16:58:52.778 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 16:58:52.778 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2025-09-17 16:58:52.778 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2025-09-17 16:58:52.779 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-17 16:58:52.779 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 16:58:52.779 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 16:58:52.780 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-09-17 16:58:52.780 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-09-17 16:58:52.782 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 16:58:52.783 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db' is being disposed after spending 1ms reading results.
+2025-09-17 16:58:52.786 +03:00 [INF] No migrations were applied. The database is already up to date.
+2025-09-17 16:58:52.786 +03:00 [DBG] Committing transaction.
+2025-09-17 16:58:52.786 +03:00 [DBG] Committed transaction.
+2025-09-17 16:58:52.786 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-09-17 16:58:52.786 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 16:58:52.786 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 16:58:52.786 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "__EFMigrationsLock";
+2025-09-17 16:58:52.789 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "__EFMigrationsLock";
+2025-09-17 16:58:52.789 +03:00 [DBG] Disposing transaction.
+2025-09-17 16:58:52.789 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 16:58:52.791 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (1ms).
+2025-09-17 16:58:52.791 +03:00 [DBG] 'ContextDB' disposed.
+2025-09-17 16:58:52.791 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 16:58:52.791 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 16:58:52.791 +03:00 [INF] Infrastructure configured successfully.
+2025-09-17 16:58:52.792 +03:00 [INF] Infrastructure configured successfully.
+2025-09-17 16:58:52.806 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-09-17 16:58:52.818 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-09-17 16:58:52.818 +03:00 [DBG] Hosting starting
+2025-09-17 16:58:52.870 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-09-17 16:58:52.871 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-09-17 16:58:52.881 +03:00 [INF] Now listening on: http://localhost:5000
+2025-09-17 16:58:52.881 +03:00 [DBG] Loaded hosting startup assembly NaturalToQuery.Api
+2025-09-17 16:58:52.881 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-17 16:58:52.882 +03:00 [INF] Hosting environment: Development
+2025-09-17 16:58:52.882 +03:00 [INF] Content root path: C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish
+2025-09-17 16:58:52.882 +03:00 [DBG] Hosting started
+2025-09-17 16:58:54.103 +03:00 [DBG] Connection id "0HNFLU9BAA6PO" accepted.
+2025-09-17 16:58:54.104 +03:00 [DBG] Connection id "0HNFLU9BAA6PO" started.
+2025-09-17 16:58:54.132 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/userinfo - null null
+2025-09-17 16:58:54.166 +03:00 [DBG] 1 candidate(s) found for the request path '/api/userinfo'
+2025-09-17 16:58:54.167 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/userinfo'
+2025-09-17 16:58:54.192 +03:00 [DBG] The request has an origin header: 'http://127.0.0.1:5174'.
+2025-09-17 16:58:54.192 +03:00 [INF] CORS policy execution successful.
+2025-09-17 16:58:54.193 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-09-17 16:58:54.194 +03:00 [INF] Executing endpoint 'HTTP: GET api/userinfo'
+2025-09-17 16:58:54.205 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ContextDB' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-09-17 16:58:54.222 +03:00 [INF] Getting all users
+2025-09-17 16:58:54.256 +03:00 [DBG] Compiling query expression: 
+'DbSet<UserInfo>()
+    .Include(p => p.Profiles)
+    .AsNoTracking()'
+2025-09-17 16:58:54.305 +03:00 [DBG] Including navigation: 'UserInfo.Profiles'.
+2025-09-17 16:58:54.514 +03:00 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<UserInfo>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: UserInfo.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: UserInfo.ApiKey (string) Required MaxLength(200), 1], [Property: UserInfo.CreatedUtc (DateTime) Required, 2], [Property: UserInfo.LastUpdatedUtc (DateTime) Required, 3], [Property: UserInfo.Mode (AIMode) Required, 4] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: Profile.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 5], [Property: Profile.CacheFile (string) MaxLength(500), 6], [Property: Profile.CreatedUtc (DateTimeOffset) Required, 7], [Property: Profile.DatabaseName (string) Required, 8], [Property: Profile.Name (string) Required MaxLength(200), 9], [Property: Profile.Provider (ProviderType) Required, 10], [Property: Profile.SecretRef (string) Required, 11], [Property: Profile.UserInfoId (Guid?) FK Index, 12], [Property: Profile.UserInfoId1 (no field, Guid?) Shadow FK Index, 13] }
+            3 -> 5
+        SELECT u.Id, u.ApiKey, u.CreatedUtc, u.LastUpdatedUtc, u.Mode, p.Id, p.CacheFile, p.CreatedUtc, p.DatabaseName, p.Name, p.Provider, p.SecretRef, p.UserInfoId, p.UserInfoId1
+        FROM UserInfos AS u
+        LEFT JOIN Profiles AS p ON u.Id == p.UserInfoId
+        ORDER BY u.Id ASC) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: UserInfo.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: UserInfo.ApiKey (string) Required MaxLength(200), 1], [Property: UserInfo.CreatedUtc (DateTime) Required, 2], [Property: UserInfo.LastUpdatedUtc (DateTime) Required, 3], [Property: UserInfo.Mode (AIMode) Required, 4] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: Profile.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 5], [Property: Profile.CacheFile (string) MaxLength(500), 6], [Property: Profile.CreatedUtc (DateTimeOffset) Required, 7], [Property: Profile.DatabaseName (string) Required, 8], [Property: Profile.Name (string) Required MaxLength(200), 9], [Property: Profile.Provider (ProviderType) Required, 10], [Property: Profile.SecretRef (string) Required, 11], [Property: Profile.UserInfoId (Guid?) FK Index, 12], [Property: Profile.UserInfoId1 (no field, Guid?) Shadow FK Index, 13] }
+            3 -> 5
+        SELECT u.Id, u.ApiKey, u.CreatedUtc, u.LastUpdatedUtc, u.Mode, p.Id, p.CacheFile, p.CreatedUtc, p.DatabaseName, p.Name, p.Provider, p.SecretRef, p.UserInfoId, p.UserInfoId1
+        FROM UserInfos AS u
+        LEFT JOIN Profiles AS p ON u.Id == p.UserInfoId
+        ORDER BY u.Id ASC, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        resultContext.Values == null ? 
+        {
+            UserInfo entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                UserInfo instance1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(UserInfo);
+                (object)dataReader.GetGuid(0) != null ? 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: UserInfo | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: UserInfo | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo")]: 
+                            {
+                                return 
+                                {
+                                    UserInfo instance;
+                                    instance = new UserInfo();
+                                    instance.<Id>k__BackingField = dataReader.GetGuid(0);
+                                    instance.<ApiKey>k__BackingField = dataReader.GetString(1);
+                                    instance.<CreatedUtc>k__BackingField = dataReader.GetDateTime(2);
+                                    instance.<LastUpdatedUtc>k__BackingField = dataReader.GetDateTime(3);
+                                    instance.<Mode>k__BackingField = Invoke(((EnumToNumberConverter<AIMode, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: UserInfo.Mode (AIMode) Required | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo").FindProperty("Mode")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(4));
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: NoTracking, 
+                                        structuralType: [LIFTABLE Constant: EntityType: UserInfo | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(UserInfo)
+                    }
+                    ;
+                    return instance1;
+                } : 
+                {
+                    object[] keyValues1;
+                    keyValues1 = new object[]{ (object)dataReader.GetGuid(0) };
+                    return ShapedQueryCompilingExpressionVisitor.CreateNullKeyValueInNoTrackingQuery(
+                        entityType: [LIFTABLE Constant: EntityType: UserInfo | Resolver: namelessParameter{4} => namelessParameter{4}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo")], 
+                        properties: [LIFTABLE Constant: List<RuntimeProperty> { Property: UserInfo.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd } | Resolver: c => c.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo").FindPrimaryKey().Properties], 
+                        keyValues: keyValues1);
+                };
+                return instance1;
+            };
+            resultContext.Values = new object[]{ entity };
+            ShaperProcessingExpressionVisitor.InitializeIncludeCollection<UserInfo, UserInfo>(
+                collectionId: 0, 
+                queryContext: queryContext, 
+                dbDataReader: dataReader, 
+                resultCoordinator: resultCoordinator, 
+                entity: (UserInfo)(resultContext.Values[0]), 
+                parentIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(Guid?)dataReader.GetGuid(0) }], 
+                outerIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(Guid?)dataReader.GetGuid(0) }], 
+                navigation: [LIFTABLE Constant: Navigation: UserInfo.Profiles (List<Profile>) Collection ToDependent Profile | Resolver: namelessParameter{5} => namelessParameter{5}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo").FindNavigation("Profiles")], 
+                clrCollectionAccessor: [LIFTABLE Constant: ClrICollectionAccessor<UserInfo, List<Profile>, Profile> | Resolver: namelessParameter{6} => namelessParameter{6}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo").FindNavigation("Profiles").GetCollectionAccessor()], 
+                trackingQuery: False, 
+                setLoaded: True);
+        } : default(void);
+        ShaperProcessingExpressionVisitor.PopulateIncludeCollection<UserInfo, Profile>(
+            collectionId: 0, 
+            queryContext: queryContext, 
+            dbDataReader: dataReader, 
+            resultCoordinator: resultCoordinator, 
+            parentIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(Guid?)dataReader.GetGuid(0) }], 
+            outerIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(Guid?)dataReader.GetGuid(0) }], 
+            selfIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)dataReader.IsDBNull(5) ? default(Guid?) : (Guid?)dataReader.GetGuid(5) }], 
+            parentIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]{ (left, right) => left == null ? right == null : right != null && (Guid)left == (Guid)right }], 
+            outerIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]{ (left, right) => left == null ? right == null : right != null && (Guid)left == (Guid)right }], 
+            selfIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]{ (left, right) => left == null ? right == null : right != null && (Guid)left == (Guid)right }], 
+            innerShaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+            {
+                Profile entity;
+                entity = 
+                {
+                    MaterializationContext materializationContext2;
+                    IEntityType entityType2;
+                    Profile instance2;
+                    materializationContext2 = new MaterializationContext(
+                        [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                        queryContext.Context
+                    );
+                    instance2 = default(Profile);
+                    dataReader.IsDBNull(5) ? default(object) : (object)dataReader.GetGuid(5) != null ? 
+                    {
+                        ISnapshot shadowSnapshot2;
+                        shadowSnapshot2 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                        entityType2 = [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{7} => namelessParameter{7}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")];
+                        instance2 = switch (entityType2)
+                        {
+                            case [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{8} => namelessParameter{8}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")]: 
+                                {
+                                    return 
+                                    {
+                                        Profile instance;
+                                        instance = new Profile();
+                                        instance.<Id>k__BackingField = dataReader.IsDBNull(5) ? default(Guid) : dataReader.GetGuid(5);
+                                        instance.<CacheFile>k__BackingField = dataReader.IsDBNull(6) ? default(string) : dataReader.GetString(6);
+                                        instance.<CreatedUtc>k__BackingField = dataReader.IsDBNull(7) ? default(DateTimeOffset) : dataReader.GetFieldValue<DateTimeOffset>(7);
+                                        instance.<DatabaseName>k__BackingField = dataReader.IsDBNull(8) ? default(string) : dataReader.GetString(8);
+                                        instance.<Name>k__BackingField = dataReader.IsDBNull(9) ? default(string) : dataReader.GetString(9);
+                                        instance.<Provider>k__BackingField = dataReader.IsDBNull(10) ? default(ProviderType) : Invoke(((EnumToNumberConverter<ProviderType, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: Profile.Provider (ProviderType) Required | Resolver: namelessParameter{9} => namelessParameter{9}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile").FindProperty("Provider")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(10));
+                                        instance.<SecretRef>k__BackingField = dataReader.IsDBNull(11) ? default(string) : dataReader.GetString(11);
+                                        instance.<UserInfoId>k__BackingField = dataReader.IsDBNull(12) ? default(Guid?) : (Guid?)dataReader.GetGuid(12);
+                                        (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                            context: materializationContext2.Context, 
+                                            entity: instance, 
+                                            queryTrackingBehavior: NoTracking, 
+                                            structuralType: [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{10} => namelessParameter{10}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")]) : default(void);
+                                        return instance;
+                                    }}
+                            default: 
+                                default(Profile)
+                        }
+                        ;
+                        return instance2;
+                    } : default(void);
+                    return instance2;
+                };
+                return entity;
+            }, 
+            inverseNavigation: default(INavigationBase), 
+            fixup: (namelessParameter{11}, namelessParameter{12}) => 
+            {
+                return [LIFTABLE Constant: ClrICollectionAccessor<UserInfo, List<Profile>, Profile> | Resolver: namelessParameter{13} => namelessParameter{13}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo").FindNavigation("Profiles").GetCollectionAccessor()].Add(
+                    entity: namelessParameter{11}, 
+                    value: namelessParameter{12}, 
+                    forMaterialization: True);
+            }, 
+            trackingQuery: False);
+        return IsTrue(resultCoordinator.ResultReady)
+         ? (UserInfo)(resultContext.Values[0]) : default(UserInfo);
+    }, 
+    contextType: NaturalToQuery.Infrastructure.Persistence.ContextDB, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2025-09-17 16:58:54.537 +03:00 [DBG] Creating DbConnection.
+2025-09-17 16:58:54.537 +03:00 [DBG] Created DbConnection. (0ms).
+2025-09-17 16:58:54.539 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 16:58:54.539 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 16:58:54.539 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-17 16:58:54.540 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 16:58:54.540 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 16:58:54.540 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 16:58:54.541 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 16:58:54.544 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 16:58:54.545 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db' is being disposed after spending 3ms reading results.
+2025-09-17 16:58:54.546 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 16:58:54.546 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 16:58:54.570 +03:00 [INF] Executed endpoint 'HTTP: GET api/userinfo'
+2025-09-17 16:58:54.570 +03:00 [DBG] Connection id "0HNFLU9BAA6PO" completed keep alive response.
+2025-09-17 16:58:54.571 +03:00 [DBG] 'ContextDB' disposed.
+2025-09-17 16:58:54.574 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 16:58:54.575 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 16:58:54.576 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/userinfo - 200 null application/json; charset=utf-8 444.9768ms
+2025-09-17 16:58:54.581 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/userinfo - null null
+2025-09-17 16:58:54.582 +03:00 [DBG] 1 candidate(s) found for the request path '/api/userinfo'
+2025-09-17 16:58:54.583 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/userinfo'
+2025-09-17 16:58:54.585 +03:00 [DBG] The request has an origin header: 'http://127.0.0.1:5174'.
+2025-09-17 16:58:54.586 +03:00 [INF] CORS policy execution successful.
+2025-09-17 16:58:54.587 +03:00 [INF] Executing endpoint 'HTTP: GET api/userinfo'
+2025-09-17 16:58:54.589 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ContextDB' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-09-17 16:58:54.589 +03:00 [INF] Getting all users
+2025-09-17 16:58:54.594 +03:00 [DBG] Creating DbConnection.
+2025-09-17 16:58:54.594 +03:00 [DBG] Created DbConnection. (0ms).
+2025-09-17 16:58:54.594 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 16:58:54.594 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 16:58:54.595 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-17 16:58:54.595 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 16:58:54.595 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 16:58:54.595 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 16:58:54.595 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 16:58:54.595 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 16:58:54.595 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db' is being disposed after spending 0ms reading results.
+2025-09-17 16:58:54.595 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 16:58:54.596 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 16:58:54.596 +03:00 [INF] Executed endpoint 'HTTP: GET api/userinfo'
+2025-09-17 16:58:54.597 +03:00 [DBG] Connection id "0HNFLU9BAA6PO" completed keep alive response.
+2025-09-17 16:58:54.597 +03:00 [DBG] 'ContextDB' disposed.
+2025-09-17 16:58:54.597 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 16:58:54.598 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 16:58:54.598 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/userinfo - 200 null application/json; charset=utf-8 17.3056ms
+2025-09-17 16:58:54.613 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/userinfo - null null
+2025-09-17 16:58:54.613 +03:00 [DBG] 1 candidate(s) found for the request path '/api/userinfo'
+2025-09-17 16:58:54.613 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/userinfo'
+2025-09-17 16:58:54.614 +03:00 [DBG] The request has an origin header: 'http://127.0.0.1:5174'.
+2025-09-17 16:58:54.614 +03:00 [INF] CORS policy execution successful.
+2025-09-17 16:58:54.615 +03:00 [INF] Executing endpoint 'HTTP: GET api/userinfo'
+2025-09-17 16:58:54.616 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ContextDB' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-09-17 16:58:54.616 +03:00 [INF] Getting all users
+2025-09-17 16:58:54.618 +03:00 [DBG] Creating DbConnection.
+2025-09-17 16:58:54.618 +03:00 [DBG] Created DbConnection. (0ms).
+2025-09-17 16:58:54.618 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 16:58:54.618 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 16:58:54.619 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-17 16:58:54.619 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 16:58:54.619 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 16:58:54.619 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 16:58:54.619 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 16:58:54.619 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 16:58:54.619 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db' is being disposed after spending 0ms reading results.
+2025-09-17 16:58:54.620 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 16:58:54.620 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 16:58:54.620 +03:00 [INF] Executed endpoint 'HTTP: GET api/userinfo'
+2025-09-17 16:58:54.620 +03:00 [DBG] Connection id "0HNFLU9BAA6PO" completed keep alive response.
+2025-09-17 16:58:54.620 +03:00 [DBG] 'ContextDB' disposed.
+2025-09-17 16:58:54.620 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 16:58:54.620 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 16:58:54.621 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/userinfo - 200 null application/json; charset=utf-8 8.0293ms
+2025-09-17 18:29:46.928 +03:00 [INF] This is a test log to file!
+2025-09-17 18:29:47.110 +03:00 [INF] Shared Kernal configured successfully.
+2025-09-17 18:29:47.112 +03:00 [INF] API configured successfully.
+2025-09-17 18:29:47.185 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-17 18:29:47.236 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-09-17 18:29:47.588 +03:00 [WRN] The foreign key property 'Profile.UserInfoId1' was created in shadow state because a conflicting property with the simple name 'UserInfoId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-09-17 18:29:47.644 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ContextDB' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-09-17 18:29:47.667 +03:00 [INF] Registered 23 endpoints in 633 milliseconds.
+2025-09-17 18:29:47.673 +03:00 [DBG] 'ContextDB' disposed.
+2025-09-17 18:29:47.720 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ContextDB' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-09-17 18:29:47.802 +03:00 [DBG] Creating DbConnection.
+2025-09-17 18:29:47.811 +03:00 [DBG] Created DbConnection. (7ms).
+2025-09-17 18:29:47.813 +03:00 [DBG] Migrating using database 'main' on server 'schema_cache.db'.
+2025-09-17 18:29:47.816 +03:00 [DBG] Creating DbConnection.
+2025-09-17 18:29:47.819 +03:00 [DBG] Created DbConnection. (3ms).
+2025-09-17 18:29:47.820 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 18:29:47.835 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 18:29:47.838 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 18:29:47.842 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 18:29:47.842 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 18:29:47.843 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 18:29:47.844 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-09-17 18:29:47.848 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-09-17 18:29:47.852 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2025-09-17 18:29:47.853 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (4ms).
+2025-09-17 18:29:47.858 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsLock' AND "type" = 'table';
+2025-09-17 18:29:47.879 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsLock' AND "type" = 'table';
+2025-09-17 18:29:47.880 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-09-17 18:29:47.880 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 18:29:47.880 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 18:29:47.880 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT OR IGNORE INTO "__EFMigrationsLock"("Id", "Timestamp") VALUES(1, '2025-09-17 15:29:47.8800405+00:00');
+SELECT changes();
+2025-09-17 18:29:47.887 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT OR IGNORE INTO "__EFMigrationsLock"("Id", "Timestamp") VALUES(1, '2025-09-17 15:29:47.8800405+00:00');
+SELECT changes();
+2025-09-17 18:29:47.944 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-09-17 18:29:47.946 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2025-09-17 18:29:47.947 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-09-17 18:29:47.948 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 18:29:47.948 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-09-17 18:29:47.949 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2025-09-17 18:29:47.949 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2025-09-17 18:29:47.950 +03:00 [DBG] Committing transaction.
+2025-09-17 18:29:47.951 +03:00 [DBG] Committed transaction.
+2025-09-17 18:29:47.953 +03:00 [DBG] Disposing transaction.
+2025-09-17 18:29:47.954 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-09-17 18:29:47.955 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2025-09-17 18:29:47.957 +03:00 [DBG] Creating DbConnection.
+2025-09-17 18:29:47.958 +03:00 [DBG] Created DbConnection. (0ms).
+2025-09-17 18:29:47.958 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 18:29:47.958 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 18:29:47.958 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 18:29:47.959 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 18:29:47.959 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-09-17 18:29:47.959 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 18:29:47.959 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 18:29:47.959 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2025-09-17 18:29:47.960 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2025-09-17 18:29:47.966 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-17 18:29:47.966 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 18:29:47.966 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 18:29:47.966 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-09-17 18:29:47.968 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-09-17 18:29:47.973 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 18:29:47.976 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db' is being disposed after spending 6ms reading results.
+2025-09-17 18:29:47.987 +03:00 [INF] No migrations were applied. The database is already up to date.
+2025-09-17 18:29:47.987 +03:00 [DBG] Committing transaction.
+2025-09-17 18:29:47.988 +03:00 [DBG] Committed transaction.
+2025-09-17 18:29:47.989 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-09-17 18:29:47.989 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 18:29:47.989 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-09-17 18:29:47.989 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "__EFMigrationsLock";
+2025-09-17 18:29:47.993 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "__EFMigrationsLock";
+2025-09-17 18:29:47.993 +03:00 [DBG] Disposing transaction.
+2025-09-17 18:29:47.994 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 18:29:47.997 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (3ms).
+2025-09-17 18:29:47.998 +03:00 [DBG] 'ContextDB' disposed.
+2025-09-17 18:29:47.998 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 18:29:47.998 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 18:29:47.998 +03:00 [INF] Infrastructure configured successfully.
+2025-09-17 18:29:47.998 +03:00 [INF] Infrastructure configured successfully.
+2025-09-17 18:29:48.023 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-09-17 18:29:48.051 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-09-17 18:29:48.053 +03:00 [DBG] Hosting starting
+2025-09-17 18:29:48.182 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-09-17 18:29:48.183 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-09-17 18:29:48.195 +03:00 [INF] Now listening on: http://localhost:5000
+2025-09-17 18:29:48.195 +03:00 [DBG] Loaded hosting startup assembly NaturalToQuery.Api
+2025-09-17 18:29:48.196 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-17 18:29:48.196 +03:00 [INF] Hosting environment: Development
+2025-09-17 18:29:48.196 +03:00 [INF] Content root path: C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish
+2025-09-17 18:29:48.196 +03:00 [DBG] Hosting started
+2025-09-17 18:29:49.098 +03:00 [DBG] Connection id "0HNFLVS516944" accepted.
+2025-09-17 18:29:49.100 +03:00 [DBG] Connection id "0HNFLVS516944" started.
+2025-09-17 18:29:49.184 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/userinfo - null null
+2025-09-17 18:29:49.247 +03:00 [DBG] 1 candidate(s) found for the request path '/api/userinfo'
+2025-09-17 18:29:49.248 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/userinfo'
+2025-09-17 18:29:49.280 +03:00 [DBG] The request has an origin header: 'http://127.0.0.1:5174'.
+2025-09-17 18:29:49.280 +03:00 [INF] CORS policy execution successful.
+2025-09-17 18:29:49.281 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-09-17 18:29:49.285 +03:00 [INF] Executing endpoint 'HTTP: GET api/userinfo'
+2025-09-17 18:29:49.303 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ContextDB' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-09-17 18:29:49.330 +03:00 [INF] Getting all users
+2025-09-17 18:29:49.367 +03:00 [DBG] Compiling query expression: 
+'DbSet<UserInfo>()
+    .Include(p => p.Profiles)
+    .AsNoTracking()'
+2025-09-17 18:29:49.438 +03:00 [DBG] Including navigation: 'UserInfo.Profiles'.
+2025-09-17 18:29:49.687 +03:00 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<UserInfo>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: UserInfo.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: UserInfo.ApiKey (string) Required MaxLength(200), 1], [Property: UserInfo.CreatedUtc (DateTime) Required, 2], [Property: UserInfo.LastUpdatedUtc (DateTime) Required, 3], [Property: UserInfo.Mode (AIMode) Required, 4] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: Profile.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 5], [Property: Profile.CacheFile (string) MaxLength(500), 6], [Property: Profile.CreatedUtc (DateTimeOffset) Required, 7], [Property: Profile.DatabaseName (string) Required, 8], [Property: Profile.Name (string) Required MaxLength(200), 9], [Property: Profile.Provider (ProviderType) Required, 10], [Property: Profile.SecretRef (string) Required, 11], [Property: Profile.UserInfoId (Guid?) FK Index, 12], [Property: Profile.UserInfoId1 (no field, Guid?) Shadow FK Index, 13] }
+            3 -> 5
+        SELECT u.Id, u.ApiKey, u.CreatedUtc, u.LastUpdatedUtc, u.Mode, p.Id, p.CacheFile, p.CreatedUtc, p.DatabaseName, p.Name, p.Provider, p.SecretRef, p.UserInfoId, p.UserInfoId1
+        FROM UserInfos AS u
+        LEFT JOIN Profiles AS p ON u.Id == p.UserInfoId
+        ORDER BY u.Id ASC) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: UserInfo.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: UserInfo.ApiKey (string) Required MaxLength(200), 1], [Property: UserInfo.CreatedUtc (DateTime) Required, 2], [Property: UserInfo.LastUpdatedUtc (DateTime) Required, 3], [Property: UserInfo.Mode (AIMode) Required, 4] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: Profile.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 5], [Property: Profile.CacheFile (string) MaxLength(500), 6], [Property: Profile.CreatedUtc (DateTimeOffset) Required, 7], [Property: Profile.DatabaseName (string) Required, 8], [Property: Profile.Name (string) Required MaxLength(200), 9], [Property: Profile.Provider (ProviderType) Required, 10], [Property: Profile.SecretRef (string) Required, 11], [Property: Profile.UserInfoId (Guid?) FK Index, 12], [Property: Profile.UserInfoId1 (no field, Guid?) Shadow FK Index, 13] }
+            3 -> 5
+        SELECT u.Id, u.ApiKey, u.CreatedUtc, u.LastUpdatedUtc, u.Mode, p.Id, p.CacheFile, p.CreatedUtc, p.DatabaseName, p.Name, p.Provider, p.SecretRef, p.UserInfoId, p.UserInfoId1
+        FROM UserInfos AS u
+        LEFT JOIN Profiles AS p ON u.Id == p.UserInfoId
+        ORDER BY u.Id ASC, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        resultContext.Values == null ? 
+        {
+            UserInfo entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                UserInfo instance1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(UserInfo);
+                (object)dataReader.GetGuid(0) != null ? 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: UserInfo | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: UserInfo | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo")]: 
+                            {
+                                return 
+                                {
+                                    UserInfo instance;
+                                    instance = new UserInfo();
+                                    instance.<Id>k__BackingField = dataReader.GetGuid(0);
+                                    instance.<ApiKey>k__BackingField = dataReader.GetString(1);
+                                    instance.<CreatedUtc>k__BackingField = dataReader.GetDateTime(2);
+                                    instance.<LastUpdatedUtc>k__BackingField = dataReader.GetDateTime(3);
+                                    instance.<Mode>k__BackingField = Invoke(((EnumToNumberConverter<AIMode, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: UserInfo.Mode (AIMode) Required | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo").FindProperty("Mode")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(4));
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: NoTracking, 
+                                        structuralType: [LIFTABLE Constant: EntityType: UserInfo | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(UserInfo)
+                    }
+                    ;
+                    return instance1;
+                } : 
+                {
+                    object[] keyValues1;
+                    keyValues1 = new object[]{ (object)dataReader.GetGuid(0) };
+                    return ShapedQueryCompilingExpressionVisitor.CreateNullKeyValueInNoTrackingQuery(
+                        entityType: [LIFTABLE Constant: EntityType: UserInfo | Resolver: namelessParameter{4} => namelessParameter{4}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo")], 
+                        properties: [LIFTABLE Constant: List<RuntimeProperty> { Property: UserInfo.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd } | Resolver: c => c.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo").FindPrimaryKey().Properties], 
+                        keyValues: keyValues1);
+                };
+                return instance1;
+            };
+            resultContext.Values = new object[]{ entity };
+            ShaperProcessingExpressionVisitor.InitializeIncludeCollection<UserInfo, UserInfo>(
+                collectionId: 0, 
+                queryContext: queryContext, 
+                dbDataReader: dataReader, 
+                resultCoordinator: resultCoordinator, 
+                entity: (UserInfo)(resultContext.Values[0]), 
+                parentIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(Guid?)dataReader.GetGuid(0) }], 
+                outerIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(Guid?)dataReader.GetGuid(0) }], 
+                navigation: [LIFTABLE Constant: Navigation: UserInfo.Profiles (List<Profile>) Collection ToDependent Profile | Resolver: namelessParameter{5} => namelessParameter{5}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo").FindNavigation("Profiles")], 
+                clrCollectionAccessor: [LIFTABLE Constant: ClrICollectionAccessor<UserInfo, List<Profile>, Profile> | Resolver: namelessParameter{6} => namelessParameter{6}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo").FindNavigation("Profiles").GetCollectionAccessor()], 
+                trackingQuery: False, 
+                setLoaded: True);
+        } : default(void);
+        ShaperProcessingExpressionVisitor.PopulateIncludeCollection<UserInfo, Profile>(
+            collectionId: 0, 
+            queryContext: queryContext, 
+            dbDataReader: dataReader, 
+            resultCoordinator: resultCoordinator, 
+            parentIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(Guid?)dataReader.GetGuid(0) }], 
+            outerIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(Guid?)dataReader.GetGuid(0) }], 
+            selfIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)dataReader.IsDBNull(5) ? default(Guid?) : (Guid?)dataReader.GetGuid(5) }], 
+            parentIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]{ (left, right) => left == null ? right == null : right != null && (Guid)left == (Guid)right }], 
+            outerIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]{ (left, right) => left == null ? right == null : right != null && (Guid)left == (Guid)right }], 
+            selfIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]{ (left, right) => left == null ? right == null : right != null && (Guid)left == (Guid)right }], 
+            innerShaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+            {
+                Profile entity;
+                entity = 
+                {
+                    MaterializationContext materializationContext2;
+                    IEntityType entityType2;
+                    Profile instance2;
+                    materializationContext2 = new MaterializationContext(
+                        [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                        queryContext.Context
+                    );
+                    instance2 = default(Profile);
+                    dataReader.IsDBNull(5) ? default(object) : (object)dataReader.GetGuid(5) != null ? 
+                    {
+                        ISnapshot shadowSnapshot2;
+                        shadowSnapshot2 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                        entityType2 = [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{7} => namelessParameter{7}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")];
+                        instance2 = switch (entityType2)
+                        {
+                            case [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{8} => namelessParameter{8}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")]: 
+                                {
+                                    return 
+                                    {
+                                        Profile instance;
+                                        instance = new Profile();
+                                        instance.<Id>k__BackingField = dataReader.IsDBNull(5) ? default(Guid) : dataReader.GetGuid(5);
+                                        instance.<CacheFile>k__BackingField = dataReader.IsDBNull(6) ? default(string) : dataReader.GetString(6);
+                                        instance.<CreatedUtc>k__BackingField = dataReader.IsDBNull(7) ? default(DateTimeOffset) : dataReader.GetFieldValue<DateTimeOffset>(7);
+                                        instance.<DatabaseName>k__BackingField = dataReader.IsDBNull(8) ? default(string) : dataReader.GetString(8);
+                                        instance.<Name>k__BackingField = dataReader.IsDBNull(9) ? default(string) : dataReader.GetString(9);
+                                        instance.<Provider>k__BackingField = dataReader.IsDBNull(10) ? default(ProviderType) : Invoke(((EnumToNumberConverter<ProviderType, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: Profile.Provider (ProviderType) Required | Resolver: namelessParameter{9} => namelessParameter{9}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile").FindProperty("Provider")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(10));
+                                        instance.<SecretRef>k__BackingField = dataReader.IsDBNull(11) ? default(string) : dataReader.GetString(11);
+                                        instance.<UserInfoId>k__BackingField = dataReader.IsDBNull(12) ? default(Guid?) : (Guid?)dataReader.GetGuid(12);
+                                        (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                            context: materializationContext2.Context, 
+                                            entity: instance, 
+                                            queryTrackingBehavior: NoTracking, 
+                                            structuralType: [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{10} => namelessParameter{10}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")]) : default(void);
+                                        return instance;
+                                    }}
+                            default: 
+                                default(Profile)
+                        }
+                        ;
+                        return instance2;
+                    } : default(void);
+                    return instance2;
+                };
+                return entity;
+            }, 
+            inverseNavigation: default(INavigationBase), 
+            fixup: (namelessParameter{11}, namelessParameter{12}) => 
+            {
+                return [LIFTABLE Constant: ClrICollectionAccessor<UserInfo, List<Profile>, Profile> | Resolver: namelessParameter{13} => namelessParameter{13}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.UserInfos.UserInfo").FindNavigation("Profiles").GetCollectionAccessor()].Add(
+                    entity: namelessParameter{11}, 
+                    value: namelessParameter{12}, 
+                    forMaterialization: True);
+            }, 
+            trackingQuery: False);
+        return IsTrue(resultCoordinator.ResultReady)
+         ? (UserInfo)(resultContext.Values[0]) : default(UserInfo);
+    }, 
+    contextType: NaturalToQuery.Infrastructure.Persistence.ContextDB, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2025-09-17 18:29:49.708 +03:00 [DBG] Creating DbConnection.
+2025-09-17 18:29:49.708 +03:00 [DBG] Created DbConnection. (0ms).
+2025-09-17 18:29:49.709 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 18:29:49.711 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 18:29:49.711 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-17 18:29:49.711 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 18:29:49.711 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 18:29:49.711 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 18:29:49.714 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 18:29:49.720 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 18:29:49.720 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db' is being disposed after spending 4ms reading results.
+2025-09-17 18:29:49.722 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 18:29:49.722 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 18:29:49.771 +03:00 [INF] Executed endpoint 'HTTP: GET api/userinfo'
+2025-09-17 18:29:49.772 +03:00 [DBG] Connection id "0HNFLVS516944" completed keep alive response.
+2025-09-17 18:29:49.773 +03:00 [DBG] 'ContextDB' disposed.
+2025-09-17 18:29:49.775 +03:00 [DBG] Connection id "0HNFLVS516945" accepted.
+2025-09-17 18:29:49.775 +03:00 [DBG] Connection id "0HNFLVS516945" started.
+2025-09-17 18:29:49.776 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 18:29:49.776 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/userinfo - null null
+2025-09-17 18:29:49.777 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 18:29:49.781 +03:00 [DBG] 1 candidate(s) found for the request path '/api/userinfo'
+2025-09-17 18:29:49.781 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/userinfo'
+2025-09-17 18:29:49.777 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/userinfo - 200 null application/json; charset=utf-8 594.9332ms
+2025-09-17 18:29:49.783 +03:00 [DBG] The request has an origin header: 'http://127.0.0.1:5174'.
+2025-09-17 18:29:49.783 +03:00 [INF] CORS policy execution successful.
+2025-09-17 18:29:49.784 +03:00 [INF] Executing endpoint 'HTTP: GET api/userinfo'
+2025-09-17 18:29:49.786 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ContextDB' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-09-17 18:29:49.787 +03:00 [INF] Getting all users
+2025-09-17 18:29:49.794 +03:00 [DBG] Creating DbConnection.
+2025-09-17 18:29:49.794 +03:00 [DBG] Created DbConnection. (0ms).
+2025-09-17 18:29:49.794 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 18:29:49.794 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 18:29:49.794 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-17 18:29:49.794 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 18:29:49.795 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 18:29:49.795 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 18:29:49.795 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 18:29:49.795 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 18:29:49.795 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db' is being disposed after spending 0ms reading results.
+2025-09-17 18:29:49.796 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 18:29:49.796 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 18:29:49.796 +03:00 [INF] Executed endpoint 'HTTP: GET api/userinfo'
+2025-09-17 18:29:49.797 +03:00 [DBG] Connection id "0HNFLVS516945" completed keep alive response.
+2025-09-17 18:29:49.797 +03:00 [DBG] 'ContextDB' disposed.
+2025-09-17 18:29:49.797 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 18:29:49.797 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 18:29:49.797 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/userinfo - 200 null application/json; charset=utf-8 20.9231ms
+2025-09-17 18:29:49.807 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/userinfo - null null
+2025-09-17 18:29:49.808 +03:00 [DBG] 1 candidate(s) found for the request path '/api/userinfo'
+2025-09-17 18:29:49.808 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/userinfo'
+2025-09-17 18:29:49.811 +03:00 [DBG] The request has an origin header: 'http://127.0.0.1:5174'.
+2025-09-17 18:29:49.813 +03:00 [INF] CORS policy execution successful.
+2025-09-17 18:29:49.821 +03:00 [INF] Executing endpoint 'HTTP: GET api/userinfo'
+2025-09-17 18:29:49.823 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ContextDB' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-09-17 18:29:49.825 +03:00 [INF] Getting all users
+2025-09-17 18:29:49.829 +03:00 [DBG] Creating DbConnection.
+2025-09-17 18:29:49.830 +03:00 [DBG] Created DbConnection. (0ms).
+2025-09-17 18:29:49.830 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 18:29:49.830 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 18:29:49.830 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-17 18:29:49.830 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 18:29:49.830 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-17 18:29:49.830 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 18:29:49.831 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."ApiKey", "u"."CreatedUtc", "u"."LastUpdatedUtc", "u"."Mode", "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."DatabaseName", "p"."Name", "p"."Provider", "p"."SecretRef", "p"."UserInfoId", "p"."UserInfoId1"
+FROM "UserInfos" AS "u"
+LEFT JOIN "Profiles" AS "p" ON "u"."Id" = "p"."UserInfoId"
+ORDER BY "u"."Id"
+2025-09-17 18:29:49.831 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 18:29:49.831 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db' is being disposed after spending 0ms reading results.
+2025-09-17 18:29:49.831 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql.UI\db-ql-ui\api_publish\schema_cache.db'.
+2025-09-17 18:29:49.831 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 18:29:49.832 +03:00 [INF] Executed endpoint 'HTTP: GET api/userinfo'
+2025-09-17 18:29:49.832 +03:00 [DBG] Connection id "0HNFLVS516945" completed keep alive response.
+2025-09-17 18:29:49.832 +03:00 [DBG] 'ContextDB' disposed.
+2025-09-17 18:29:49.832 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-09-17 18:29:49.833 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-09-17 18:29:49.833 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/userinfo - 200 null application/json; charset=utf-8 25.8301ms

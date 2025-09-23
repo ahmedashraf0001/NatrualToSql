@@ -1,0 +1,539 @@
+[
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/health",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "NaturalToQuery.Api.Controllers.Health.Health.ApiHealthDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersHealthApiHealth"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/health/localllm",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "NaturalToQuery.Api.Controllers.Health.LocalLLMHealthResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersHealthLocalLLMHealth"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/query/{profileId}/convert",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ConvertNaturalLanguageRequest",
+        "Type": "NaturalToQuery.Api.Controllers.Query.ConvertNaturalLanguageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NaturalToQuery.SharedKernal.DTOs.Groq.QueryConversionResult",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersQueryConvertNaturalLanguage"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/query/{profileId}/databases",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GetDatabasesRequest",
+        "Type": "NaturalToQuery.Api.Controllers.Query.GetDatabasesRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[NaturalToQuery.SharedKernal.DTOs.Providers.DatabaseInfo, NaturalToQuery.SharedKernal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersQueryGetDatabases"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/query/{profileId}/execute",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ExecuteQueryRequest",
+        "Type": "NaturalToQuery.Api.Controllers.Query.ExecuteQueryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NaturalToQuery.SharedKernal.DTOs.Providers.ExecutionResult",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersQueryExecuteQuery"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/query/{profileId}/schema",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GetSchemaRequest",
+        "Type": "NaturalToQuery.Api.Controllers.Query.GetSchemaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NaturalToQuery.SharedKernal.DTOs.Providers.SchemaModel",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersQueryGetSchema"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/query/profile/{Id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GetProfileRequest",
+        "Type": "NaturalToQuery.Api.Controllers.Query.GetProfileRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NaturalToQuery.SharedKernal.DTOs.UI.ProfileDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersQueryGetProfile"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/setup/databases/{type}/{serverName}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GetAvailableDatabasesRequest",
+        "Type": "NaturalToQuery.Api.Controllers.Setup.GetAvailableDatabasesRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[NaturalToQuery.SharedKernal.DTOs.Providers.DatabaseInfo, NaturalToQuery.SharedKernal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersSetupGetAvailableDatabases"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/setup/profile",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SetupRequest",
+        "Type": "NaturalToQuery.SharedKernal.DTOs.UI.SetupRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NaturalToQuery.SharedKernal.DTOs.UI.ProfileCreationResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersSetupCreateProfile"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/setup/profile/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RemoveProfileDto",
+        "Type": "NaturalToQuery.Api.Controllers.Setup.RemoveProfileDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersSetupRemoveProfile"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/setup/profiles",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[NaturalToQuery.SharedKernal.DTOs.UI.ProfileDto, NaturalToQuery.SharedKernal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersSetupGetAllProfiles"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/setup/providers",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[NaturalToQuery.Application.DTOs.UI.SupportedDB, NaturalToQuery.SharedKernal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersSetupGetSupportedProviders"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/setup/servers/{type}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GetAvailableServersRequest",
+        "Type": "NaturalToQuery.Api.Controllers.Setup.GetAvailableServersRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[NaturalToQuery.SharedKernal.DTOs.Providers.ServerInfo, NaturalToQuery.SharedKernal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersSetupGetAvailableServers"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/setup/test-groq-key",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TestKeyRequest",
+        "Type": "NaturalToQuery.Api.Controllers.Health.TestKeyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NaturalToQuery.Api.Controllers.Health.TestKeyResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersHealthTestKey"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/setup/test/{ProviderType}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TestConnectionRequest",
+        "Type": "NaturalToQuery.Api.Controllers.Setup.TestConnectionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NaturalToQuery.Api.Controllers.Setup.TestConnectionResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersSetupTestConnection"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/userinfo",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CreateUserInfoRequest",
+        "Type": "NaturalToQuery.SharedKernal.DTOs.UI.CreateUserInfoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NaturalToQuery.SharedKernal.DTOs.UI.UserInfoResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersUserInfoCreateUser"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/userinfo",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[NaturalToQuery.SharedKernal.DTOs.UI.UserInfoDto, NaturalToQuery.SharedKernal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersUserInfoListUsers"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/userinfo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DeleteUserRequest",
+        "Type": "NaturalToQuery.SharedKernal.DTOs.UI.DeleteUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NaturalToQuery.SharedKernal.DTOs.UI.UserInfoResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersUserInfoDeleteUser"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/userinfo/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GetUserByIdRequest",
+        "Type": "NaturalToQuery.SharedKernal.DTOs.UI.GetUserByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NaturalToQuery.SharedKernal.DTOs.UI.UserInfoDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersUserInfoGetUserById"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/userinfo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdateUserInfoRequest",
+        "Type": "NaturalToQuery.SharedKernal.DTOs.UI.UpdateUserInfoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NaturalToQuery.SharedKernal.DTOs.UI.UserInfoResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersUserInfoUpdateUser"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/userinfo/{userId}/aimode",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdateAiModeRequest",
+        "Type": "NaturalToQuery.Api.Controllers.UserInfo.UpdateAiModeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NaturalToQuery.SharedKernal.DTOs.UI.UserInfoDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersUserInfoUpdateAiMode"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/userinfo/localllm",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "LocalModelRequest",
+        "Type": "NaturalToQuery.Api.Controllers.UserInfo.LocalModelRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NaturalToQuery.Api.Controllers.UserInfo.LocalModelResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersUserInfoChangeLocalModel"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "api/userinfo/localllm",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "NaturalToQuery.Api.Controllers.UserInfo.LocalModelResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "NaturalToQueryApiControllersUserInfoGetLocalModel"
+  }
+]

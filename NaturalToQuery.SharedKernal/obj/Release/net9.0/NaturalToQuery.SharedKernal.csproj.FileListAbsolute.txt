@@ -1,0 +1,13 @@
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.SharedKernal\bin\Release\net9.0\NaturalToQuery.SharedKernal.deps.json
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.SharedKernal\bin\Release\net9.0\NaturalToQuery.SharedKernal.dll
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.SharedKernal\bin\Release\net9.0\NaturalToQuery.SharedKernal.pdb
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.SharedKernal\obj\Release\net9.0\NaturalToQuery.SharedKernal.csproj.AssemblyReference.cache
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.SharedKernal\obj\Release\net9.0\NaturalToQuery.SharedKernal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.SharedKernal\obj\Release\net9.0\NaturalToQuery.SharedKernal.AssemblyInfoInputs.cache
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.SharedKernal\obj\Release\net9.0\NaturalToQuery.SharedKernal.AssemblyInfo.cs
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.SharedKernal\obj\Release\net9.0\NaturalToQuery.SharedKernal.csproj.CoreCompileInputs.cache
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.SharedKernal\obj\Release\net9.0\NaturalToQuery.SharedKernal.sourcelink.json
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.SharedKernal\obj\Release\net9.0\NaturalToQuery.SharedKernal.dll
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.SharedKernal\obj\Release\net9.0\refint\NaturalToQuery.SharedKernal.dll
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.SharedKernal\obj\Release\net9.0\NaturalToQuery.SharedKernal.pdb
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.SharedKernal\obj\Release\net9.0\ref\NaturalToQuery.SharedKernal.dll

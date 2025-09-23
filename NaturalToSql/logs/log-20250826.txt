@@ -1,0 +1,1163 @@
+2025-08-26 12:19:45.760 +03:00 [INF] This is a test log to file!
+2025-08-26 12:19:45.949 +03:00 [INF] Shared Kernal configured successfully.
+2025-08-26 12:19:45.961 +03:00 [INF] API configured successfully.
+2025-08-26 12:19:45.962 +03:00 [INF] Infrastructure configured successfully.
+2025-08-26 12:19:45.963 +03:00 [INF] Infrastructure configured successfully.
+2025-08-26 12:19:46.043 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-26 12:19:46.072 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-08-26 12:19:46.074 +03:00 [DBG] Hosting starting
+2025-08-26 12:19:46.098 +03:00 [DBG] Middleware loaded
+2025-08-26 12:19:46.102 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16521 B).
+2025-08-26 12:19:46.104 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-08-26 12:19:46.243 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-08-26 12:19:46.246 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-26 12:19:46.265 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-08-26 12:19:46.313 +03:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2025-08-26 12:19:46.373 +03:00 [INF] Now listening on: https://localhost:7202
+2025-08-26 12:19:46.374 +03:00 [INF] Now listening on: http://localhost:5262
+2025-08-26 12:19:46.375 +03:00 [DBG] Loaded hosting startup assembly NaturalToQuery.Api
+2025-08-26 12:19:46.376 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-08-26 12:19:46.377 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-26 12:19:46.377 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-26 12:19:46.383 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-26 12:19:46.391 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-26 12:19:46.417 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-26 12:19:46.418 +03:00 [INF] Hosting environment: Development
+2025-08-26 12:19:46.419 +03:00 [INF] Content root path: C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql
+2025-08-26 12:19:46.420 +03:00 [DBG] Hosting started
+2025-08-26 12:20:37.242 +03:00 [DBG] Connection id "0HNF4G78N7FKF" accepted.
+2025-08-26 12:20:37.247 +03:00 [DBG] Connection id "0HNF4G78N7FKF" started.
+2025-08-26 12:20:37.307 +03:00 [DBG] Connection id "0HNF4G78N7FKF" received FIN.
+2025-08-26 12:20:37.331 +03:00 [DBG] Connection id "0HNF4G78N7FKG" accepted.
+2025-08-26 12:20:37.377 +03:00 [DBG] Connection id "0HNF4G78N7FKG" started.
+2025-08-26 12:20:37.426 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-08-26 12:20:37.433 +03:00 [DBG] Connection id "0HNF4G78N7FKF" stopped.
+2025-08-26 12:20:37.434 +03:00 [DBG] Connection 0HNF4G78N7FKG established using the following protocol: "Tls13"
+2025-08-26 12:20:37.436 +03:00 [DBG] Connection id "0HNF4G78N7FKF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-26 12:20:37.484 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/supported-dbs - null null
+2025-08-26 12:20:37.597 +03:00 [DBG] 1 candidate(s) found for the request path '/supported-dbs'
+2025-08-26 12:20:37.601 +03:00 [DBG] Request matched endpoint 'HTTP: GET /supported-dbs'
+2025-08-26 12:20:37.624 +03:00 [INF] Executing endpoint 'HTTP: GET /supported-dbs'
+2025-08-26 12:20:37.638 +03:00 [INF] Setting HTTP status code 200.
+2025-08-26 12:20:37.641 +03:00 [INF] Writing value of type 'List`1' as Json.
+2025-08-26 12:20:37.645 +03:00 [INF] Executed endpoint 'HTTP: GET /supported-dbs'
+2025-08-26 12:20:37.649 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/supported-dbs - 200 null application/json; charset=utf-8 168.5896ms
+2025-08-26 12:20:37.683 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/favicon.ico - null null
+2025-08-26 12:20:37.687 +03:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-08-26 12:20:37.688 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 12:20:37.690 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/favicon.ico - 404 0 null 7.4704ms
+2025-08-26 12:20:37.693 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7202/favicon.ico, Response status code: 404
+2025-08-26 12:21:14.593 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/Server - null null
+2025-08-26 12:21:14.603 +03:00 [DBG] 1 candidate(s) found for the request path '/Server'
+2025-08-26 12:21:14.605 +03:00 [DBG] Request matched endpoint 'HTTP: GET /server'
+2025-08-26 12:21:14.607 +03:00 [INF] Executing endpoint 'HTTP: GET /server'
+2025-08-26 12:21:14.650 +03:00 [INF] Executed endpoint 'HTTP: GET /server'
+2025-08-26 12:21:14.699 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'NaturalToQuery.Infrastructure.Interfaces.IDbProvider' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at lambda_method9(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-08-26 12:21:14.704 +03:00 [ERR] Unhandled exception occurred.
+System.InvalidOperationException: No service for type 'NaturalToQuery.Infrastructure.Interfaces.IDbProvider' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at lambda_method9(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-08-26 12:21:14.710 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/Server - 500 null application/json; charset=utf-8 116.2555ms
+2025-08-26 12:23:56.424 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/schema?connectiongstring=Server=localhost;Database=MyDatabase;Trusted_Connection=True;TrustServerCertificate=True; - null null
+2025-08-26 12:23:56.436 +03:00 [DBG] 1 candidate(s) found for the request path '/schema'
+2025-08-26 12:23:56.437 +03:00 [DBG] Request matched endpoint 'HTTP: GET /schema'
+2025-08-26 12:23:56.438 +03:00 [INF] Executing endpoint 'HTTP: GET /schema'
+2025-08-26 12:23:56.467 +03:00 [INF] Executed endpoint 'HTTP: GET /schema'
+2025-08-26 12:23:56.514 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Required parameter "string connectionstring" was not provided from query string.
+   at lambda_method11(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-08-26 12:23:56.515 +03:00 [ERR] Unhandled exception occurred.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Required parameter "string connectionstring" was not provided from query string.
+   at lambda_method11(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-08-26 12:23:56.517 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/schema?connectiongstring=Server=localhost;Database=MyDatabase;Trusted_Connection=True;TrustServerCertificate=True; - 500 null application/json; charset=utf-8 93.0092ms
+2025-08-26 12:24:10.146 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/schema?connectionstring=Server=localhost;Database=MyDatabase;Trusted_Connection=True;TrustServerCertificate=True; - null null
+2025-08-26 12:24:10.150 +03:00 [DBG] 1 candidate(s) found for the request path '/schema'
+2025-08-26 12:24:10.151 +03:00 [DBG] Request matched endpoint 'HTTP: GET /schema'
+2025-08-26 12:24:10.152 +03:00 [INF] Executing endpoint 'HTTP: GET /schema'
+2025-08-26 12:24:10.292 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-08-26 12:24:10.714 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-26 12:24:12.688 +03:00 [DBG] Compiling query expression: 
+'DbSet<Profile>()
+    .FirstOrDefault(t => (int)t.Provider == (int)__type_0)'
+2025-08-26 12:24:12.845 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Profile>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<Profile>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Profile.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Profile.CacheFile (string) MaxLength(500), 1], [Property: Profile.CreatedUtc (DateTimeOffset) Required, 2], [Property: Profile.EmbeddingStatus (EmbeddingStatus) Required, 3], [Property: Profile.Name (string) Required MaxLength(200), 4], [Property: Profile.Provider (ProviderType) Required, 5], [Property: Profile.SecretRef (string) Required, 6] }
+            SELECT TOP(1) p.Id, p.CacheFile, p.CreatedUtc, p.EmbeddingStatus, p.Name, p.Provider, p.SecretRef
+            FROM Profiles AS p
+            WHERE p.Provider == @__type_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Profile.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Profile.CacheFile (string) MaxLength(500), 1], [Property: Profile.CreatedUtc (DateTimeOffset) Required, 2], [Property: Profile.EmbeddingStatus (EmbeddingStatus) Required, 3], [Property: Profile.Name (string) Required MaxLength(200), 4], [Property: Profile.Provider (ProviderType) Required, 5], [Property: Profile.SecretRef (string) Required, 6] }
+            SELECT TOP(1) p.Id, p.CacheFile, p.CreatedUtc, p.EmbeddingStatus, p.Name, p.Provider, p.SecretRef
+            FROM Profiles AS p
+            WHERE p.Provider == @__type_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            Profile entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                Profile instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(Profile);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: Profile.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (Profile)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")]: 
+                            {
+                                return 
+                                {
+                                    Profile instance;
+                                    instance = new Profile();
+                                    instance.<Id>k__BackingField = dataReader.GetGuid(0);
+                                    instance.<CacheFile>k__BackingField = dataReader.IsDBNull(1) ? default(string) : dataReader.GetString(1);
+                                    instance.<CreatedUtc>k__BackingField = dataReader.GetFieldValue<DateTimeOffset>(2);
+                                    instance.<EmbeddingStatus>k__BackingField = Invoke(((EnumToNumberConverter<EmbeddingStatus, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: Profile.EmbeddingStatus (EmbeddingStatus) Required | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile").FindProperty("EmbeddingStatus")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(3));
+                                    instance.<Name>k__BackingField = dataReader.GetString(4);
+                                    instance.<Provider>k__BackingField = Invoke(((EnumToNumberConverter<ProviderType, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: Profile.Provider (ProviderType) Required | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile").FindProperty("Provider")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(5));
+                                    instance.<SecretRef>k__BackingField = dataReader.GetString(6);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{4} => namelessParameter{4}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(Profile)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: NaturalToQuery.Infrastructure.Persistence.ProfilesDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-08-26 12:24:12.872 +03:00 [DBG] Creating DbConnection.
+2025-08-26 12:24:12.881 +03:00 [DBG] Created DbConnection. (9ms).
+2025-08-26 12:24:12.884 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-26 12:24:12.901 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-26 12:24:12.906 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-26 12:24:12.911 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2025-08-26 12:24:12.916 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (9ms).
+2025-08-26 12:24:12.921 +03:00 [DBG] Executing DbCommand [Parameters=[@__type_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."EmbeddingStatus", "p"."Name", "p"."Provider", "p"."SecretRef"
+FROM "Profiles" AS "p"
+WHERE "p"."Provider" = @__type_0
+LIMIT 1
+2025-08-26 12:24:12.942 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[@__type_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."EmbeddingStatus", "p"."Name", "p"."Provider", "p"."SecretRef"
+FROM "Profiles" AS "p"
+WHERE "p"."Provider" = @__type_0
+LIMIT 1
+2025-08-26 12:24:12.970 +03:00 [DBG] Context 'ProfilesDbContext' started tracking 'Profile' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-26 12:24:12.991 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-26 12:24:12.996 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 49ms reading results.
+2025-08-26 12:24:13.001 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-26 12:24:13.005 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (4ms).
+2025-08-26 12:24:13.050 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-26 12:24:13.055 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-26 12:24:13.088 +03:00 [INF] Fetching schema for connection (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=ProductInventory, ForceRefresh=false)
+2025-08-26 12:24:13.191 +03:00 [INF] Loaded schema for DESKTOP-QCK8UI5\SQLEXPRESS|ProductInventory from cache file C:\Users\Zyad\AppData\Local\MicroSqlRag\sqlcache\SqlServer_schemas.json
+2025-08-26 12:24:13.194 +03:00 [INF] Setting HTTP status code 200.
+2025-08-26 12:24:13.197 +03:00 [INF] Writing value of type 'SchemaModel' as Json.
+2025-08-26 12:24:13.200 +03:00 [INF] Executed endpoint 'HTTP: GET /schema'
+2025-08-26 12:24:13.203 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-26 12:24:13.207 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-08-26 12:24:13.210 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (2ms).
+2025-08-26 12:24:13.212 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/schema?connectionstring=Server=localhost;Database=MyDatabase;Trusted_Connection=True;TrustServerCertificate=True; - 200 null application/json; charset=utf-8 3065.8611ms
+2025-08-26 12:24:26.132 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/schema?connectionstring=Server=localhost;Database=MyDatabase;Trusted_Connection=True;TrustServerCertificate=True; - null null
+2025-08-26 12:24:26.136 +03:00 [DBG] 1 candidate(s) found for the request path '/schema'
+2025-08-26 12:24:26.137 +03:00 [DBG] Request matched endpoint 'HTTP: GET /schema'
+2025-08-26 12:24:26.138 +03:00 [INF] Executing endpoint 'HTTP: GET /schema'
+2025-08-26 12:24:26.147 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-26 12:24:59.403 +03:00 [INF] This is a test log to file!
+2025-08-26 12:24:59.531 +03:00 [INF] Shared Kernal configured successfully.
+2025-08-26 12:24:59.539 +03:00 [INF] API configured successfully.
+2025-08-26 12:24:59.540 +03:00 [INF] Infrastructure configured successfully.
+2025-08-26 12:24:59.540 +03:00 [INF] Infrastructure configured successfully.
+2025-08-26 12:24:59.587 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-26 12:24:59.612 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-08-26 12:24:59.613 +03:00 [DBG] Hosting starting
+2025-08-26 12:24:59.625 +03:00 [DBG] Middleware loaded
+2025-08-26 12:24:59.627 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16521 B).
+2025-08-26 12:24:59.629 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-08-26 12:24:59.708 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-08-26 12:24:59.711 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-26 12:24:59.718 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-08-26 12:24:59.747 +03:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2025-08-26 12:24:59.797 +03:00 [INF] Now listening on: https://localhost:7202
+2025-08-26 12:24:59.799 +03:00 [INF] Now listening on: http://localhost:5262
+2025-08-26 12:24:59.800 +03:00 [DBG] Loaded hosting startup assembly NaturalToQuery.Api
+2025-08-26 12:24:59.800 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-08-26 12:24:59.801 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-26 12:24:59.802 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-26 12:24:59.807 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-26 12:24:59.812 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-26 12:24:59.834 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-26 12:24:59.835 +03:00 [INF] Hosting environment: Development
+2025-08-26 12:24:59.836 +03:00 [INF] Content root path: C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql
+2025-08-26 12:24:59.837 +03:00 [DBG] Hosting started
+2025-08-26 12:25:03.022 +03:00 [DBG] Connection id "0HNF4G9NTT5NQ" accepted.
+2025-08-26 12:25:03.023 +03:00 [DBG] Connection id "0HNF4G9NTT5NQ" started.
+2025-08-26 12:25:03.047 +03:00 [DBG] Connection id "0HNF4G9NTT5NQ" received FIN.
+2025-08-26 12:25:03.047 +03:00 [DBG] Connection id "0HNF4G9NTT5NR" accepted.
+2025-08-26 12:25:03.082 +03:00 [DBG] Connection id "0HNF4G9NTT5NR" started.
+2025-08-26 12:25:03.156 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-08-26 12:25:03.163 +03:00 [DBG] Connection id "0HNF4G9NTT5NQ" stopped.
+2025-08-26 12:25:03.164 +03:00 [DBG] Connection 0HNF4G9NTT5NR established using the following protocol: "Tls13"
+2025-08-26 12:25:03.165 +03:00 [DBG] Connection id "0HNF4G9NTT5NQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-26 12:25:03.198 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/schema - null null
+2025-08-26 12:25:03.276 +03:00 [DBG] 1 candidate(s) found for the request path '/schema'
+2025-08-26 12:25:03.279 +03:00 [DBG] Request matched endpoint 'HTTP: GET /schema'
+2025-08-26 12:25:03.302 +03:00 [INF] Executing endpoint 'HTTP: GET /schema'
+2025-08-26 12:25:03.378 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-08-26 12:25:03.765 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-26 12:25:03.850 +03:00 [DBG] Compiling query expression: 
+'DbSet<Profile>()
+    .FirstOrDefault(t => (int)t.Provider == (int)__type_0)'
+2025-08-26 12:25:04.009 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Profile>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<Profile>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Profile.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Profile.CacheFile (string) MaxLength(500), 1], [Property: Profile.CreatedUtc (DateTimeOffset) Required, 2], [Property: Profile.EmbeddingStatus (EmbeddingStatus) Required, 3], [Property: Profile.Name (string) Required MaxLength(200), 4], [Property: Profile.Provider (ProviderType) Required, 5], [Property: Profile.SecretRef (string) Required, 6] }
+            SELECT TOP(1) p.Id, p.CacheFile, p.CreatedUtc, p.EmbeddingStatus, p.Name, p.Provider, p.SecretRef
+            FROM Profiles AS p
+            WHERE p.Provider == @__type_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Profile.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Profile.CacheFile (string) MaxLength(500), 1], [Property: Profile.CreatedUtc (DateTimeOffset) Required, 2], [Property: Profile.EmbeddingStatus (EmbeddingStatus) Required, 3], [Property: Profile.Name (string) Required MaxLength(200), 4], [Property: Profile.Provider (ProviderType) Required, 5], [Property: Profile.SecretRef (string) Required, 6] }
+            SELECT TOP(1) p.Id, p.CacheFile, p.CreatedUtc, p.EmbeddingStatus, p.Name, p.Provider, p.SecretRef
+            FROM Profiles AS p
+            WHERE p.Provider == @__type_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            Profile entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                Profile instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(Profile);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: Profile.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (Profile)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")]: 
+                            {
+                                return 
+                                {
+                                    Profile instance;
+                                    instance = new Profile();
+                                    instance.<Id>k__BackingField = dataReader.GetGuid(0);
+                                    instance.<CacheFile>k__BackingField = dataReader.IsDBNull(1) ? default(string) : dataReader.GetString(1);
+                                    instance.<CreatedUtc>k__BackingField = dataReader.GetFieldValue<DateTimeOffset>(2);
+                                    instance.<EmbeddingStatus>k__BackingField = Invoke(((EnumToNumberConverter<EmbeddingStatus, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: Profile.EmbeddingStatus (EmbeddingStatus) Required | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile").FindProperty("EmbeddingStatus")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(3));
+                                    instance.<Name>k__BackingField = dataReader.GetString(4);
+                                    instance.<Provider>k__BackingField = Invoke(((EnumToNumberConverter<ProviderType, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: Profile.Provider (ProviderType) Required | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile").FindProperty("Provider")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(5));
+                                    instance.<SecretRef>k__BackingField = dataReader.GetString(6);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{4} => namelessParameter{4}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(Profile)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: NaturalToQuery.Infrastructure.Persistence.ProfilesDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-08-26 12:25:04.034 +03:00 [DBG] Creating DbConnection.
+2025-08-26 12:25:04.043 +03:00 [DBG] Created DbConnection. (7ms).
+2025-08-26 12:25:04.045 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-26 12:25:04.054 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-26 12:25:04.057 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-26 12:25:04.061 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2025-08-26 12:25:04.065 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (8ms).
+2025-08-26 12:25:04.070 +03:00 [DBG] Executing DbCommand [Parameters=[@__type_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."EmbeddingStatus", "p"."Name", "p"."Provider", "p"."SecretRef"
+FROM "Profiles" AS "p"
+WHERE "p"."Provider" = @__type_0
+LIMIT 1
+2025-08-26 12:25:04.084 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[@__type_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."EmbeddingStatus", "p"."Name", "p"."Provider", "p"."SecretRef"
+FROM "Profiles" AS "p"
+WHERE "p"."Provider" = @__type_0
+LIMIT 1
+2025-08-26 12:25:04.109 +03:00 [DBG] Context 'ProfilesDbContext' started tracking 'Profile' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-26 12:25:04.129 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-26 12:25:04.135 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 46ms reading results.
+2025-08-26 12:25:04.138 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-26 12:25:04.140 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (2ms).
+2025-08-26 12:25:04.179 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-26 12:25:04.184 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-26 12:25:04.204 +03:00 [INF] Fetching schema for connection (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=ProductInventory, ForceRefresh=false)
+2025-08-26 12:25:04.289 +03:00 [INF] Loaded schema for DESKTOP-QCK8UI5\SQLEXPRESS|ProductInventory from cache file C:\Users\Zyad\AppData\Local\MicroSqlRag\sqlcache\SqlServer_schemas.json
+2025-08-26 12:25:04.294 +03:00 [INF] Setting HTTP status code 200.
+2025-08-26 12:25:04.308 +03:00 [INF] Writing value of type 'SchemaModel' as Json.
+2025-08-26 12:25:04.314 +03:00 [INF] Executed endpoint 'HTTP: GET /schema'
+2025-08-26 12:25:04.319 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-26 12:25:04.322 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-08-26 12:25:04.325 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (2ms).
+2025-08-26 12:25:04.327 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/schema - 200 null application/json; charset=utf-8 1132.3645ms
+2025-08-26 23:46:15.607 +03:00 [INF] This is a test log to file!
+2025-08-26 23:46:15.814 +03:00 [INF] Shared Kernal configured successfully.
+2025-08-26 23:46:15.827 +03:00 [INF] API configured successfully.
+2025-08-26 23:46:15.828 +03:00 [INF] Infrastructure configured successfully.
+2025-08-26 23:46:15.829 +03:00 [INF] Infrastructure configured successfully.
+2025-08-26 23:46:15.902 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-26 23:46:15.957 +03:00 [DBG] Hosting starting
+2025-08-26 23:46:15.973 +03:00 [DBG] Middleware loaded
+2025-08-26 23:46:15.976 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16521 B).
+2025-08-26 23:46:15.978 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-08-26 23:46:16.090 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-08-26 23:46:16.095 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-26 23:46:16.116 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-08-26 23:46:16.168 +03:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2025-08-26 23:46:16.229 +03:00 [INF] Now listening on: https://localhost:7202
+2025-08-26 23:46:16.230 +03:00 [INF] Now listening on: http://localhost:5262
+2025-08-26 23:46:16.231 +03:00 [DBG] Loaded hosting startup assembly NaturalToQuery.Api
+2025-08-26 23:46:16.232 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-08-26 23:46:16.232 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-26 23:46:16.233 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-26 23:46:16.239 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-26 23:46:16.241 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-26 23:46:16.366 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-26 23:46:16.367 +03:00 [INF] Hosting environment: Development
+2025-08-26 23:46:16.368 +03:00 [INF] Content root path: C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql
+2025-08-26 23:46:16.368 +03:00 [DBG] Hosting started
+2025-08-26 23:46:34.532 +03:00 [INF] This is a test log to file!
+2025-08-26 23:46:34.693 +03:00 [INF] Shared Kernal configured successfully.
+2025-08-26 23:46:34.701 +03:00 [INF] API configured successfully.
+2025-08-26 23:46:34.702 +03:00 [INF] Infrastructure configured successfully.
+2025-08-26 23:46:34.704 +03:00 [INF] Infrastructure configured successfully.
+2025-08-26 23:46:34.765 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-26 23:46:34.813 +03:00 [DBG] Hosting starting
+2025-08-26 23:46:34.827 +03:00 [DBG] Middleware loaded
+2025-08-26 23:46:34.829 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16521 B).
+2025-08-26 23:46:34.831 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-08-26 23:46:34.936 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-08-26 23:46:34.939 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-26 23:46:34.950 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-08-26 23:46:35.052 +03:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2025-08-26 23:46:35.098 +03:00 [INF] Now listening on: https://localhost:7202
+2025-08-26 23:46:35.100 +03:00 [INF] Now listening on: http://localhost:5262
+2025-08-26 23:46:35.101 +03:00 [DBG] Loaded hosting startup assembly NaturalToQuery.Api
+2025-08-26 23:46:35.102 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-08-26 23:46:35.102 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-26 23:46:35.103 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-26 23:46:35.109 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-26 23:46:35.111 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-26 23:46:35.201 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-26 23:46:35.202 +03:00 [INF] Hosting environment: Development
+2025-08-26 23:46:35.203 +03:00 [INF] Content root path: C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql
+2025-08-26 23:46:35.204 +03:00 [DBG] Hosting started
+2025-08-26 23:47:18.425 +03:00 [INF] This is a test log to file!
+2025-08-26 23:47:18.560 +03:00 [INF] Shared Kernal configured successfully.
+2025-08-26 23:47:18.568 +03:00 [INF] API configured successfully.
+2025-08-26 23:47:18.570 +03:00 [INF] Infrastructure configured successfully.
+2025-08-26 23:47:18.571 +03:00 [INF] Infrastructure configured successfully.
+2025-08-26 23:47:18.621 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-26 23:47:18.664 +03:00 [DBG] Hosting starting
+2025-08-26 23:47:18.676 +03:00 [DBG] Middleware loaded
+2025-08-26 23:47:18.679 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16521 B).
+2025-08-26 23:47:18.681 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-08-26 23:47:18.747 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-08-26 23:47:18.752 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-26 23:47:18.759 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-08-26 23:47:18.788 +03:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2025-08-26 23:47:18.871 +03:00 [INF] Now listening on: https://localhost:7202
+2025-08-26 23:47:18.873 +03:00 [INF] Now listening on: http://localhost:5262
+2025-08-26 23:47:18.874 +03:00 [DBG] Loaded hosting startup assembly NaturalToQuery.Api
+2025-08-26 23:47:18.874 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-08-26 23:47:18.875 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-26 23:47:18.876 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-26 23:47:18.882 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-26 23:47:18.883 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-26 23:47:18.970 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-26 23:47:18.970 +03:00 [INF] Hosting environment: Development
+2025-08-26 23:47:18.971 +03:00 [INF] Content root path: C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql
+2025-08-26 23:47:18.972 +03:00 [DBG] Hosting started
+2025-08-26 23:49:47.248 +03:00 [INF] This is a test log to file!
+2025-08-26 23:49:47.414 +03:00 [INF] Shared Kernal configured successfully.
+2025-08-26 23:49:47.422 +03:00 [INF] API configured successfully.
+2025-08-26 23:49:47.423 +03:00 [INF] Infrastructure configured successfully.
+2025-08-26 23:49:47.424 +03:00 [INF] Infrastructure configured successfully.
+2025-08-26 23:49:47.472 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-26 23:49:47.516 +03:00 [DBG] Hosting starting
+2025-08-26 23:49:47.528 +03:00 [DBG] Middleware loaded
+2025-08-26 23:49:47.530 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16521 B).
+2025-08-26 23:49:47.532 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-08-26 23:49:47.609 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-08-26 23:49:47.612 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-26 23:49:47.625 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-08-26 23:49:47.672 +03:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2025-08-26 23:49:47.746 +03:00 [INF] Now listening on: https://localhost:7202
+2025-08-26 23:49:47.747 +03:00 [INF] Now listening on: http://localhost:5262
+2025-08-26 23:49:47.748 +03:00 [DBG] Loaded hosting startup assembly NaturalToQuery.Api
+2025-08-26 23:49:47.749 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-08-26 23:49:47.750 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-26 23:49:47.751 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-26 23:49:47.757 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-26 23:49:47.759 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-26 23:49:47.800 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-26 23:49:47.801 +03:00 [INF] Hosting environment: Development
+2025-08-26 23:49:47.802 +03:00 [INF] Content root path: C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql
+2025-08-26 23:49:47.803 +03:00 [DBG] Hosting started
+2025-08-26 23:50:30.460 +03:00 [INF] This is a test log to file!
+2025-08-26 23:50:30.595 +03:00 [INF] Shared Kernal configured successfully.
+2025-08-26 23:50:30.602 +03:00 [INF] API configured successfully.
+2025-08-26 23:50:30.603 +03:00 [INF] Infrastructure configured successfully.
+2025-08-26 23:50:30.604 +03:00 [INF] Infrastructure configured successfully.
+2025-08-26 23:50:30.665 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-26 23:50:30.722 +03:00 [DBG] Hosting starting
+2025-08-26 23:50:30.735 +03:00 [DBG] Middleware loaded
+2025-08-26 23:50:30.738 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16521 B).
+2025-08-26 23:50:30.739 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-08-26 23:50:30.879 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-08-26 23:50:30.884 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-26 23:50:30.899 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-08-26 23:50:30.950 +03:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2025-08-26 23:50:31.023 +03:00 [INF] Now listening on: https://localhost:7202
+2025-08-26 23:50:31.025 +03:00 [INF] Now listening on: http://localhost:5000
+2025-08-26 23:50:31.027 +03:00 [DBG] Loaded hosting startup assembly NaturalToQuery.Api
+2025-08-26 23:50:31.028 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-08-26 23:50:31.029 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-26 23:50:31.030 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-26 23:50:31.040 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-26 23:50:31.043 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-26 23:50:31.105 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-26 23:50:31.106 +03:00 [INF] Hosting environment: Development
+2025-08-26 23:50:31.107 +03:00 [INF] Content root path: C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql
+2025-08-26 23:50:31.108 +03:00 [DBG] Hosting started
+2025-08-26 23:50:32.246 +03:00 [DBG] Connection id "0HNF4S8PCOA8Q" accepted.
+2025-08-26 23:50:32.248 +03:00 [DBG] Connection id "0HNF4S8PCOA8Q" started.
+2025-08-26 23:50:32.283 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/health - null null
+2025-08-26 23:50:32.404 +03:00 [DBG] 1 candidate(s) found for the request path '/api/health'
+2025-08-26 23:50:32.407 +03:00 [DBG] Endpoint 'NaturalToQuery.Api.Controllers.HealthController.GetHealth (NaturalToQuery.Api)' with route pattern 'api/Health' is valid for the request path '/api/health'
+2025-08-26 23:50:32.409 +03:00 [DBG] Request matched endpoint 'NaturalToQuery.Api.Controllers.HealthController.GetHealth (NaturalToQuery.Api)'
+2025-08-26 23:50:32.435 +03:00 [DBG] Https port '7202' loaded from configuration.
+2025-08-26 23:50:32.437 +03:00 [DBG] Redirecting to 'https://localhost:7202/api/health'.
+2025-08-26 23:50:32.447 +03:00 [DBG] Connection id "0HNF4S8PCOA8Q" completed keep alive response.
+2025-08-26 23:50:32.449 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/health - 307 0 null 171.0245ms
+2025-08-26 23:50:32.451 +03:00 [DBG] Connection id "0HNF4S8PCOA8R" accepted.
+2025-08-26 23:50:32.454 +03:00 [DBG] Connection id "0HNF4S8PCOA8R" started.
+2025-08-26 23:50:32.475 +03:00 [DBG] Connection id "0HNF4S8PCOA8R" received FIN.
+2025-08-26 23:50:32.475 +03:00 [DBG] Connection id "0HNF4S8PCOA8S" accepted.
+2025-08-26 23:50:32.481 +03:00 [DBG] Connection id "0HNF4S8PCOA8S" started.
+2025-08-26 23:50:32.582 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-08-26 23:50:32.584 +03:00 [DBG] Connection 0HNF4S8PCOA8S established using the following protocol: "Tls13"
+2025-08-26 23:50:32.587 +03:00 [DBG] Connection id "0HNF4S8PCOA8R" stopped.
+2025-08-26 23:50:32.590 +03:00 [DBG] Connection id "0HNF4S8PCOA8R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-26 23:50:32.603 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/health - null null
+2025-08-26 23:50:32.607 +03:00 [DBG] 1 candidate(s) found for the request path '/api/health'
+2025-08-26 23:50:32.608 +03:00 [DBG] Endpoint 'NaturalToQuery.Api.Controllers.HealthController.GetHealth (NaturalToQuery.Api)' with route pattern 'api/Health' is valid for the request path '/api/health'
+2025-08-26 23:50:32.609 +03:00 [DBG] Request matched endpoint 'NaturalToQuery.Api.Controllers.HealthController.GetHealth (NaturalToQuery.Api)'
+2025-08-26 23:50:32.612 +03:00 [INF] Executing endpoint 'NaturalToQuery.Api.Controllers.HealthController.GetHealth (NaturalToQuery.Api)'
+2025-08-26 23:50:32.623 +03:00 [INF] Route matched with {action = "GetHealth", controller = "Health"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Object] GetHealth() on controller NaturalToQuery.Api.Controllers.HealthController (NaturalToQuery.Api).
+2025-08-26 23:50:32.626 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-26 23:50:32.627 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-26 23:50:32.629 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-26 23:50:32.630 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-26 23:50:32.631 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-26 23:50:32.634 +03:00 [DBG] Executing controller factory for controller NaturalToQuery.Api.Controllers.HealthController (NaturalToQuery.Api)
+2025-08-26 23:50:32.635 +03:00 [DBG] Executed controller factory for controller NaturalToQuery.Api.Controllers.HealthController (NaturalToQuery.Api)
+2025-08-26 23:50:32.638 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-26 23:50:32.641 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-08-26 23:50:32.642 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-26 23:50:32.642 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-26 23:50:32.644 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-26 23:50:32.645 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-26 23:50:32.658 +03:00 [INF] Executed action NaturalToQuery.Api.Controllers.HealthController.GetHealth (NaturalToQuery.Api) in 23.5245ms
+2025-08-26 23:50:32.659 +03:00 [INF] Executed endpoint 'NaturalToQuery.Api.Controllers.HealthController.GetHealth (NaturalToQuery.Api)'
+2025-08-26 23:50:32.661 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/health - 200 null application/json; charset=utf-8 58.6342ms
+2025-08-26 23:50:39.161 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/setup/providers - null null
+2025-08-26 23:50:39.165 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/providers'
+2025-08-26 23:50:39.167 +03:00 [DBG] Endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetSupportedProviders (NaturalToQuery.Api)' with route pattern 'api/Setup/providers' is valid for the request path '/api/setup/providers'
+2025-08-26 23:50:39.168 +03:00 [DBG] Request matched endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetSupportedProviders (NaturalToQuery.Api)'
+2025-08-26 23:50:39.170 +03:00 [DBG] Redirecting to 'https://localhost:7202/api/setup/providers'.
+2025-08-26 23:50:39.171 +03:00 [DBG] Connection id "0HNF4S8PCOA8Q" completed keep alive response.
+2025-08-26 23:50:39.172 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/setup/providers - 307 0 null 11.1342ms
+2025-08-26 23:50:39.174 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/providers - null null
+2025-08-26 23:50:39.178 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/providers'
+2025-08-26 23:50:39.179 +03:00 [DBG] Endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetSupportedProviders (NaturalToQuery.Api)' with route pattern 'api/Setup/providers' is valid for the request path '/api/setup/providers'
+2025-08-26 23:50:39.180 +03:00 [DBG] Request matched endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetSupportedProviders (NaturalToQuery.Api)'
+2025-08-26 23:50:39.181 +03:00 [INF] Executing endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetSupportedProviders (NaturalToQuery.Api)'
+2025-08-26 23:50:39.194 +03:00 [INF] Route matched with {action = "GetSupportedProviders", controller = "Setup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[NaturalToQuery.Application.DTOs.UI.SupportedDB]]] GetSupportedProviders(System.Threading.CancellationToken) on controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api).
+2025-08-26 23:50:39.195 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-26 23:50:39.196 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-26 23:50:39.197 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-26 23:50:39.199 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-26 23:50:39.200 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-26 23:50:39.201 +03:00 [DBG] Executing controller factory for controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api)
+2025-08-26 23:50:39.281 +03:00 [INF] Executed action NaturalToQuery.Api.Controllers.SetupController.GetSupportedProviders (NaturalToQuery.Api) in 79.5646ms
+2025-08-26 23:50:39.315 +03:00 [INF] Executed endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetSupportedProviders (NaturalToQuery.Api)'
+2025-08-26 23:50:39.362 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'NaturalToQuery.Application.Interfaces.ISetupService' while attempting to activate 'NaturalToQuery.Api.Controllers.SetupController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method12(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-08-26 23:50:39.370 +03:00 [ERR] Unhandled exception occurred.
+2025-08-26 23:50:39.376 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/providers - 500 null application/json; charset=utf-8 202.1454ms
+2025-08-26 23:53:17.674 +03:00 [INF] This is a test log to file!
+2025-08-26 23:53:17.826 +03:00 [INF] Shared Kernal configured successfully.
+2025-08-26 23:53:17.833 +03:00 [INF] API configured successfully.
+2025-08-26 23:53:17.834 +03:00 [INF] Infrastructure configured successfully.
+2025-08-26 23:53:17.839 +03:00 [INF] Infrastructure configured successfully.
+2025-08-26 23:53:17.888 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-26 23:53:17.934 +03:00 [DBG] Hosting starting
+2025-08-26 23:53:17.946 +03:00 [DBG] Middleware loaded
+2025-08-26 23:53:17.949 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16521 B).
+2025-08-26 23:53:17.951 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-08-26 23:53:18.028 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-08-26 23:53:18.031 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-26 23:53:18.043 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-08-26 23:53:18.089 +03:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2025-08-26 23:53:18.151 +03:00 [INF] Now listening on: https://localhost:7202
+2025-08-26 23:53:18.152 +03:00 [INF] Now listening on: http://localhost:5000
+2025-08-26 23:53:18.154 +03:00 [DBG] Loaded hosting startup assembly NaturalToQuery.Api
+2025-08-26 23:53:18.154 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-08-26 23:53:18.156 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-26 23:53:18.157 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-26 23:53:18.165 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-26 23:53:18.168 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-26 23:53:18.309 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-26 23:53:18.310 +03:00 [INF] Hosting environment: Development
+2025-08-26 23:53:18.311 +03:00 [INF] Content root path: C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql
+2025-08-26 23:53:18.312 +03:00 [DBG] Hosting started
+2025-08-26 23:53:22.425 +03:00 [DBG] Connection id "0HNF4SAC3MRMG" accepted.
+2025-08-26 23:53:22.428 +03:00 [DBG] Connection id "0HNF4SAC3MRMG" started.
+2025-08-26 23:53:22.453 +03:00 [DBG] Connection id "0HNF4SAC3MRMG" received FIN.
+2025-08-26 23:53:22.453 +03:00 [DBG] Connection id "0HNF4SAC3MRMH" accepted.
+2025-08-26 23:53:22.463 +03:00 [DBG] Connection id "0HNF4SAC3MRMH" started.
+2025-08-26 23:53:22.600 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-08-26 23:53:22.605 +03:00 [DBG] Connection 0HNF4SAC3MRMH established using the following protocol: "Tls13"
+2025-08-26 23:53:22.606 +03:00 [DBG] Connection id "0HNF4SAC3MRMG" stopped.
+2025-08-26 23:53:22.609 +03:00 [DBG] Connection id "0HNF4SAC3MRMG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-26 23:53:22.646 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/providers - null null
+2025-08-26 23:53:22.735 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/providers'
+2025-08-26 23:53:22.738 +03:00 [DBG] Endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetSupportedProviders (NaturalToQuery.Api)' with route pattern 'api/Setup/providers' is valid for the request path '/api/setup/providers'
+2025-08-26 23:53:22.740 +03:00 [DBG] Request matched endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetSupportedProviders (NaturalToQuery.Api)'
+2025-08-26 23:53:22.764 +03:00 [INF] Executing endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetSupportedProviders (NaturalToQuery.Api)'
+2025-08-26 23:53:22.780 +03:00 [INF] Route matched with {action = "GetSupportedProviders", controller = "Setup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[NaturalToQuery.Application.DTOs.UI.SupportedDB]]] GetSupportedProviders(System.Threading.CancellationToken) on controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api).
+2025-08-26 23:53:22.783 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-26 23:53:22.784 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-26 23:53:22.786 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-26 23:53:22.787 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-26 23:53:22.788 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-26 23:53:22.790 +03:00 [DBG] Executing controller factory for controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api)
+2025-08-26 23:53:22.939 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-08-26 23:53:23.395 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-26 23:53:23.400 +03:00 [DBG] Executed controller factory for controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api)
+2025-08-26 23:53:23.412 +03:00 [DBG] Attempting to bind parameter 'ct' of type 'System.Threading.CancellationToken' ...
+2025-08-26 23:53:23.415 +03:00 [DBG] Done attempting to bind parameter 'ct' of type 'System.Threading.CancellationToken'.
+2025-08-26 23:53:23.416 +03:00 [DBG] Attempting to validate the bound parameter 'ct' of type 'System.Threading.CancellationToken' ...
+2025-08-26 23:53:23.418 +03:00 [DBG] Done attempting to validate the bound parameter 'ct' of type 'System.Threading.CancellationToken'.
+2025-08-26 23:53:23.425 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-26 23:53:23.427 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-08-26 23:53:23.428 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-26 23:53:23.429 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-26 23:53:23.430 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-26 23:53:23.431 +03:00 [INF] Executing OkObjectResult, writing value of type 'NaturalToQuery.Application.DTOs.UI.SupportedDB[]'.
+2025-08-26 23:53:23.439 +03:00 [INF] Executed action NaturalToQuery.Api.Controllers.SetupController.GetSupportedProviders (NaturalToQuery.Api) in 648.2428ms
+2025-08-26 23:53:23.441 +03:00 [INF] Executed endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetSupportedProviders (NaturalToQuery.Api)'
+2025-08-26 23:53:23.446 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-26 23:53:23.449 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/providers - 200 null application/json; charset=utf-8 806.5689ms
+2025-08-26 23:53:32.584 +03:00 [DBG] Connection id "0HNF4SAC3MRMI" accepted.
+2025-08-26 23:53:32.586 +03:00 [DBG] Connection id "0HNF4SAC3MRMI" started.
+2025-08-26 23:53:32.591 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/setup/servers/SqlServer - null null
+2025-08-26 23:53:32.599 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/servers/SqlServer'
+2025-08-26 23:53:32.600 +03:00 [DBG] Endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableServers (NaturalToQuery.Api)' with route pattern 'api/Setup/servers/{type}' is valid for the request path '/api/setup/servers/SqlServer'
+2025-08-26 23:53:32.602 +03:00 [DBG] Request matched endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableServers (NaturalToQuery.Api)'
+2025-08-26 23:53:32.605 +03:00 [DBG] Https port '7202' loaded from configuration.
+2025-08-26 23:53:32.607 +03:00 [DBG] Redirecting to 'https://localhost:7202/api/setup/servers/SqlServer'.
+2025-08-26 23:53:32.610 +03:00 [DBG] Connection id "0HNF4SAC3MRMI" completed keep alive response.
+2025-08-26 23:53:32.611 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/setup/servers/SqlServer - 307 0 null 20.2061ms
+2025-08-26 23:53:32.613 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/servers/SqlServer - null null
+2025-08-26 23:53:32.616 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/servers/SqlServer'
+2025-08-26 23:53:32.617 +03:00 [DBG] Endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableServers (NaturalToQuery.Api)' with route pattern 'api/Setup/servers/{type}' is valid for the request path '/api/setup/servers/SqlServer'
+2025-08-26 23:53:32.618 +03:00 [DBG] Request matched endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableServers (NaturalToQuery.Api)'
+2025-08-26 23:53:32.620 +03:00 [INF] Executing endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableServers (NaturalToQuery.Api)'
+2025-08-26 23:53:32.626 +03:00 [INF] Route matched with {action = "GetAvailableServers", controller = "Setup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[NaturalToQuery.SharedKernal.DTOs.Providers.ServerInfo]]] GetAvailableServers(NaturalToQuery.Core.Contributers.Entities.ProviderType, System.Threading.CancellationToken) on controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api).
+2025-08-26 23:53:32.628 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-26 23:53:32.629 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-26 23:53:32.630 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-26 23:53:32.631 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-26 23:53:32.632 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-26 23:53:32.633 +03:00 [DBG] Executing controller factory for controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api)
+2025-08-26 23:53:32.673 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-26 23:53:32.675 +03:00 [DBG] Executed controller factory for controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api)
+2025-08-26 23:53:32.676 +03:00 [DBG] Attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' ...
+2025-08-26 23:53:32.677 +03:00 [DBG] Attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' using the name 'type' in request data ...
+2025-08-26 23:53:32.680 +03:00 [DBG] Done attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:53:32.681 +03:00 [DBG] Done attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:53:32.682 +03:00 [DBG] Attempting to validate the bound parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' ...
+2025-08-26 23:53:32.684 +03:00 [DBG] Done attempting to validate the bound parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:53:32.685 +03:00 [DBG] Attempting to bind parameter 'ct' of type 'System.Threading.CancellationToken' ...
+2025-08-26 23:53:32.686 +03:00 [DBG] Done attempting to bind parameter 'ct' of type 'System.Threading.CancellationToken'.
+2025-08-26 23:53:32.687 +03:00 [DBG] Attempting to validate the bound parameter 'ct' of type 'System.Threading.CancellationToken' ...
+2025-08-26 23:53:32.688 +03:00 [DBG] Done attempting to validate the bound parameter 'ct' of type 'System.Threading.CancellationToken'.
+2025-08-26 23:53:32.698 +03:00 [INF] Fetching servers (forceRefresh=true)
+2025-08-26 23:53:32.700 +03:00 [DBG] Looking up servers from registry key SOFTWARE\Microsoft\Microsoft SQL Server\Instance Names\SQL
+2025-08-26 23:53:32.701 +03:00 [INF] Discovered server DESKTOP-QCK8UI5\SQLEXPRESS
+2025-08-26 23:53:32.866 +03:00 [DBG] Saved cache file C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer\SqlServer.json
+2025-08-26 23:53:32.868 +03:00 [INF] Cached 1 servers to C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer\SqlServer.json
+2025-08-26 23:53:32.871 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-26 23:53:32.872 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-08-26 23:53:32.872 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-26 23:53:32.873 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-26 23:53:32.873 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-26 23:53:32.874 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NaturalToQuery.SharedKernal.DTOs.Providers.ServerInfo, NaturalToQuery.SharedKernal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-26 23:53:32.878 +03:00 [INF] Executed action NaturalToQuery.Api.Controllers.SetupController.GetAvailableServers (NaturalToQuery.Api) in 244.7396ms
+2025-08-26 23:53:32.880 +03:00 [INF] Executed endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableServers (NaturalToQuery.Api)'
+2025-08-26 23:53:32.882 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-26 23:53:32.883 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/servers/SqlServer - 200 null application/json; charset=utf-8 270.2012ms
+2025-08-26 23:53:40.657 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/setup/databases/SqlServer/localhost - null null
+2025-08-26 23:53:40.662 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/databases/SqlServer/localhost'
+2025-08-26 23:53:40.663 +03:00 [DBG] Endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)' with route pattern 'api/Setup/databases/{type}/{serverName}' is valid for the request path '/api/setup/databases/SqlServer/localhost'
+2025-08-26 23:53:40.665 +03:00 [DBG] Request matched endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)'
+2025-08-26 23:53:40.666 +03:00 [DBG] Redirecting to 'https://localhost:7202/api/setup/databases/SqlServer/localhost'.
+2025-08-26 23:53:40.667 +03:00 [DBG] Connection id "0HNF4SAC3MRMI" completed keep alive response.
+2025-08-26 23:53:40.668 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/setup/databases/SqlServer/localhost - 307 0 null 11.4306ms
+2025-08-26 23:53:40.671 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/localhost - null null
+2025-08-26 23:53:40.673 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/databases/SqlServer/localhost'
+2025-08-26 23:53:40.674 +03:00 [DBG] Endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)' with route pattern 'api/Setup/databases/{type}/{serverName}' is valid for the request path '/api/setup/databases/SqlServer/localhost'
+2025-08-26 23:53:40.676 +03:00 [DBG] Request matched endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)'
+2025-08-26 23:53:40.677 +03:00 [INF] Executing endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)'
+2025-08-26 23:53:40.682 +03:00 [INF] Route matched with {action = "GetAvailableDatabases", controller = "Setup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[NaturalToQuery.SharedKernal.DTOs.Providers.DatabaseInfo]]] GetAvailableDatabases(NaturalToQuery.Core.Contributers.Entities.ProviderType, System.String, System.Threading.CancellationToken) on controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api).
+2025-08-26 23:53:40.684 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-26 23:53:40.685 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-26 23:53:40.686 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-26 23:53:40.687 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-26 23:53:40.688 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-26 23:53:40.689 +03:00 [DBG] Executing controller factory for controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api)
+2025-08-26 23:53:40.701 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-26 23:53:40.702 +03:00 [DBG] Executed controller factory for controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api)
+2025-08-26 23:53:40.703 +03:00 [DBG] Attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' ...
+2025-08-26 23:53:40.704 +03:00 [DBG] Attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' using the name 'type' in request data ...
+2025-08-26 23:53:40.705 +03:00 [DBG] Done attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:53:40.706 +03:00 [DBG] Done attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:53:40.707 +03:00 [DBG] Attempting to validate the bound parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' ...
+2025-08-26 23:53:40.707 +03:00 [DBG] Done attempting to validate the bound parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:53:40.708 +03:00 [DBG] Attempting to bind parameter 'serverName' of type 'System.String' ...
+2025-08-26 23:53:40.709 +03:00 [DBG] Attempting to bind parameter 'serverName' of type 'System.String' using the name 'serverName' in request data ...
+2025-08-26 23:53:40.710 +03:00 [DBG] Done attempting to bind parameter 'serverName' of type 'System.String'.
+2025-08-26 23:53:40.711 +03:00 [DBG] Done attempting to bind parameter 'serverName' of type 'System.String'.
+2025-08-26 23:53:40.712 +03:00 [DBG] Attempting to validate the bound parameter 'serverName' of type 'System.String' ...
+2025-08-26 23:53:40.717 +03:00 [DBG] Done attempting to validate the bound parameter 'serverName' of type 'System.String'.
+2025-08-26 23:53:40.718 +03:00 [DBG] Attempting to bind parameter 'ct' of type 'System.Threading.CancellationToken' ...
+2025-08-26 23:53:40.719 +03:00 [DBG] Done attempting to bind parameter 'ct' of type 'System.Threading.CancellationToken'.
+2025-08-26 23:53:40.720 +03:00 [DBG] Attempting to validate the bound parameter 'ct' of type 'System.Threading.CancellationToken' ...
+2025-08-26 23:53:40.720 +03:00 [DBG] Done attempting to validate the bound parameter 'ct' of type 'System.Threading.CancellationToken'.
+2025-08-26 23:53:40.742 +03:00 [INF] Fetching databases for server localhost
+2025-08-26 23:53:40.757 +03:00 [INF] Creating connection (Server=localhost, Database=master)
+2025-08-26 23:53:55.999 +03:00 [ERR] Failed to fetch databases for localhost
+2025-08-26 23:53:56.002 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-26 23:53:56.004 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-08-26 23:53:56.005 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-26 23:53:56.005 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-26 23:53:56.006 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-26 23:53:56.006 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NaturalToQuery.SharedKernal.DTOs.Providers.DatabaseInfo, NaturalToQuery.SharedKernal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-26 23:53:56.008 +03:00 [INF] Executed action NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api) in 15319.032ms
+2025-08-26 23:53:56.009 +03:00 [INF] Executed endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)'
+2025-08-26 23:53:56.010 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-26 23:53:56.010 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/localhost - 200 null application/json; charset=utf-8 15340.2838ms
+2025-08-26 23:54:40.257 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/localhost - null null
+2025-08-26 23:54:40.265 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/databases/SqlServer/localhost'
+2025-08-26 23:54:40.266 +03:00 [DBG] Endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)' with route pattern 'api/Setup/databases/{type}/{serverName}' is valid for the request path '/api/setup/databases/SqlServer/localhost'
+2025-08-26 23:54:40.267 +03:00 [DBG] Request matched endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)'
+2025-08-26 23:54:40.268 +03:00 [INF] Executing endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)'
+2025-08-26 23:54:40.269 +03:00 [INF] Route matched with {action = "GetAvailableDatabases", controller = "Setup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[NaturalToQuery.SharedKernal.DTOs.Providers.DatabaseInfo]]] GetAvailableDatabases(NaturalToQuery.Core.Contributers.Entities.ProviderType, System.String, System.Threading.CancellationToken) on controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api).
+2025-08-26 23:54:40.270 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-26 23:54:40.271 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-26 23:54:40.272 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-26 23:54:40.273 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-26 23:54:40.274 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-26 23:54:40.275 +03:00 [DBG] Executing controller factory for controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api)
+2025-08-26 23:54:40.277 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-26 23:54:40.278 +03:00 [DBG] Executed controller factory for controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api)
+2025-08-26 23:54:40.279 +03:00 [DBG] Attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' ...
+2025-08-26 23:54:40.280 +03:00 [DBG] Attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' using the name 'type' in request data ...
+2025-08-26 23:54:40.281 +03:00 [DBG] Done attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:54:40.282 +03:00 [DBG] Done attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:54:40.283 +03:00 [DBG] Attempting to validate the bound parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' ...
+2025-08-26 23:54:40.283 +03:00 [DBG] Done attempting to validate the bound parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:54:40.284 +03:00 [DBG] Attempting to bind parameter 'serverName' of type 'System.String' ...
+2025-08-26 23:54:40.285 +03:00 [DBG] Attempting to bind parameter 'serverName' of type 'System.String' using the name 'serverName' in request data ...
+2025-08-26 23:54:40.286 +03:00 [DBG] Done attempting to bind parameter 'serverName' of type 'System.String'.
+2025-08-26 23:54:40.287 +03:00 [DBG] Done attempting to bind parameter 'serverName' of type 'System.String'.
+2025-08-26 23:54:40.288 +03:00 [DBG] Attempting to validate the bound parameter 'serverName' of type 'System.String' ...
+2025-08-26 23:54:40.289 +03:00 [DBG] Done attempting to validate the bound parameter 'serverName' of type 'System.String'.
+2025-08-26 23:54:40.290 +03:00 [DBG] Attempting to bind parameter 'ct' of type 'System.Threading.CancellationToken' ...
+2025-08-26 23:54:40.290 +03:00 [DBG] Done attempting to bind parameter 'ct' of type 'System.Threading.CancellationToken'.
+2025-08-26 23:54:40.291 +03:00 [DBG] Attempting to validate the bound parameter 'ct' of type 'System.Threading.CancellationToken' ...
+2025-08-26 23:54:40.292 +03:00 [DBG] Done attempting to validate the bound parameter 'ct' of type 'System.Threading.CancellationToken'.
+2025-08-26 23:54:56.909 +03:00 [INF] Fetching databases for server localhost
+2025-08-26 23:54:56.915 +03:00 [INF] Creating connection (Server=localhost, Database=master)
+2025-08-26 23:55:12.041 +03:00 [ERR] Failed to fetch databases for localhost
+2025-08-26 23:55:16.039 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-26 23:55:16.040 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-08-26 23:55:16.041 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-26 23:55:16.042 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-26 23:55:16.042 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-26 23:55:16.043 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NaturalToQuery.SharedKernal.DTOs.Providers.DatabaseInfo, NaturalToQuery.SharedKernal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-26 23:55:16.045 +03:00 [INF] Executed action NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api) in 35770.4286ms
+2025-08-26 23:55:16.047 +03:00 [INF] Executed endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)'
+2025-08-26 23:55:16.048 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-26 23:55:16.049 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/localhost - 200 null application/json; charset=utf-8 35791.2572ms
+2025-08-26 23:55:23.688 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/localhost - null null
+2025-08-26 23:55:23.725 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/databases/SqlServer/localhost'
+2025-08-26 23:55:23.736 +03:00 [DBG] Endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)' with route pattern 'api/Setup/databases/{type}/{serverName}' is valid for the request path '/api/setup/databases/SqlServer/localhost'
+2025-08-26 23:55:23.737 +03:00 [DBG] Request matched endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)'
+2025-08-26 23:55:23.738 +03:00 [INF] Executing endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)'
+2025-08-26 23:55:23.742 +03:00 [INF] Route matched with {action = "GetAvailableDatabases", controller = "Setup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[NaturalToQuery.SharedKernal.DTOs.Providers.DatabaseInfo]]] GetAvailableDatabases(NaturalToQuery.Core.Contributers.Entities.ProviderType, System.String, System.Threading.CancellationToken) on controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api).
+2025-08-26 23:55:23.744 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-26 23:55:23.745 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-26 23:55:23.746 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-26 23:55:23.747 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-26 23:55:23.748 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-26 23:55:23.749 +03:00 [DBG] Executing controller factory for controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api)
+2025-08-26 23:55:23.750 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-26 23:55:23.752 +03:00 [DBG] Executed controller factory for controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api)
+2025-08-26 23:55:23.753 +03:00 [DBG] Attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' ...
+2025-08-26 23:55:23.754 +03:00 [DBG] Attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' using the name 'type' in request data ...
+2025-08-26 23:55:23.755 +03:00 [DBG] Done attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:55:23.756 +03:00 [DBG] Done attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:55:23.756 +03:00 [DBG] Attempting to validate the bound parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' ...
+2025-08-26 23:55:23.757 +03:00 [DBG] Done attempting to validate the bound parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:55:23.758 +03:00 [DBG] Attempting to bind parameter 'serverName' of type 'System.String' ...
+2025-08-26 23:55:23.759 +03:00 [DBG] Attempting to bind parameter 'serverName' of type 'System.String' using the name 'serverName' in request data ...
+2025-08-26 23:55:23.760 +03:00 [DBG] Done attempting to bind parameter 'serverName' of type 'System.String'.
+2025-08-26 23:55:23.761 +03:00 [DBG] Done attempting to bind parameter 'serverName' of type 'System.String'.
+2025-08-26 23:55:23.761 +03:00 [DBG] Attempting to validate the bound parameter 'serverName' of type 'System.String' ...
+2025-08-26 23:55:23.762 +03:00 [DBG] Done attempting to validate the bound parameter 'serverName' of type 'System.String'.
+2025-08-26 23:55:23.763 +03:00 [DBG] Attempting to bind parameter 'ct' of type 'System.Threading.CancellationToken' ...
+2025-08-26 23:55:23.763 +03:00 [DBG] Done attempting to bind parameter 'ct' of type 'System.Threading.CancellationToken'.
+2025-08-26 23:55:23.764 +03:00 [DBG] Attempting to validate the bound parameter 'ct' of type 'System.Threading.CancellationToken' ...
+2025-08-26 23:55:23.765 +03:00 [DBG] Done attempting to validate the bound parameter 'ct' of type 'System.Threading.CancellationToken'.
+2025-08-26 23:55:53.087 +03:00 [INF] Fetching databases for server localhost
+2025-08-26 23:55:53.093 +03:00 [INF] Creating connection (Server=localhost, Database=master)
+2025-08-26 23:56:08.180 +03:00 [ERR] Failed to fetch databases for localhost
+2025-08-26 23:56:08.181 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-26 23:56:08.182 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-08-26 23:56:08.183 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-26 23:56:08.184 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-26 23:56:08.184 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-26 23:56:08.185 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NaturalToQuery.SharedKernal.DTOs.Providers.DatabaseInfo, NaturalToQuery.SharedKernal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-26 23:56:08.186 +03:00 [INF] Executed action NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api) in 44436.4581ms
+2025-08-26 23:56:08.187 +03:00 [INF] Executed endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)'
+2025-08-26 23:56:08.188 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-26 23:56:08.189 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/localhost - 200 null application/json; charset=utf-8 44500.2014ms
+2025-08-26 23:56:09.295 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/localhost - null null
+2025-08-26 23:56:09.300 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/databases/SqlServer/localhost'
+2025-08-26 23:56:09.301 +03:00 [DBG] Endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)' with route pattern 'api/Setup/databases/{type}/{serverName}' is valid for the request path '/api/setup/databases/SqlServer/localhost'
+2025-08-26 23:56:09.302 +03:00 [DBG] Request matched endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)'
+2025-08-26 23:56:09.304 +03:00 [INF] Executing endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)'
+2025-08-26 23:56:09.304 +03:00 [INF] Route matched with {action = "GetAvailableDatabases", controller = "Setup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[NaturalToQuery.SharedKernal.DTOs.Providers.DatabaseInfo]]] GetAvailableDatabases(NaturalToQuery.Core.Contributers.Entities.ProviderType, System.String, System.Threading.CancellationToken) on controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api).
+2025-08-26 23:56:09.306 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-26 23:56:09.307 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-26 23:56:09.308 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-26 23:56:09.309 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-26 23:56:09.311 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-26 23:56:09.312 +03:00 [DBG] Executing controller factory for controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api)
+2025-08-26 23:56:09.313 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-26 23:56:09.314 +03:00 [DBG] Executed controller factory for controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api)
+2025-08-26 23:56:09.315 +03:00 [DBG] Attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' ...
+2025-08-26 23:56:09.316 +03:00 [DBG] Attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' using the name 'type' in request data ...
+2025-08-26 23:56:09.317 +03:00 [DBG] Done attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:56:09.318 +03:00 [DBG] Done attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:56:09.319 +03:00 [DBG] Attempting to validate the bound parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' ...
+2025-08-26 23:56:09.320 +03:00 [DBG] Done attempting to validate the bound parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:56:09.321 +03:00 [DBG] Attempting to bind parameter 'serverName' of type 'System.String' ...
+2025-08-26 23:56:09.322 +03:00 [DBG] Attempting to bind parameter 'serverName' of type 'System.String' using the name 'serverName' in request data ...
+2025-08-26 23:56:09.323 +03:00 [DBG] Done attempting to bind parameter 'serverName' of type 'System.String'.
+2025-08-26 23:56:09.324 +03:00 [DBG] Done attempting to bind parameter 'serverName' of type 'System.String'.
+2025-08-26 23:56:09.325 +03:00 [DBG] Attempting to validate the bound parameter 'serverName' of type 'System.String' ...
+2025-08-26 23:56:09.326 +03:00 [DBG] Done attempting to validate the bound parameter 'serverName' of type 'System.String'.
+2025-08-26 23:56:09.327 +03:00 [DBG] Attempting to bind parameter 'ct' of type 'System.Threading.CancellationToken' ...
+2025-08-26 23:56:09.328 +03:00 [DBG] Done attempting to bind parameter 'ct' of type 'System.Threading.CancellationToken'.
+2025-08-26 23:56:09.329 +03:00 [DBG] Attempting to validate the bound parameter 'ct' of type 'System.Threading.CancellationToken' ...
+2025-08-26 23:56:09.330 +03:00 [DBG] Done attempting to validate the bound parameter 'ct' of type 'System.Threading.CancellationToken'.
+2025-08-26 23:56:10.925 +03:00 [INF] Fetching databases for server localhost
+2025-08-26 23:56:10.926 +03:00 [INF] Creating connection (Server=localhost, Database=master)
+2025-08-26 23:56:10.999 +03:00 [ERR] Failed to fetch databases for localhost
+2025-08-26 23:56:11.000 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-26 23:56:11.002 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-08-26 23:56:11.002 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-26 23:56:11.002 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-26 23:56:11.003 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-26 23:56:11.004 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NaturalToQuery.SharedKernal.DTOs.Providers.DatabaseInfo, NaturalToQuery.SharedKernal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-26 23:56:11.005 +03:00 [INF] Executed action NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api) in 1692.9514ms
+2025-08-26 23:56:11.005 +03:00 [INF] Executed endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableDatabases (NaturalToQuery.Api)'
+2025-08-26 23:56:11.006 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-26 23:56:11.007 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/localhost - 200 null application/json; charset=utf-8 1711.9933ms
+2025-08-26 23:56:22.136 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/"DESKTOP-ABC123//SQLEXPRESS - null null
+2025-08-26 23:56:22.139 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/"DESKTOP-ABC123//SQLEXPRESS'
+2025-08-26 23:56:22.140 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:56:22.141 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/"DESKTOP-ABC123//SQLEXPRESS - 404 0 null 5.757ms
+2025-08-26 23:56:22.144 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7202/api/setup/databases/SqlServer/%22DESKTOP-ABC123//SQLEXPRESS, Response status code: 404
+2025-08-26 23:56:33.383 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-ABC123//SQLEXPRESS - null null
+2025-08-26 23:56:33.388 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/DESKTOP-ABC123//SQLEXPRESS'
+2025-08-26 23:56:33.390 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:56:33.390 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-ABC123//SQLEXPRESS - 404 0 null 7.5525ms
+2025-08-26 23:56:33.393 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-ABC123//SQLEXPRESS, Response status code: 404
+2025-08-26 23:57:13.533 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/"DESKTOP-ABC123//SQLEXPRESS - null null
+2025-08-26 23:57:13.544 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/"DESKTOP-ABC123//SQLEXPRESS'
+2025-08-26 23:57:13.545 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:57:13.546 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/"DESKTOP-ABC123//SQLEXPRESS - 404 0 null 13.0537ms
+2025-08-26 23:57:13.549 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7202/api/setup/databases/SqlServer/%22DESKTOP-ABC123//SQLEXPRESS, Response status code: 404
+2025-08-26 23:57:33.200 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - null null
+2025-08-26 23:57:33.218 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS'
+2025-08-26 23:57:33.219 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:57:33.220 +03:00 [DBG] Redirecting to 'https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS'.
+2025-08-26 23:57:33.221 +03:00 [DBG] Connection id "0HNF4SAC3MRMI" completed keep alive response.
+2025-08-26 23:57:33.222 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - 307 0 null 21.5383ms
+2025-08-26 23:57:33.252 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - null null
+2025-08-26 23:57:33.255 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS'
+2025-08-26 23:57:33.256 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:57:33.256 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - 404 0 null 31.64ms
+2025-08-26 23:57:33.259 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS, Response status code: 404
+2025-08-26 23:57:35.836 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - null null
+2025-08-26 23:57:35.840 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS'
+2025-08-26 23:57:35.841 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:57:35.842 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - 404 0 null 5.9068ms
+2025-08-26 23:57:35.844 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS, Response status code: 404
+2025-08-26 23:57:47.584 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5//SQLEXPRESS - null null
+2025-08-26 23:57:47.588 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/DESKTOP-QCK8UI5//SQLEXPRESS'
+2025-08-26 23:57:47.589 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:57:47.590 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5//SQLEXPRESS - 404 0 null 5.6086ms
+2025-08-26 23:57:47.593 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5//SQLEXPRESS, Response status code: 404
+2025-08-26 23:57:54.256 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/"DESKTOP-QCK8UI5/SQLEXPRESS" - null null
+2025-08-26 23:57:54.260 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/"DESKTOP-QCK8UI5/SQLEXPRESS"'
+2025-08-26 23:57:54.262 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:57:54.263 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/"DESKTOP-QCK8UI5/SQLEXPRESS" - 404 0 null 7.0295ms
+2025-08-26 23:57:54.266 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7202/api/setup/databases/SqlServer/%22DESKTOP-QCK8UI5/SQLEXPRESS%22, Response status code: 404
+2025-08-26 23:58:29.814 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/setup/databases/SqlServer/"DESKTOP-QCK8UI5/SQLEXPRESS" - null null
+2025-08-26 23:58:29.819 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/"DESKTOP-QCK8UI5/SQLEXPRESS"'
+2025-08-26 23:58:29.820 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:58:29.821 +03:00 [DBG] Redirecting to 'https://localhost:7202/api/setup/databases/SqlServer/%22DESKTOP-QCK8UI5/SQLEXPRESS%22'.
+2025-08-26 23:58:29.821 +03:00 [DBG] Connection id "0HNF4SAC3MRMI" completed keep alive response.
+2025-08-26 23:58:29.822 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/setup/databases/SqlServer/"DESKTOP-QCK8UI5/SQLEXPRESS" - 307 0 null 10.8217ms
+2025-08-26 23:58:29.848 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/"DESKTOP-QCK8UI5/SQLEXPRESS" - null null
+2025-08-26 23:58:29.853 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/"DESKTOP-QCK8UI5/SQLEXPRESS"'
+2025-08-26 23:58:29.854 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:58:29.855 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/"DESKTOP-QCK8UI5/SQLEXPRESS" - 404 0 null 7.0331ms
+2025-08-26 23:58:29.857 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7202/api/setup/databases/SqlServer/%22DESKTOP-QCK8UI5/SQLEXPRESS%22, Response status code: 404
+2025-08-26 23:58:40.719 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/setup/databases/SqlServer/"DESKTOP-QCK8UI5/SQLEXPRESS" - null null
+2025-08-26 23:58:40.722 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/"DESKTOP-QCK8UI5/SQLEXPRESS"'
+2025-08-26 23:58:40.723 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:58:40.724 +03:00 [DBG] Redirecting to 'https://localhost:7202/api/setup/databases/SqlServer/%22DESKTOP-QCK8UI5/SQLEXPRESS%22'.
+2025-08-26 23:58:40.725 +03:00 [DBG] Connection id "0HNF4SAC3MRMI" completed keep alive response.
+2025-08-26 23:58:40.726 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/setup/databases/SqlServer/"DESKTOP-QCK8UI5/SQLEXPRESS" - 307 0 null 7.4773ms
+2025-08-26 23:58:40.728 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/"DESKTOP-QCK8UI5/SQLEXPRESS" - null null
+2025-08-26 23:58:40.731 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/"DESKTOP-QCK8UI5/SQLEXPRESS"'
+2025-08-26 23:58:40.732 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:58:40.733 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/"DESKTOP-QCK8UI5/SQLEXPRESS" - 404 0 null 5.2302ms
+2025-08-26 23:58:40.735 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7202/api/setup/databases/SqlServer/%22DESKTOP-QCK8UI5/SQLEXPRESS%22, Response status code: 404
+2025-08-26 23:58:54.233 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5//SQLEXPRESS - null null
+2025-08-26 23:58:54.237 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/DESKTOP-QCK8UI5//SQLEXPRESS'
+2025-08-26 23:58:54.238 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:58:54.239 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5//SQLEXPRESS - 404 0 null 5.8496ms
+2025-08-26 23:58:54.242 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5//SQLEXPRESS, Response status code: 404
+2025-08-26 23:58:54.652 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - null null
+2025-08-26 23:58:54.655 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS'
+2025-08-26 23:58:54.657 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:58:54.657 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - 404 0 null 5.7807ms
+2025-08-26 23:58:54.660 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS, Response status code: 404
+2025-08-26 23:59:02.608 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - null null
+2025-08-26 23:59:02.611 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS'
+2025-08-26 23:59:02.612 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:59:02.613 +03:00 [DBG] Redirecting to 'https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS'.
+2025-08-26 23:59:02.614 +03:00 [DBG] Connection id "0HNF4SAC3MRMI" completed keep alive response.
+2025-08-26 23:59:02.615 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - 307 0 null 7.2287ms
+2025-08-26 23:59:02.618 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - null null
+2025-08-26 23:59:02.621 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS'
+2025-08-26 23:59:02.622 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:59:02.623 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - 404 0 null 5.0984ms
+2025-08-26 23:59:02.626 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS, Response status code: 404
+2025-08-26 23:59:07.296 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - null null
+2025-08-26 23:59:07.299 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS'
+2025-08-26 23:59:07.301 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:59:07.302 +03:00 [DBG] Redirecting to 'https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS'.
+2025-08-26 23:59:07.303 +03:00 [DBG] Connection id "0HNF4SAC3MRMI" completed keep alive response.
+2025-08-26 23:59:07.304 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - 307 0 null 7.7282ms
+2025-08-26 23:59:07.305 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - null null
+2025-08-26 23:59:07.309 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS'
+2025-08-26 23:59:07.309 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:59:07.310 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - 404 0 null 4.9946ms
+2025-08-26 23:59:07.313 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS, Response status code: 404
+2025-08-26 23:59:17.215 +03:00 [DBG] Connection id "0HNF4SAC3MRMJ" accepted.
+2025-08-26 23:59:17.216 +03:00 [DBG] Connection id "0HNF4SAC3MRMJ" started.
+2025-08-26 23:59:17.217 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - null null
+2025-08-26 23:59:17.218 +03:00 [DBG] Connection id "0HNF4SAC3MRMK" accepted.
+2025-08-26 23:59:17.221 +03:00 [DBG] Connection id "0HNF4SAC3MRMK" started.
+2025-08-26 23:59:17.222 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS'
+2025-08-26 23:59:17.224 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:59:17.225 +03:00 [DBG] Redirecting to 'https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS'.
+2025-08-26 23:59:17.226 +03:00 [DBG] Connection id "0HNF4SAC3MRMJ" completed keep alive response.
+2025-08-26 23:59:17.227 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - 307 0 null 9.7047ms
+2025-08-26 23:59:17.229 +03:00 [DBG] Connection id "0HNF4SAC3MRML" accepted.
+2025-08-26 23:59:17.230 +03:00 [DBG] Connection id "0HNF4SAC3MRML" started.
+2025-08-26 23:59:17.234 +03:00 [DBG] Connection id "0HNF4SAC3MRML" received FIN.
+2025-08-26 23:59:17.329 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-08-26 23:59:17.332 +03:00 [DBG] Connection id "0HNF4SAC3MRML" stopped.
+2025-08-26 23:59:17.332 +03:00 [DBG] Connection id "0HNF4SAC3MRML" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-26 23:59:19.145 +03:00 [DBG] Connection id "0HNF4SAC3MRMM" accepted.
+2025-08-26 23:59:19.146 +03:00 [DBG] Connection id "0HNF4SAC3MRMM" started.
+2025-08-26 23:59:19.146 +03:00 [DBG] Connection id "0HNF4SAC3MRMN" accepted.
+2025-08-26 23:59:19.148 +03:00 [DBG] Connection id "0HNF4SAC3MRMN" started.
+2025-08-26 23:59:19.149 +03:00 [DBG] Connection id "0HNF4SAC3MRMM" received FIN.
+2025-08-26 23:59:19.186 +03:00 [DBG] Connection id "0HNF4SAC3MRMN" received FIN.
+2025-08-26 23:59:19.191 +03:00 [DBG] Connection id "0HNF4SAC3MRMO" accepted.
+2025-08-26 23:59:19.334 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-08-26 23:59:19.356 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-08-26 23:59:19.357 +03:00 [DBG] Connection id "0HNF4SAC3MRMO" started.
+2025-08-26 23:59:19.358 +03:00 [DBG] Connection id "0HNF4SAC3MRMM" stopped.
+2025-08-26 23:59:19.360 +03:00 [DBG] Connection id "0HNF4SAC3MRMN" stopped.
+2025-08-26 23:59:19.361 +03:00 [DBG] Connection id "0HNF4SAC3MRMM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-26 23:59:19.362 +03:00 [DBG] Connection id "0HNF4SAC3MRMN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-26 23:59:19.363 +03:00 [DBG] Connection 0HNF4SAC3MRMO established using the following protocol: "Tls13"
+2025-08-26 23:59:19.365 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - null null
+2025-08-26 23:59:19.367 +03:00 [DBG] No candidates found for the request path '/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS'
+2025-08-26 23:59:19.368 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:59:19.368 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS - 404 0 null 3.702ms
+2025-08-26 23:59:19.370 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5/SQLEXPRESS, Response status code: 404
+2025-08-26 23:59:21.171 +03:00 [DBG] Connection id "0HNF4SAC3MRMK" received FIN.
+2025-08-26 23:59:21.171 +03:00 [DBG] Connection id "0HNF4SAC3MRMJ" received FIN.
+2025-08-26 23:59:21.171 +03:00 [DBG] Connection id "0HNF4SAC3MRMO" received FIN.
+2025-08-26 23:59:21.172 +03:00 [DBG] Connection id "0HNF4SAC3MRMK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-26 23:59:21.173 +03:00 [DBG] Connection id "0HNF4SAC3MRMJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-26 23:59:21.199 +03:00 [DBG] Connection id "0HNF4SAC3MRMK" disconnecting.
+2025-08-26 23:59:21.200 +03:00 [DBG] The connection queue processing loop for 0HNF4SAC3MRMO completed.
+2025-08-26 23:59:21.200 +03:00 [DBG] Connection id "0HNF4SAC3MRMJ" disconnecting.
+2025-08-26 23:59:21.201 +03:00 [DBG] Connection id "0HNF4SAC3MRMK" stopped.
+2025-08-26 23:59:21.202 +03:00 [DBG] Connection id "0HNF4SAC3MRMO" is closed. The last processed stream ID was 1.
+2025-08-26 23:59:21.202 +03:00 [DBG] Connection id "0HNF4SAC3MRMJ" stopped.
+2025-08-26 23:59:21.203 +03:00 [DBG] Connection id "0HNF4SAC3MRMO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-26 23:59:21.206 +03:00 [DBG] Connection id "0HNF4SAC3MRMO" stopped.
+2025-08-26 23:59:38.903 +03:00 [DBG] Connection id "0HNF4SAC3MRMP" accepted.
+2025-08-26 23:59:38.904 +03:00 [DBG] Connection id "0HNF4SAC3MRMP" started.
+2025-08-26 23:59:38.905 +03:00 [DBG] Connection id "0HNF4SAC3MRMQ" accepted.
+2025-08-26 23:59:38.905 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/setup/servers/SqlServer - null null
+2025-08-26 23:59:38.906 +03:00 [DBG] Connection id "0HNF4SAC3MRMQ" started.
+2025-08-26 23:59:38.915 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/servers/SqlServer'
+2025-08-26 23:59:38.917 +03:00 [DBG] Endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableServers (NaturalToQuery.Api)' with route pattern 'api/Setup/servers/{type}' is valid for the request path '/api/setup/servers/SqlServer'
+2025-08-26 23:59:38.918 +03:00 [DBG] Request matched endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableServers (NaturalToQuery.Api)'
+2025-08-26 23:59:38.919 +03:00 [DBG] Redirecting to 'https://localhost:7202/api/setup/servers/SqlServer'.
+2025-08-26 23:59:38.920 +03:00 [DBG] Connection id "0HNF4SAC3MRMP" completed keep alive response.
+2025-08-26 23:59:38.921 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/setup/servers/SqlServer - 307 0 null 15.3555ms
+2025-08-26 23:59:38.922 +03:00 [DBG] Connection id "0HNF4SAC3MRMR" accepted.
+2025-08-26 23:59:38.924 +03:00 [DBG] Connection id "0HNF4SAC3MRMR" started.
+2025-08-26 23:59:38.927 +03:00 [DBG] Connection id "0HNF4SAC3MRMR" received FIN.
+2025-08-26 23:59:38.943 +03:00 [DBG] Connection id "0HNF4SAC3MRMS" accepted.
+2025-08-26 23:59:38.988 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-08-26 23:59:38.988 +03:00 [DBG] Connection id "0HNF4SAC3MRMS" started.
+2025-08-26 23:59:38.990 +03:00 [DBG] Connection id "0HNF4SAC3MRMR" stopped.
+2025-08-26 23:59:38.991 +03:00 [DBG] Connection id "0HNF4SAC3MRMR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-26 23:59:38.992 +03:00 [DBG] Connection 0HNF4SAC3MRMS established using the following protocol: "Tls13"
+2025-08-26 23:59:38.994 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/api/setup/servers/SqlServer - null null
+2025-08-26 23:59:38.996 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/servers/SqlServer'
+2025-08-26 23:59:38.998 +03:00 [DBG] Endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableServers (NaturalToQuery.Api)' with route pattern 'api/Setup/servers/{type}' is valid for the request path '/api/setup/servers/SqlServer'
+2025-08-26 23:59:38.999 +03:00 [DBG] Request matched endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableServers (NaturalToQuery.Api)'
+2025-08-26 23:59:38.999 +03:00 [INF] Executing endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableServers (NaturalToQuery.Api)'
+2025-08-26 23:59:39.002 +03:00 [INF] Route matched with {action = "GetAvailableServers", controller = "Setup"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[NaturalToQuery.SharedKernal.DTOs.Providers.ServerInfo]]] GetAvailableServers(NaturalToQuery.Core.Contributers.Entities.ProviderType, System.Threading.CancellationToken) on controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api).
+2025-08-26 23:59:39.004 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-26 23:59:39.005 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-26 23:59:39.005 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-26 23:59:39.006 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-26 23:59:39.007 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-26 23:59:39.008 +03:00 [DBG] Executing controller factory for controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api)
+2025-08-26 23:59:39.010 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-26 23:59:39.011 +03:00 [DBG] Executed controller factory for controller NaturalToQuery.Api.Controllers.SetupController (NaturalToQuery.Api)
+2025-08-26 23:59:39.011 +03:00 [DBG] Attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' ...
+2025-08-26 23:59:39.012 +03:00 [DBG] Attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' using the name 'type' in request data ...
+2025-08-26 23:59:39.013 +03:00 [DBG] Done attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:59:39.014 +03:00 [DBG] Done attempting to bind parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:59:39.015 +03:00 [DBG] Attempting to validate the bound parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType' ...
+2025-08-26 23:59:39.015 +03:00 [DBG] Done attempting to validate the bound parameter 'type' of type 'NaturalToQuery.Core.Contributers.Entities.ProviderType'.
+2025-08-26 23:59:39.016 +03:00 [DBG] Attempting to bind parameter 'ct' of type 'System.Threading.CancellationToken' ...
+2025-08-26 23:59:39.017 +03:00 [DBG] Done attempting to bind parameter 'ct' of type 'System.Threading.CancellationToken'.
+2025-08-26 23:59:39.018 +03:00 [DBG] Attempting to validate the bound parameter 'ct' of type 'System.Threading.CancellationToken' ...
+2025-08-26 23:59:39.018 +03:00 [DBG] Done attempting to validate the bound parameter 'ct' of type 'System.Threading.CancellationToken'.
+2025-08-26 23:59:39.019 +03:00 [INF] Fetching servers (forceRefresh=true)
+2025-08-26 23:59:39.020 +03:00 [DBG] Looking up servers from registry key SOFTWARE\Microsoft\Microsoft SQL Server\Instance Names\SQL
+2025-08-26 23:59:39.021 +03:00 [INF] Discovered server DESKTOP-QCK8UI5\SQLEXPRESS
+2025-08-26 23:59:39.024 +03:00 [DBG] Saved cache file C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer\SqlServer.json
+2025-08-26 23:59:39.025 +03:00 [INF] Cached 1 servers to C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer\SqlServer.json
+2025-08-26 23:59:39.025 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-26 23:59:39.027 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-08-26 23:59:39.027 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-26 23:59:39.028 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-26 23:59:39.028 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-26 23:59:39.029 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NaturalToQuery.SharedKernal.DTOs.Providers.ServerInfo, NaturalToQuery.SharedKernal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-26 23:59:39.030 +03:00 [INF] Executed action NaturalToQuery.Api.Controllers.SetupController.GetAvailableServers (NaturalToQuery.Api) in 22.0061ms
+2025-08-26 23:59:39.031 +03:00 [INF] Executed endpoint 'NaturalToQuery.Api.Controllers.SetupController.GetAvailableServers (NaturalToQuery.Api)'
+2025-08-26 23:59:39.032 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-26 23:59:39.033 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/api/setup/servers/SqlServer - 200 null application/json; charset=utf-8 39.6798ms
+2025-08-26 23:59:39.087 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7202/favicon.ico - null null
+2025-08-26 23:59:39.090 +03:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-08-26 23:59:39.090 +03:00 [DBG] Request did not match any endpoints
+2025-08-26 23:59:39.091 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7202/favicon.ico - 404 0 null 3.8809ms
+2025-08-26 23:59:39.094 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7202/favicon.ico, Response status code: 404

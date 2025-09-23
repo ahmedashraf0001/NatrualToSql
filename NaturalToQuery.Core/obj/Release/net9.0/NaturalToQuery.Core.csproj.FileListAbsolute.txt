@@ -1,0 +1,16 @@
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.Core\bin\Release\net9.0\NaturalToQuery.Core.deps.json
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.Core\bin\Release\net9.0\NaturalToQuery.Core.dll
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.Core\bin\Release\net9.0\NaturalToQuery.Core.pdb
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.Core\bin\Release\net9.0\NaturalToQuery.SharedKernal.dll
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.Core\bin\Release\net9.0\NaturalToQuery.SharedKernal.pdb
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.Core\obj\Release\net9.0\NaturalToQuery.Core.csproj.AssemblyReference.cache
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.Core\obj\Release\net9.0\NaturalToQuery.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.Core\obj\Release\net9.0\NaturalToQuery.Core.AssemblyInfoInputs.cache
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.Core\obj\Release\net9.0\NaturalToQuery.Core.AssemblyInfo.cs
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.Core\obj\Release\net9.0\NaturalToQuery.Core.csproj.CoreCompileInputs.cache
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.Core\obj\Release\net9.0\NaturalToQuery.Core.sourcelink.json
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.Core\obj\Release\net9.0\NaturalT.150E5F89.Up2Date
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.Core\obj\Release\net9.0\NaturalToQuery.Core.dll
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.Core\obj\Release\net9.0\refint\NaturalToQuery.Core.dll
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.Core\obj\Release\net9.0\NaturalToQuery.Core.pdb
+C:\Users\Zyad\Documents\NaturalToSql\NaturalToQuery.Core\obj\Release\net9.0\ref\NaturalToQuery.Core.dll

@@ -1,0 +1,1205 @@
+2025-08-30 04:22:00.144 +03:00 [INF] This is a test log to file!
+2025-08-30 04:59:24.360 +03:00 [INF] This is a test log to file!
+2025-08-30 04:59:24.811 +03:00 [INF] Shared Kernal configured successfully.
+2025-08-30 04:59:24.857 +03:00 [INF] API configured successfully.
+2025-08-30 04:59:25.077 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-08-30 04:59:25.621 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 04:59:25.671 +03:00 [INF] Groq API key configured for HttpClient
+2025-08-30 04:59:25.681 +03:00 [INF] Registered 10 endpoints in 1,164 milliseconds.
+2025-08-30 04:59:25.687 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 04:59:25.689 +03:00 [INF] Infrastructure configured successfully.
+2025-08-30 04:59:25.690 +03:00 [INF] Infrastructure configured successfully.
+2025-08-30 04:59:25.725 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-30 04:59:25.754 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-08-30 04:59:25.755 +03:00 [DBG] Hosting starting
+2025-08-30 04:59:25.766 +03:00 [DBG] Middleware loaded
+2025-08-30 04:59:25.769 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16521 B).
+2025-08-30 04:59:25.770 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-08-30 04:59:25.841 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-08-30 04:59:25.843 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-30 04:59:25.845 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-08-30 04:59:25.880 +03:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2025-08-30 04:59:25.925 +03:00 [INF] Now listening on: https://localhost:7202
+2025-08-30 04:59:25.928 +03:00 [INF] Now listening on: http://localhost:5000
+2025-08-30 04:59:25.928 +03:00 [DBG] Loaded hosting startup assembly NaturalToQuery.Api
+2025-08-30 04:59:25.929 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-08-30 04:59:25.930 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-30 04:59:25.930 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-30 04:59:25.938 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-30 04:59:25.946 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-30 04:59:25.970 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-30 04:59:25.972 +03:00 [INF] Hosting environment: Development
+2025-08-30 04:59:25.973 +03:00 [INF] Content root path: C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql
+2025-08-30 04:59:25.974 +03:00 [DBG] Hosting started
+2025-08-30 04:59:28.406 +03:00 [DBG] Connection id "0HNF7D3D762LS" received FIN.
+2025-08-30 04:59:28.412 +03:00 [DBG] Connection id "0HNF7D3D762LS" accepted.
+2025-08-30 04:59:28.414 +03:00 [DBG] Connection id "0HNF7D3D762LS" started.
+2025-08-30 04:59:28.415 +03:00 [DBG] Connection id "0HNF7D3D762LT" accepted.
+2025-08-30 04:59:28.417 +03:00 [DBG] Connection id "0HNF7D3D762LT" started.
+2025-08-30 04:59:28.492 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-08-30 04:59:28.499 +03:00 [DBG] Connection id "0HNF7D3D762LS" stopped.
+2025-08-30 04:59:28.503 +03:00 [DBG] Connection id "0HNF7D3D762LS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-30 04:59:28.520 +03:00 [DBG] Connection 0HNF7D3D762LT established using the following protocol: "Tls13"
+2025-08-30 04:59:28.550 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7202/api/health - null null
+2025-08-30 04:59:28.580 +03:00 [DBG] 1 candidate(s) found for the request path '/api/health'
+2025-08-30 04:59:28.581 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/health'
+2025-08-30 04:59:28.611 +03:00 [INF] Executing endpoint 'HTTP: GET api/health'
+2025-08-30 04:59:28.641 +03:00 [INF] Health check sent.
+2025-08-30 04:59:28.643 +03:00 [INF] Executed endpoint 'HTTP: GET api/health'
+2025-08-30 04:59:28.644 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 04:59:28.647 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7202/api/health - 200 null application/json; charset=utf-8 102.3198ms
+2025-08-30 04:59:31.260 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7202/api/setup/providers - null null
+2025-08-30 04:59:31.264 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/providers'
+2025-08-30 04:59:31.265 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/setup/providers'
+2025-08-30 04:59:31.267 +03:00 [INF] Executing endpoint 'HTTP: GET api/setup/providers'
+2025-08-30 04:59:31.302 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 04:59:31.310 +03:00 [INF] Executed endpoint 'HTTP: GET api/setup/providers'
+2025-08-30 04:59:31.312 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 04:59:31.313 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 04:59:31.316 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7202/api/setup/providers - 200 null application/json; charset=utf-8 55.3385ms
+2025-08-30 04:59:33.849 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7202/api/setup/servers/Postgres - null null
+2025-08-30 04:59:33.852 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/servers/Postgres'
+2025-08-30 04:59:33.854 +03:00 [DBG] Endpoint 'HTTP: GET api/setup/servers/{type}' with route pattern 'api/setup/servers/{type}' is valid for the request path '/api/setup/servers/Postgres'
+2025-08-30 04:59:33.855 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/setup/servers/{type}'
+2025-08-30 04:59:33.857 +03:00 [INF] Executing endpoint 'HTTP: GET api/setup/servers/{type}'
+2025-08-30 04:59:33.874 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 04:59:33.980 +03:00 [INF] Executed endpoint 'HTTP: GET api/setup/servers/{type}'
+2025-08-30 04:59:33.983 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 04:59:33.984 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 04:59:33.984 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7202/api/setup/servers/Postgres - 400 null application/problem+json; charset=utf-8 135.6123ms
+2025-08-30 04:59:35.135 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7202/api/setup/servers/Postgres - null null
+2025-08-30 04:59:35.137 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/servers/Postgres'
+2025-08-30 04:59:35.139 +03:00 [DBG] Endpoint 'HTTP: GET api/setup/servers/{type}' with route pattern 'api/setup/servers/{type}' is valid for the request path '/api/setup/servers/Postgres'
+2025-08-30 04:59:35.140 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/setup/servers/{type}'
+2025-08-30 04:59:35.141 +03:00 [INF] Executing endpoint 'HTTP: GET api/setup/servers/{type}'
+2025-08-30 04:59:35.143 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 04:59:35.187 +03:00 [INF] Executed endpoint 'HTTP: GET api/setup/servers/{type}'
+2025-08-30 04:59:35.189 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 04:59:35.190 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 04:59:35.191 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7202/api/setup/servers/Postgres - 400 null application/problem+json; charset=utf-8 56.068ms
+2025-08-30 04:59:43.118 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7202/api/setup/servers/SqlServer - null null
+2025-08-30 04:59:43.121 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/servers/SqlServer'
+2025-08-30 04:59:43.122 +03:00 [DBG] Endpoint 'HTTP: GET api/setup/servers/{type}' with route pattern 'api/setup/servers/{type}' is valid for the request path '/api/setup/servers/SqlServer'
+2025-08-30 04:59:43.123 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/setup/servers/{type}'
+2025-08-30 04:59:43.124 +03:00 [INF] Executing endpoint 'HTTP: GET api/setup/servers/{type}'
+2025-08-30 04:59:43.125 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 04:59:43.134 +03:00 [INF] Fetching servers (forceRefresh=true)
+2025-08-30 04:59:43.136 +03:00 [DBG] Looking up servers from registry key SOFTWARE\Microsoft\Microsoft SQL Server\Instance Names\SQL
+2025-08-30 04:59:43.162 +03:00 [INF] Creating connection (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=master)
+2025-08-30 04:59:43.387 +03:00 [DBG] Connected to database for schema extraction (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=master)
+2025-08-30 04:59:43.392 +03:00 [INF] Creating connection (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=master)
+2025-08-30 04:59:43.468 +03:00 [INF] Discovered server DESKTOP-QCK8UI5\SQLEXPRESS with 4 running DBs
+2025-08-30 04:59:43.551 +03:00 [DBG] Saved cache file C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer\SqlServer.json
+2025-08-30 04:59:43.551 +03:00 [INF] Cached 1 servers to C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer\SqlServer.json
+2025-08-30 04:59:43.555 +03:00 [INF] Executed endpoint 'HTTP: GET api/setup/servers/{type}'
+2025-08-30 04:59:43.557 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 04:59:43.558 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 04:59:43.559 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7202/api/setup/servers/SqlServer - 200 null application/json; charset=utf-8 440.8315ms
+2025-08-30 04:59:49.578 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5\SQLEXPRESS - null null
+2025-08-30 04:59:49.580 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/databases/SqlServer/DESKTOP-QCK8UI5\SQLEXPRESS'
+2025-08-30 04:59:49.581 +03:00 [DBG] Endpoint 'HTTP: GET api/setup/databases/{type}/{serverName}' with route pattern 'api/setup/databases/{type}/{serverName}' is valid for the request path '/api/setup/databases/SqlServer/DESKTOP-QCK8UI5\SQLEXPRESS'
+2025-08-30 04:59:49.582 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/setup/databases/{type}/{serverName}'
+2025-08-30 04:59:49.582 +03:00 [INF] Executing endpoint 'HTTP: GET api/setup/databases/{type}/{serverName}'
+2025-08-30 04:59:49.584 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 04:59:49.589 +03:00 [INF] Fetching databases for server DESKTOP-QCK8UI5\SQLEXPRESS
+2025-08-30 04:59:49.601 +03:00 [INF] Creating connection (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=master)
+2025-08-30 04:59:49.603 +03:00 [DBG] Connected to server DESKTOP-QCK8UI5\SQLEXPRESS
+2025-08-30 04:59:50.137 +03:00 [INF] Found 8 databases on DESKTOP-QCK8UI5\SQLEXPRESS
+2025-08-30 04:59:50.141 +03:00 [INF] Executed endpoint 'HTTP: GET api/setup/databases/{type}/{serverName}'
+2025-08-30 04:59:50.143 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 04:59:50.143 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 04:59:50.144 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7202/api/setup/databases/SqlServer/DESKTOP-QCK8UI5\SQLEXPRESS - 200 null application/json; charset=utf-8 566.9601ms
+2025-08-30 05:00:02.817 +03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7202/api/setup/profile/f8ddc42e-3263-4dd8-a6b5-691d13278325 - null null
+2025-08-30 05:00:02.819 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/profile/f8ddc42e-3263-4dd8-a6b5-691d13278325'
+2025-08-30 05:00:02.820 +03:00 [DBG] Endpoint 'HTTP: DELETE api/setup/profile/{id}' with route pattern 'api/setup/profile/{id}' is valid for the request path '/api/setup/profile/f8ddc42e-3263-4dd8-a6b5-691d13278325'
+2025-08-30 05:00:02.821 +03:00 [DBG] Request matched endpoint 'HTTP: DELETE api/setup/profile/{id}'
+2025-08-30 05:00:02.822 +03:00 [INF] Executing endpoint 'HTTP: DELETE api/setup/profile/{id}'
+2025-08-30 05:00:02.823 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 05:00:02.830 +03:00 [INF] Deleting profile "f8ddc42e-3263-4dd8-a6b5-691d13278325"
+2025-08-30 05:00:02.893 +03:00 [DBG] Compiling query expression: 
+'DbSet<Profile>()
+    .Include(e => e.Queries)
+    .FirstOrDefault(e => e.Id.Equals(__id_0))'
+2025-08-30 05:00:02.927 +03:00 [DBG] Including navigation: 'Profile.Queries'.
+2025-08-30 05:00:03.132 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Profile>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<Profile>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Client Projections:
+                0 -> Dictionary<IProperty, int> { [Property: Profile.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Profile.CacheFile (string) MaxLength(500), 1], [Property: Profile.CreatedUtc (DateTimeOffset) Required, 2], [Property: Profile.Name (string) Required MaxLength(200), 3], [Property: Profile.Provider (ProviderType) Required, 4], [Property: Profile.SecretRef (string) Required, 5] }
+                1 -> 0
+                2 -> Dictionary<IProperty, int> { [Property: Query.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 6], [Property: Query.ProfileId (Guid) Required FK Index, 7], [Property: Query.ResultJson (string) Required, 8], [Property: Query.SqlQuery (string) Required, 9], [Property: Query.TimestampUtc (DateTime) Required, 10], [Property: Query.UserQuery (string) Required, 11] }
+                3 -> 6
+            SELECT p0.Id, p0.CacheFile, p0.CreatedUtc, p0.Name, p0.Provider, p0.SecretRef, q.Id, q.ProfileId, q.ResultJson, q.SqlQuery, q.TimestampUtc, q.UserQuery
+            FROM 
+            (
+                SELECT TOP(1) p.Id, p.CacheFile, p.CreatedUtc, p.Name, p.Provider, p.SecretRef
+                FROM Profiles AS p
+                WHERE p.Id == @__id_0
+            ) AS p0
+            LEFT JOIN Queries AS q ON p0.Id == q.ProfileId
+            ORDER BY p0.Id ASC) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Client Projections:
+                0 -> Dictionary<IProperty, int> { [Property: Profile.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Profile.CacheFile (string) MaxLength(500), 1], [Property: Profile.CreatedUtc (DateTimeOffset) Required, 2], [Property: Profile.Name (string) Required MaxLength(200), 3], [Property: Profile.Provider (ProviderType) Required, 4], [Property: Profile.SecretRef (string) Required, 5] }
+                1 -> 0
+                2 -> Dictionary<IProperty, int> { [Property: Query.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 6], [Property: Query.ProfileId (Guid) Required FK Index, 7], [Property: Query.ResultJson (string) Required, 8], [Property: Query.SqlQuery (string) Required, 9], [Property: Query.TimestampUtc (DateTime) Required, 10], [Property: Query.UserQuery (string) Required, 11] }
+                3 -> 6
+            SELECT p0.Id, p0.CacheFile, p0.CreatedUtc, p0.Name, p0.Provider, p0.SecretRef, q.Id, q.ProfileId, q.ResultJson, q.SqlQuery, q.TimestampUtc, q.UserQuery
+            FROM 
+            (
+                SELECT TOP(1) p.Id, p.CacheFile, p.CreatedUtc, p.Name, p.Provider, p.SecretRef
+                FROM Profiles AS p
+                WHERE p.Id == @__id_0
+            ) AS p0
+            LEFT JOIN Queries AS q ON p0.Id == q.ProfileId
+            ORDER BY p0.Id ASC, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            resultContext.Values == null ? 
+            {
+                Profile entity;
+                entity = 
+                {
+                    MaterializationContext materializationContext1;
+                    IEntityType entityType1;
+                    Profile instance1;
+                    InternalEntityEntry entry1;
+                    bool hasNullKey1;
+                    materializationContext1 = new MaterializationContext(
+                        [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                        queryContext.Context
+                    );
+                    instance1 = default(Profile);
+                    entry1 = queryContext.TryGetEntry(
+                        key: [LIFTABLE Constant: Key: Profile.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile").FindPrimaryKey()], 
+                        keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                        throwOnNullKey: True, 
+                        hasNullKey: hasNullKey1);
+                    !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                    {
+                        entityType1 = entry1.EntityType;
+                        return instance1 = (Profile)entry1.Entity;
+                    } : 
+                    {
+                        ISnapshot shadowSnapshot1;
+                        shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                        entityType1 = [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")];
+                        instance1 = switch (entityType1)
+                        {
+                            case [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")]: 
+                                {
+                                    return 
+                                    {
+                                        Profile instance;
+                                        instance = new Profile();
+                                        instance.<Id>k__BackingField = dataReader.GetGuid(0);
+                                        instance.<CacheFile>k__BackingField = dataReader.IsDBNull(1) ? default(string) : dataReader.GetString(1);
+                                        instance.<CreatedUtc>k__BackingField = dataReader.GetFieldValue<DateTimeOffset>(2);
+                                        instance.<Name>k__BackingField = dataReader.GetString(3);
+                                        instance.<Provider>k__BackingField = Invoke(((EnumToNumberConverter<ProviderType, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: Profile.Provider (ProviderType) Required | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile").FindProperty("Provider")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(4));
+                                        instance.<SecretRef>k__BackingField = dataReader.GetString(5);
+                                        (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                            context: materializationContext1.Context, 
+                                            entity: instance, 
+                                            queryTrackingBehavior: TrackAll, 
+                                            structuralType: [LIFTABLE Constant: EntityType: Profile | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile")]) : default(void);
+                                        return instance;
+                                    }}
+                            default: 
+                                default(Profile)
+                        }
+                        ;
+                        entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                            entityType: entityType1, 
+                            entity: instance1, 
+                            snapshot: shadowSnapshot1);
+                        return instance1;
+                    } : default(void);
+                    return instance1;
+                };
+                resultContext.Values = new object[]{ entity };
+                ShaperProcessingExpressionVisitor.InitializeIncludeCollection<Profile, Profile>(
+                    collectionId: 0, 
+                    queryContext: queryContext, 
+                    dbDataReader: dataReader, 
+                    resultCoordinator: resultCoordinator, 
+                    entity: (Profile)(resultContext.Values[0]), 
+                    parentIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(Guid?)dataReader.GetGuid(0) }], 
+                    outerIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(Guid?)dataReader.GetGuid(0) }], 
+                    navigation: [LIFTABLE Constant: Navigation: Profile.Queries (List<Query>) Collection ToDependent Query Inverse: Profile | Resolver: namelessParameter{4} => namelessParameter{4}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile").FindNavigation("Queries")], 
+                    clrCollectionAccessor: [LIFTABLE Constant: ClrICollectionAccessor<Profile, List<Query>, Query> | Resolver: namelessParameter{5} => namelessParameter{5}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile").FindNavigation("Queries").GetCollectionAccessor()], 
+                    trackingQuery: True, 
+                    setLoaded: True);
+            } : default(void);
+            ShaperProcessingExpressionVisitor.PopulateIncludeCollection<Profile, Query>(
+                collectionId: 0, 
+                queryContext: queryContext, 
+                dbDataReader: dataReader, 
+                resultCoordinator: resultCoordinator, 
+                parentIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(Guid?)dataReader.GetGuid(0) }], 
+                outerIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(Guid?)dataReader.GetGuid(0) }], 
+                selfIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)dataReader.IsDBNull(6) ? default(Guid?) : (Guid?)dataReader.GetGuid(6) }], 
+                parentIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]{ (left, right) => left == null ? right == null : right != null && (Guid)left == (Guid)right }], 
+                outerIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]{ (left, right) => left == null ? right == null : right != null && (Guid)left == (Guid)right }], 
+                selfIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]{ (left, right) => left == null ? right == null : right != null && (Guid)left == (Guid)right }], 
+                innerShaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+                {
+                    Query entity;
+                    entity = 
+                    {
+                        MaterializationContext materializationContext2;
+                        IEntityType entityType2;
+                        Query instance2;
+                        InternalEntityEntry entry2;
+                        bool hasNullKey2;
+                        materializationContext2 = new MaterializationContext(
+                            [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                            queryContext.Context
+                        );
+                        instance2 = default(Query);
+                        entry2 = queryContext.TryGetEntry(
+                            key: [LIFTABLE Constant: Key: Query.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Queries.Query").FindPrimaryKey()], 
+                            keyValues: new object[]{ dataReader.IsDBNull(6) ? default(object) : (object)dataReader.GetGuid(6) }, 
+                            throwOnNullKey: False, 
+                            hasNullKey: hasNullKey2);
+                        !(hasNullKey2) ? entry2 != default(InternalEntityEntry) ? 
+                        {
+                            entityType2 = entry2.EntityType;
+                            return instance2 = (Query)entry2.Entity;
+                        } : 
+                        {
+                            ISnapshot shadowSnapshot2;
+                            shadowSnapshot2 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                            entityType2 = [LIFTABLE Constant: EntityType: Query | Resolver: namelessParameter{6} => namelessParameter{6}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Queries.Query")];
+                            instance2 = switch (entityType2)
+                            {
+                                case [LIFTABLE Constant: EntityType: Query | Resolver: namelessParameter{7} => namelessParameter{7}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Queries.Query")]: 
+                                    {
+                                        return 
+                                        {
+                                            Query instance;
+                                            instance = new Query();
+                                            instance.<Id>k__BackingField = dataReader.IsDBNull(6) ? default(Guid) : dataReader.GetGuid(6);
+                                            instance.<ProfileId>k__BackingField = dataReader.IsDBNull(7) ? default(Guid) : dataReader.GetGuid(7);
+                                            instance.<ResultJson>k__BackingField = dataReader.IsDBNull(8) ? default(string) : dataReader.GetString(8);
+                                            instance.<SqlQuery>k__BackingField = dataReader.IsDBNull(9) ? default(string) : dataReader.GetString(9);
+                                            instance.<TimestampUtc>k__BackingField = dataReader.IsDBNull(10) ? default(DateTime) : dataReader.GetDateTime(10);
+                                            instance.<UserQuery>k__BackingField = dataReader.IsDBNull(11) ? default(string) : dataReader.GetString(11);
+                                            (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                                context: materializationContext2.Context, 
+                                                entity: instance, 
+                                                queryTrackingBehavior: TrackAll, 
+                                                structuralType: [LIFTABLE Constant: EntityType: Query | Resolver: namelessParameter{8} => namelessParameter{8}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Queries.Query")]) : default(void);
+                                            return instance;
+                                        }}
+                                default: 
+                                    default(Query)
+                            }
+                            ;
+                            entry2 = entityType2 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                                entityType: entityType2, 
+                                entity: instance2, 
+                                snapshot: shadowSnapshot2);
+                            return instance2;
+                        } : default(void);
+                        return instance2;
+                    };
+                    return entity;
+                }, 
+                inverseNavigation: [LIFTABLE Constant: Navigation: Query.Profile (Profile) ToPrincipal Profile Inverse: Queries | Resolver: namelessParameter{9} => namelessParameter{9}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Queries.Query").FindNavigation("Profile")], 
+                fixup: (namelessParameter{10}, namelessParameter{11}) => 
+                {
+                    [LIFTABLE Constant: ClrICollectionAccessor<Profile, List<Query>, Query> | Resolver: namelessParameter{12} => namelessParameter{12}.Dependencies.Model.FindEntityType("NaturalToQuery.Core.Contributers.Entities.Profiles.Profile").FindNavigation("Queries").GetCollectionAccessor()].Add(
+                        entity: namelessParameter{10}, 
+                        value: namelessParameter{11}, 
+                        forMaterialization: True);
+                    return namelessParameter{11}.<Profile>k__BackingField = namelessParameter{10};
+                }, 
+                trackingQuery: True);
+            return IsTrue(resultCoordinator.ResultReady)
+             ? (Profile)(resultContext.Values[0]) : default(Profile);
+        }, 
+        contextType: NaturalToQuery.Infrastructure.Persistence.ProfilesDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-08-30 05:00:03.162 +03:00 [DBG] Creating DbConnection.
+2025-08-30 05:00:03.173 +03:00 [DBG] Created DbConnection. (10ms).
+2025-08-30 05:00:03.175 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:03.193 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:03.195 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:03.200 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2025-08-30 05:00:03.203 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (7ms).
+2025-08-30 05:00:03.209 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:03.229 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:03.262 +03:00 [DBG] Context 'ProfilesDbContext' started tracking 'Profile' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-30 05:00:03.285 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:03.290 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 55ms reading results.
+2025-08-30 05:00:03.293 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:03.297 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (3ms).
+2025-08-30 05:00:03.311 +03:00 [DBG] Deleted secret profile-50fbb3fd-ddea-4f7e-a5d1-bb74bcb4f946 for profile "f8ddc42e-3263-4dd8-a6b5-691d13278325"
+2025-08-30 05:00:03.313 +03:00 [DBG] Deleted cache directory C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer for profile "f8ddc42e-3263-4dd8-a6b5-691d13278325"
+2025-08-30 05:00:03.322 +03:00 [DBG] An entity of type 'Profile' tracked by 'ProfilesDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-30 05:00:03.331 +03:00 [DBG] DetectChanges starting for 'ProfilesDbContext'.
+2025-08-30 05:00:03.344 +03:00 [DBG] DetectChanges completed for 'ProfilesDbContext'.
+2025-08-30 05:00:03.347 +03:00 [DBG] SaveChanges starting for 'ProfilesDbContext'.
+2025-08-30 05:00:03.349 +03:00 [DBG] DetectChanges starting for 'ProfilesDbContext'.
+2025-08-30 05:00:03.349 +03:00 [DBG] DetectChanges completed for 'ProfilesDbContext'.
+2025-08-30 05:00:03.389 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:03.391 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:03.393 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:03.394 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:03.395 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:03.396 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Profiles"
+WHERE "Id" = @p0
+RETURNING 1;
+2025-08-30 05:00:03.398 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Profiles"
+WHERE "Id" = @p0
+RETURNING 1;
+2025-08-30 05:00:03.410 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:03.411 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 11ms reading results.
+2025-08-30 05:00:03.412 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:03.413 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:03.417 +03:00 [DBG] An entity of type 'Profile' tracked by 'ProfilesDbContext' changed state from '"Deleted"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-30 05:00:03.419 +03:00 [DBG] SaveChanges completed for 'ProfilesDbContext' with 1 entities written to the database.
+2025-08-30 05:00:03.421 +03:00 [INF] Profile "f8ddc42e-3263-4dd8-a6b5-691d13278325" deleted successfully
+2025-08-30 05:00:03.424 +03:00 [INF] Executed endpoint 'HTTP: DELETE api/setup/profile/{id}'
+2025-08-30 05:00:03.425 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 05:00:03.426 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 05:00:03.429 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:03.431 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (2ms).
+2025-08-30 05:00:03.433 +03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7202/api/setup/profile/f8ddc42e-3263-4dd8-a6b5-691d13278325 - 200 null application/json; charset=utf-8 615.4271ms
+2025-08-30 05:00:05.571 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7202/api/setup/profile - application/json 185
+2025-08-30 05:00:05.574 +03:00 [DBG] 1 candidate(s) found for the request path '/api/setup/profile'
+2025-08-30 05:00:05.575 +03:00 [DBG] Request matched endpoint 'HTTP: POST api/setup/profile'
+2025-08-30 05:00:05.575 +03:00 [INF] Executing endpoint 'HTTP: POST api/setup/profile'
+2025-08-30 05:00:05.577 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 05:00:05.597 +03:00 [DBG] Connection id "0HNF7D3D762LT", Request id "0HNF7D3D762LT:00000008": started reading request body.
+2025-08-30 05:00:05.598 +03:00 [DBG] Connection id "0HNF7D3D762LT", Request id "0HNF7D3D762LT:00000008": done reading request body.
+2025-08-30 05:00:05.608 +03:00 [INF] Creating profile for provider "SqlServer"
+2025-08-30 05:00:05.610 +03:00 [INF] Creating connection (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=ProductInventory)
+2025-08-30 05:00:05.677 +03:00 [DBG] Connected to database for schema extraction (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=ProductInventory)
+2025-08-30 05:00:05.690 +03:00 [DBG] Saved secret profile-88f13218-68c7-45ee-8329-1ce7bb12e51f for provider "SqlServer"
+2025-08-30 05:00:05.692 +03:00 [DBG] Generated profile name SqlServer - ProductInventory with cache dir C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer
+2025-08-30 05:00:05.702 +03:00 [DBG] Compiling query expression: 
+'DbSet<Profile>()
+    .Any(p => (int)p.Provider == (int)__profile_Provider_0)'
+2025-08-30 05:00:05.707 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<bool>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Profiles AS p
+                WHERE p.Provider == @__profile_Provider_0)) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Profiles AS p
+                WHERE p.Provider == @__profile_Provider_0), 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            bool? value1;
+            value1 = dataReader.IsDBNull(0) ? default(bool?) : (bool?)dataReader.GetBoolean(0);
+            return (bool)value1;
+        }, 
+        contextType: NaturalToQuery.Infrastructure.Persistence.ProfilesDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-08-30 05:00:05.712 +03:00 [DBG] Creating DbConnection.
+2025-08-30 05:00:05.712 +03:00 [DBG] Created DbConnection. (0ms).
+2025-08-30 05:00:05.713 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:05.714 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:05.714 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:05.715 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:05.717 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2025-08-30 05:00:05.718 +03:00 [DBG] Executing DbCommand [Parameters=[@__profile_Provider_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Profiles" AS "p"
+    WHERE "p"."Provider" = @__profile_Provider_0)
+2025-08-30 05:00:05.720 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__profile_Provider_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Profiles" AS "p"
+    WHERE "p"."Provider" = @__profile_Provider_0)
+2025-08-30 05:00:05.721 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:05.722 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 1ms reading results.
+2025-08-30 05:00:05.723 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:05.724 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:05.738 +03:00 [DBG] 'ProfilesDbContext' generated a value for the property 'Profile.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-30 05:00:05.742 +03:00 [DBG] Context 'ProfilesDbContext' started tracking 'Profile' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-30 05:00:05.743 +03:00 [DBG] DetectChanges starting for 'ProfilesDbContext'.
+2025-08-30 05:00:05.744 +03:00 [DBG] DetectChanges completed for 'ProfilesDbContext'.
+2025-08-30 05:00:05.744 +03:00 [DBG] SaveChanges starting for 'ProfilesDbContext'.
+2025-08-30 05:00:05.745 +03:00 [DBG] DetectChanges starting for 'ProfilesDbContext'.
+2025-08-30 05:00:05.746 +03:00 [DBG] DetectChanges completed for 'ProfilesDbContext'.
+2025-08-30 05:00:05.751 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:05.752 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:05.753 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:05.753 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:05.754 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:05.755 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 49), @p2='?' (DbType = DateTimeOffset), @p3='?' (Size = 28), @p4='?' (DbType = Int32), @p5='?' (Size = 44)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Profiles" ("Id", "CacheFile", "CreatedUtc", "Name", "Provider", "SecretRef")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2025-08-30 05:00:05.760 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 49), @p2='?' (DbType = DateTimeOffset), @p3='?' (Size = 28), @p4='?' (DbType = Int32), @p5='?' (Size = 44)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Profiles" ("Id", "CacheFile", "CreatedUtc", "Name", "Provider", "SecretRef")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2025-08-30 05:00:05.761 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:05.762 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 0ms reading results.
+2025-08-30 05:00:05.763 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:05.764 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:05.765 +03:00 [DBG] An entity of type 'Profile' tracked by 'ProfilesDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-30 05:00:05.766 +03:00 [DBG] SaveChanges completed for 'ProfilesDbContext' with 1 entities written to the database.
+2025-08-30 05:00:05.767 +03:00 [INF] Profile created successfully with Id "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:05.771 +03:00 [INF] Executed endpoint 'HTTP: POST api/setup/profile'
+2025-08-30 05:00:05.771 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 05:00:05.772 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 05:00:05.773 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:05.774 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:05.775 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7202/api/setup/profile - 200 null application/json; charset=utf-8 203.7613ms
+2025-08-30 05:00:14.635 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/convert - application/json 73
+2025-08-30 05:00:14.638 +03:00 [DBG] 1 candidate(s) found for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/convert'
+2025-08-30 05:00:14.640 +03:00 [DBG] Endpoint 'HTTP: POST api/query/{profileId}/convert' with route pattern 'api/query/{profileId}/convert' is valid for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/convert'
+2025-08-30 05:00:14.641 +03:00 [DBG] Request matched endpoint 'HTTP: POST api/query/{profileId}/convert'
+2025-08-30 05:00:14.641 +03:00 [INF] Executing endpoint 'HTTP: POST api/query/{profileId}/convert'
+2025-08-30 05:00:14.643 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 05:00:14.645 +03:00 [INF] Groq API key configured for HttpClient
+2025-08-30 05:00:14.648 +03:00 [DBG] Connection id "0HNF7D3D762LT", Request id "0HNF7D3D762LT:00000009": started reading request body.
+2025-08-30 05:00:14.649 +03:00 [DBG] Connection id "0HNF7D3D762LT", Request id "0HNF7D3D762LT:00000009": done reading request body.
+2025-08-30 05:00:14.655 +03:00 [INF] Converting NL to SQL for profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:14.660 +03:00 [DBG] Creating DbConnection.
+2025-08-30 05:00:14.660 +03:00 [DBG] Created DbConnection. (0ms).
+2025-08-30 05:00:14.661 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:14.662 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:14.663 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:14.664 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:14.665 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:14.666 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:14.667 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:14.669 +03:00 [DBG] Context 'ProfilesDbContext' started tracking 'Profile' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-30 05:00:14.670 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:14.670 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 1ms reading results.
+2025-08-30 05:00:14.672 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:14.672 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:14.675 +03:00 [INF] Fetching connection string for profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:14.676 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:14.677 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:14.678 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:14.678 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:14.679 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:14.680 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:14.682 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:14.683 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:14.684 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 1ms reading results.
+2025-08-30 05:00:14.685 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:14.686 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:14.697 +03:00 [DBG] Fetched secret for profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:14.700 +03:00 [DBG] Fetching schema for Profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa", ForceRefresh=false
+2025-08-30 05:00:14.702 +03:00 [INF] Fetching schema for DESKTOP-QCK8UI5\SQLEXPRESS|ProductInventory (ForceRefresh=false)
+2025-08-30 05:00:14.706 +03:00 [INF] Creating connection (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=ProductInventory)
+2025-08-30 05:00:14.707 +03:00 [DBG] Connected to database for schema extraction (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=ProductInventory)
+2025-08-30 05:00:14.757 +03:00 [INF] Loaded 3 tables
+2025-08-30 05:00:14.939 +03:00 [INF] Schema loaded: 3 tables, 10 columns, 1 relations
+2025-08-30 05:00:19.190 +03:00 [DBG] Saved cache file C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer\SqlServer_schemas.json
+2025-08-30 05:00:19.195 +03:00 [INF] Cached schema for DESKTOP-QCK8UI5\SQLEXPRESS|ProductInventory to C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer\SqlServer_schemas.json
+2025-08-30 05:00:19.201 +03:00 [INF] Converting natural language to SQL. User query: Show me all products
+2025-08-30 05:00:19.205 +03:00 [DBG] Generated prompt with system message, 2 examples, and user query
+2025-08-30 05:00:19.207 +03:00 [DBG] Generated prompt with 6 messages
+2025-08-30 05:00:19.213 +03:00 [DBG] Request payload prepared for Groq API
+2025-08-30 05:00:20.355 +03:00 [INF] Groq API responded with status: "OK"
+2025-08-30 05:00:20.364 +03:00 [INF] Successfully converted natural language to SQL query
+2025-08-30 05:00:20.368 +03:00 [INF] Executed endpoint 'HTTP: POST api/query/{profileId}/convert'
+2025-08-30 05:00:20.369 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 05:00:20.371 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 05:00:20.373 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:20.374 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (1ms).
+2025-08-30 05:00:20.375 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/convert - 200 null application/json; charset=utf-8 5739.5787ms
+2025-08-30 05:00:38.025 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/execute - application/json 306
+2025-08-30 05:00:38.030 +03:00 [DBG] 1 candidate(s) found for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/execute'
+2025-08-30 05:00:38.032 +03:00 [DBG] Endpoint 'HTTP: POST api/query/{profileId}/execute' with route pattern 'api/query/{profileId}/execute' is valid for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/execute'
+2025-08-30 05:00:38.032 +03:00 [DBG] Request matched endpoint 'HTTP: POST api/query/{profileId}/execute'
+2025-08-30 05:00:38.033 +03:00 [INF] Executing endpoint 'HTTP: POST api/query/{profileId}/execute'
+2025-08-30 05:00:38.034 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 05:00:38.036 +03:00 [INF] Groq API key configured for HttpClient
+2025-08-30 05:00:38.045 +03:00 [DBG] Connection id "0HNF7D3D762LT", Request id "0HNF7D3D762LT:0000000A": started reading request body.
+2025-08-30 05:00:38.046 +03:00 [DBG] Connection id "0HNF7D3D762LT", Request id "0HNF7D3D762LT:0000000A": done reading request body.
+2025-08-30 05:00:38.052 +03:00 [DBG] Creating DbConnection.
+2025-08-30 05:00:38.053 +03:00 [DBG] Created DbConnection. (0ms).
+2025-08-30 05:00:38.054 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:38.055 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:38.056 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:38.057 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:38.058 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:38.059 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:38.060 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:38.062 +03:00 [DBG] Context 'ProfilesDbContext' started tracking 'Profile' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-30 05:00:38.063 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:38.064 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 2ms reading results.
+2025-08-30 05:00:38.065 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:38.066 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (1ms).
+2025-08-30 05:00:38.067 +03:00 [INF] Fetching connection string for profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:38.068 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:38.069 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:38.070 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:38.070 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:38.071 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:38.072 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:38.073 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:38.075 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:38.076 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 0ms reading results.
+2025-08-30 05:00:38.077 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:38.077 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:38.079 +03:00 [DBG] Fetched secret for profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:38.079 +03:00 [INF] Executing SQL for Profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa", Mode="ReadOnly"
+2025-08-30 05:00:38.087 +03:00 [INF] Executing SQL on DESKTOP-QCK8UI5\SQLEXPRESS/ProductInventory (Mode="ReadOnly")
+2025-08-30 05:00:38.088 +03:00 [DBG] SQL: SELECT P.Id, P.Name, P.Price, P.StockQuantity, P.CategoryId, C.Name AS CategoryName FROM Products P INNER JOIN Categories C ON P.CategoryId = C.Id;
+2025-08-30 05:00:38.089 +03:00 [INF] Creating connection (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=ProductInventory)
+2025-08-30 05:00:38.090 +03:00 [DBG] Connection opened to DESKTOP-QCK8UI5\SQLEXPRESS
+2025-08-30 05:00:38.103 +03:00 [INF] Query execution finished in 13 ms, returned 1 rows
+2025-08-30 05:00:38.105 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:38.106 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:38.107 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:38.107 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:38.108 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:38.109 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:38.110 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:38.111 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:38.112 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 1ms reading results.
+2025-08-30 05:00:38.113 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:38.114 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:38.127 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:38.128 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:38.129 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:38.129 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:38.130 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:38.131 +03:00 [DBG] Executing DbCommand [Parameters=[@__profile_Provider_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Profiles" AS "p"
+    WHERE "p"."Provider" = @__profile_Provider_0)
+2025-08-30 05:00:38.132 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__profile_Provider_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Profiles" AS "p"
+    WHERE "p"."Provider" = @__profile_Provider_0)
+2025-08-30 05:00:38.134 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:38.135 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 0ms reading results.
+2025-08-30 05:00:38.136 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:38.136 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:38.177 +03:00 [ERR] Failed to persist query to DB for userQuery=Show me all products: A profile for SqlServer already exists.
+2025-08-30 05:00:38.179 +03:00 [INF] Executed endpoint 'HTTP: POST api/query/{profileId}/execute'
+2025-08-30 05:00:38.180 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 05:00:38.181 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 05:00:38.182 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:38.182 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:38.184 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/execute - 200 null application/json; charset=utf-8 158.4306ms
+2025-08-30 05:00:45.801 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/databases - null null
+2025-08-30 05:00:45.804 +03:00 [DBG] 1 candidate(s) found for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/databases'
+2025-08-30 05:00:45.805 +03:00 [DBG] Endpoint 'HTTP: GET api/query/{profileId}/databases' with route pattern 'api/query/{profileId}/databases' is valid for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/databases'
+2025-08-30 05:00:45.806 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/query/{profileId}/databases'
+2025-08-30 05:00:45.806 +03:00 [INF] Executing endpoint 'HTTP: GET api/query/{profileId}/databases'
+2025-08-30 05:00:45.807 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 05:00:45.811 +03:00 [DBG] Creating DbConnection.
+2025-08-30 05:00:45.812 +03:00 [DBG] Created DbConnection. (0ms).
+2025-08-30 05:00:45.813 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:45.814 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:45.815 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:45.815 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:45.816 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:45.817 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:45.818 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:45.820 +03:00 [DBG] Context 'ProfilesDbContext' started tracking 'Profile' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-30 05:00:45.821 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:45.822 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 1ms reading results.
+2025-08-30 05:00:45.823 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:45.824 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:45.825 +03:00 [INF] Fetching connection string for profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:45.826 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:45.826 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:45.827 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:45.828 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:45.829 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:45.830 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:45.831 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:45.833 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:45.834 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 0ms reading results.
+2025-08-30 05:00:45.835 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:45.835 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:45.837 +03:00 [DBG] Fetched secret for profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:45.838 +03:00 [DBG] Fetching databases for Profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:45.838 +03:00 [INF] Fetching databases for server DESKTOP-QCK8UI5\SQLEXPRESS
+2025-08-30 05:00:45.839 +03:00 [INF] Creating connection (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=ProductInventory)
+2025-08-30 05:00:45.840 +03:00 [DBG] Connected to server DESKTOP-QCK8UI5\SQLEXPRESS
+2025-08-30 05:00:46.187 +03:00 [INF] Found 8 databases on DESKTOP-QCK8UI5\SQLEXPRESS
+2025-08-30 05:00:46.188 +03:00 [INF] Executed endpoint 'HTTP: GET api/query/{profileId}/databases'
+2025-08-30 05:00:46.189 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 05:00:46.190 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 05:00:46.191 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:46.192 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:46.193 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/databases - 200 null application/json; charset=utf-8 391.7737ms
+2025-08-30 05:00:51.171 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=true - null null
+2025-08-30 05:00:51.173 +03:00 [DBG] 1 candidate(s) found for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:51.174 +03:00 [DBG] Endpoint 'HTTP: GET api/query/{profileId}/schema' with route pattern 'api/query/{profileId}/schema' is valid for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:51.175 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:51.176 +03:00 [INF] Executing endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:51.177 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 05:00:51.186 +03:00 [DBG] Creating DbConnection.
+2025-08-30 05:00:51.187 +03:00 [DBG] Created DbConnection. (0ms).
+2025-08-30 05:00:51.187 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:51.188 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:51.189 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:51.190 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:51.191 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:51.192 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:51.193 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:51.194 +03:00 [DBG] Context 'ProfilesDbContext' started tracking 'Profile' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-30 05:00:51.195 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:51.196 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 1ms reading results.
+2025-08-30 05:00:51.197 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:51.198 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:51.199 +03:00 [INF] Fetching connection string for profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:51.200 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:51.200 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:51.201 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:51.202 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:51.203 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:51.204 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:51.205 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:51.207 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:51.207 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 0ms reading results.
+2025-08-30 05:00:51.208 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:51.209 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:51.210 +03:00 [DBG] Fetched secret for profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:51.211 +03:00 [DBG] Fetching schema for Profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa", ForceRefresh=true
+2025-08-30 05:00:51.212 +03:00 [INF] Fetching schema for DESKTOP-QCK8UI5\SQLEXPRESS|ProductInventory (ForceRefresh=true)
+2025-08-30 05:00:51.213 +03:00 [INF] Creating connection (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=ProductInventory)
+2025-08-30 05:00:51.214 +03:00 [DBG] Connected to database for schema extraction (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=ProductInventory)
+2025-08-30 05:00:51.217 +03:00 [INF] Loaded 3 tables
+2025-08-30 05:00:51.223 +03:00 [INF] Schema loaded: 3 tables, 10 columns, 1 relations
+2025-08-30 05:00:51.249 +03:00 [DBG] Saved cache file C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer\SqlServer_schemas.json
+2025-08-30 05:00:51.250 +03:00 [INF] Cached schema for DESKTOP-QCK8UI5\SQLEXPRESS|ProductInventory to C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer\SqlServer_schemas.json
+2025-08-30 05:00:51.254 +03:00 [INF] Executed endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:51.255 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 05:00:51.255 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 05:00:51.256 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:51.257 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:51.258 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=true - 200 null application/json; charset=utf-8 86.7449ms
+2025-08-30 05:00:51.922 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=true - null null
+2025-08-30 05:00:51.926 +03:00 [DBG] 1 candidate(s) found for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:51.927 +03:00 [DBG] Endpoint 'HTTP: GET api/query/{profileId}/schema' with route pattern 'api/query/{profileId}/schema' is valid for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:51.928 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:51.929 +03:00 [INF] Executing endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:51.930 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 05:00:51.931 +03:00 [DBG] Creating DbConnection.
+2025-08-30 05:00:51.932 +03:00 [DBG] Created DbConnection. (0ms).
+2025-08-30 05:00:51.932 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:51.933 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:51.934 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:51.935 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:51.936 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:51.937 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:51.938 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:51.939 +03:00 [DBG] Context 'ProfilesDbContext' started tracking 'Profile' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-30 05:00:51.940 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:51.941 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 2ms reading results.
+2025-08-30 05:00:51.942 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:51.943 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:51.945 +03:00 [INF] Fetching connection string for profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:51.945 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:51.947 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:51.947 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:51.948 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:51.949 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:51.950 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:51.952 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:51.953 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:51.954 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 0ms reading results.
+2025-08-30 05:00:51.955 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:51.956 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:51.957 +03:00 [DBG] Fetched secret for profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:51.958 +03:00 [DBG] Fetching schema for Profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa", ForceRefresh=true
+2025-08-30 05:00:51.959 +03:00 [INF] Fetching schema for DESKTOP-QCK8UI5\SQLEXPRESS|ProductInventory (ForceRefresh=true)
+2025-08-30 05:00:51.960 +03:00 [INF] Creating connection (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=ProductInventory)
+2025-08-30 05:00:51.961 +03:00 [DBG] Connected to database for schema extraction (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=ProductInventory)
+2025-08-30 05:00:51.964 +03:00 [INF] Loaded 3 tables
+2025-08-30 05:00:51.969 +03:00 [INF] Schema loaded: 3 tables, 10 columns, 1 relations
+2025-08-30 05:00:51.974 +03:00 [DBG] Saved cache file C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer\SqlServer_schemas.json
+2025-08-30 05:00:51.975 +03:00 [INF] Cached schema for DESKTOP-QCK8UI5\SQLEXPRESS|ProductInventory to C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer\SqlServer_schemas.json
+2025-08-30 05:00:51.976 +03:00 [INF] Executed endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:51.977 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 05:00:51.978 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 05:00:51.978 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:51.979 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:51.980 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=true - 200 null application/json; charset=utf-8 57.509ms
+2025-08-30 05:00:52.619 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=true - null null
+2025-08-30 05:00:52.622 +03:00 [DBG] 1 candidate(s) found for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:52.623 +03:00 [DBG] Endpoint 'HTTP: GET api/query/{profileId}/schema' with route pattern 'api/query/{profileId}/schema' is valid for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:52.624 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:52.625 +03:00 [INF] Executing endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:52.626 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 05:00:52.628 +03:00 [DBG] Creating DbConnection.
+2025-08-30 05:00:52.629 +03:00 [DBG] Created DbConnection. (0ms).
+2025-08-30 05:00:52.629 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:52.630 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:52.631 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:52.632 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:52.633 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:52.633 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:52.635 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:52.636 +03:00 [DBG] Context 'ProfilesDbContext' started tracking 'Profile' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-30 05:00:52.637 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:52.638 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 1ms reading results.
+2025-08-30 05:00:52.639 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:52.640 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:52.641 +03:00 [INF] Fetching connection string for profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:52.642 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:52.643 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:52.644 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:52.644 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:52.645 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:52.646 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:52.647 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:52.649 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:52.649 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 0ms reading results.
+2025-08-30 05:00:52.650 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:52.651 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:52.653 +03:00 [DBG] Fetched secret for profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:52.653 +03:00 [DBG] Fetching schema for Profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa", ForceRefresh=true
+2025-08-30 05:00:52.654 +03:00 [INF] Fetching schema for DESKTOP-QCK8UI5\SQLEXPRESS|ProductInventory (ForceRefresh=true)
+2025-08-30 05:00:52.655 +03:00 [INF] Creating connection (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=ProductInventory)
+2025-08-30 05:00:52.656 +03:00 [DBG] Connected to database for schema extraction (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=ProductInventory)
+2025-08-30 05:00:52.659 +03:00 [INF] Loaded 3 tables
+2025-08-30 05:00:52.664 +03:00 [INF] Schema loaded: 3 tables, 10 columns, 1 relations
+2025-08-30 05:00:52.668 +03:00 [DBG] Saved cache file C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer\SqlServer_schemas.json
+2025-08-30 05:00:52.669 +03:00 [INF] Cached schema for DESKTOP-QCK8UI5\SQLEXPRESS|ProductInventory to C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer\SqlServer_schemas.json
+2025-08-30 05:00:52.669 +03:00 [INF] Executed endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:52.670 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 05:00:52.671 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 05:00:52.672 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:52.673 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:52.674 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=true - 200 null application/json; charset=utf-8 54.7855ms
+2025-08-30 05:00:53.347 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=true - null null
+2025-08-30 05:00:53.349 +03:00 [DBG] 1 candidate(s) found for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:53.350 +03:00 [DBG] Endpoint 'HTTP: GET api/query/{profileId}/schema' with route pattern 'api/query/{profileId}/schema' is valid for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:53.352 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:53.353 +03:00 [INF] Executing endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:53.354 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 05:00:53.356 +03:00 [DBG] Creating DbConnection.
+2025-08-30 05:00:53.357 +03:00 [DBG] Created DbConnection. (0ms).
+2025-08-30 05:00:53.357 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:53.358 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:53.359 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:53.360 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:53.361 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:53.362 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:53.363 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:53.365 +03:00 [DBG] Context 'ProfilesDbContext' started tracking 'Profile' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-08-30 05:00:53.366 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:53.367 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 2ms reading results.
+2025-08-30 05:00:53.368 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:53.369 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:53.370 +03:00 [INF] Fetching connection string for profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:53.371 +03:00 [DBG] Opening connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:53.373 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:53.373 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-30 05:00:53.374 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-08-30 05:00:53.375 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-08-30 05:00:53.376 +03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:53.378 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p0"."Id", "p0"."CacheFile", "p0"."CreatedUtc", "p0"."Name", "p0"."Provider", "p0"."SecretRef", "q"."Id", "q"."ProfileId", "q"."ResultJson", "q"."SqlQuery", "q"."TimestampUtc", "q"."UserQuery"
+FROM (
+    SELECT "p"."Id", "p"."CacheFile", "p"."CreatedUtc", "p"."Name", "p"."Provider", "p"."SecretRef"
+    FROM "Profiles" AS "p"
+    WHERE "p"."Id" = @__id_0
+    LIMIT 1
+) AS "p0"
+LEFT JOIN "Queries" AS "q" ON "p0"."Id" = "q"."ProfileId"
+ORDER BY "p0"."Id"
+2025-08-30 05:00:53.379 +03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:53.380 +03:00 [DBG] A data reader for 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db' is being disposed after spending 1ms reading results.
+2025-08-30 05:00:53.381 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Zyad\Documents\NaturalToSql\NaturalToSql\schema_cache.db'.
+2025-08-30 05:00:53.382 +03:00 [DBG] Closed connection to database 'main' on server 'schema_cache.db' (0ms).
+2025-08-30 05:00:53.384 +03:00 [DBG] Fetched secret for profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa"
+2025-08-30 05:00:53.385 +03:00 [DBG] Fetching schema for Profile "3d0cdaa1-a28f-48b0-a256-e9e404e13caa", ForceRefresh=true
+2025-08-30 05:00:53.385 +03:00 [INF] Fetching schema for DESKTOP-QCK8UI5\SQLEXPRESS|ProductInventory (ForceRefresh=true)
+2025-08-30 05:00:53.386 +03:00 [INF] Creating connection (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=ProductInventory)
+2025-08-30 05:00:53.387 +03:00 [DBG] Connected to database for schema extraction (Server=DESKTOP-QCK8UI5\SQLEXPRESS, Database=ProductInventory)
+2025-08-30 05:00:53.391 +03:00 [INF] Loaded 3 tables
+2025-08-30 05:00:53.396 +03:00 [INF] Schema loaded: 3 tables, 10 columns, 1 relations
+2025-08-30 05:00:53.400 +03:00 [DBG] Saved cache file C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer\SqlServer_schemas.json
+2025-08-30 05:00:53.401 +03:00 [INF] Cached schema for DESKTOP-QCK8UI5\SQLEXPRESS|ProductInventory to C:\Users\Zyad\AppData\Local\MicroSqlRag\SqlServer\SqlServer_schemas.json
+2025-08-30 05:00:53.402 +03:00 [INF] Executed endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:53.403 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 05:00:53.404 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 05:00:53.405 +03:00 [DBG] Disposing connection to database 'main' on server 'schema_cache.db'.
+2025-08-30 05:00:53.406 +03:00 [DBG] Disposed connection to database 'main' on server 'schema_cache.db' (1ms).
+2025-08-30 05:00:53.407 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=true - 200 null application/json; charset=utf-8 60.4761ms
+2025-08-30 05:00:57.441 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=false - null null
+2025-08-30 05:00:57.445 +03:00 [DBG] 1 candidate(s) found for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:57.446 +03:00 [DBG] Endpoint 'HTTP: GET api/query/{profileId}/schema' with route pattern 'api/query/{profileId}/schema' is valid for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:57.447 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:57.448 +03:00 [INF] Executing endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:57.450 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 05:00:57.452 +03:00 [INF] Executed endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:57.453 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 05:00:57.453 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 05:00:57.454 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=false - 200 null application/json; charset=utf-8 13.0526ms
+2025-08-30 05:00:58.223 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=false - null null
+2025-08-30 05:00:58.225 +03:00 [DBG] 1 candidate(s) found for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:58.226 +03:00 [DBG] Endpoint 'HTTP: GET api/query/{profileId}/schema' with route pattern 'api/query/{profileId}/schema' is valid for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:58.227 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:58.228 +03:00 [INF] Executing endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:58.229 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 05:00:58.231 +03:00 [INF] Executed endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:58.232 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 05:00:58.233 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 05:00:58.233 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=false - 200 null application/json; charset=utf-8 10.8776ms
+2025-08-30 05:00:58.782 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=false - null null
+2025-08-30 05:00:58.784 +03:00 [DBG] 1 candidate(s) found for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:58.785 +03:00 [DBG] Endpoint 'HTTP: GET api/query/{profileId}/schema' with route pattern 'api/query/{profileId}/schema' is valid for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:58.786 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:58.787 +03:00 [INF] Executing endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:58.788 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 05:00:58.789 +03:00 [INF] Executed endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:58.790 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 05:00:58.791 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 05:00:58.792 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=false - 200 null application/json; charset=utf-8 10.042ms
+2025-08-30 05:00:59.181 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=false - null null
+2025-08-30 05:00:59.183 +03:00 [DBG] 1 candidate(s) found for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:59.184 +03:00 [DBG] Endpoint 'HTTP: GET api/query/{profileId}/schema' with route pattern 'api/query/{profileId}/schema' is valid for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:59.185 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:59.186 +03:00 [INF] Executing endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:59.187 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 05:00:59.188 +03:00 [INF] Executed endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:59.189 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 05:00:59.190 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 05:00:59.191 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=false - 200 null application/json; charset=utf-8 10.2292ms
+2025-08-30 05:00:59.842 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=false - null null
+2025-08-30 05:00:59.844 +03:00 [DBG] 1 candidate(s) found for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:59.845 +03:00 [DBG] Endpoint 'HTTP: GET api/query/{profileId}/schema' with route pattern 'api/query/{profileId}/schema' is valid for the request path '/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema'
+2025-08-30 05:00:59.846 +03:00 [DBG] Request matched endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:59.846 +03:00 [INF] Executing endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:59.848 +03:00 [DBG] Entity Framework Core 9.0.8 initialized 'ProfilesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.8' with options: None
+2025-08-30 05:00:59.849 +03:00 [INF] Executed endpoint 'HTTP: GET api/query/{profileId}/schema'
+2025-08-30 05:00:59.850 +03:00 [DBG] Connection id "0HNF7D3D762LT" completed keep alive response.
+2025-08-30 05:00:59.851 +03:00 [DBG] 'ProfilesDbContext' disposed.
+2025-08-30 05:00:59.852 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7202/api/query/3d0cdaa1-a28f-48b0-a256-e9e404e13caa/schema?forceRefresh=false - 200 null application/json; charset=utf-8 10.1688ms
+2025-08-30 06:31:17.854 +03:00 [INF] This is a test log to file!
+2025-08-30 06:31:18.098 +03:00 [INF] Shared Kernal configured successfully.
+2025-08-30 06:31:18.106 +03:00 [INF] API configured successfully.
+2025-08-30 06:31:18.266 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
