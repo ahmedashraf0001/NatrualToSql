@@ -228,6 +228,56 @@ POST /api/query/{profileId}/convert
 }
 ```
 
+#### Complex Query Example
+
+**Natural Language Input:**
+> "Show me the top 5 customers by total order value in 2024, including their contact information and the number of orders they placed, but only for customers who have placed more than 3 orders"
+
+**Request:**
+```json
+{
+  "profileId": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+  "query": "Show me the top 5 customers by total order value in 2024, including their contact information and the number of orders they placed, but only for customers who have placed more than 3 orders",
+  "allowWriteOperations": false
+}
+```
+
+**Response:**
+```json
+{
+  "sql": "SELECT TOP 5 c.CustomerId, c.CustomerName, c.Email, c.Phone, COUNT(o.OrderId) AS OrderCount, SUM(o.TotalAmount) AS TotalOrderValue FROM Customers c INNER JOIN Orders o ON c.CustomerId = o.CustomerId WHERE YEAR(o.OrderDate) = @year GROUP BY c.CustomerId, c.CustomerName, c.Email, c.Phone HAVING COUNT(o.OrderId) > @minOrders ORDER BY SUM(o.TotalAmount) DESC",
+  "intent": "AGGREGATE+JOIN+FILTER+GROUP_BY+HAVING+ORDER_BY",
+  "intent_components": ["SELECT", "JOIN", "WHERE", "GROUP_BY", "HAVING", "ORDER_BY", "AGGREGATE"],
+  "tables": ["Customers", "Orders"],
+  "columns": [
+    "Customers.CustomerId", 
+    "Customers.CustomerName", 
+    "Customers.Email", 
+    "Customers.Phone",
+    "Orders.CustomerId",
+    "Orders.OrderId", 
+    "Orders.TotalAmount", 
+    "Orders.OrderDate"
+  ],
+  "parameters": [
+    {
+      "name": "@year",
+      "value": "2024",
+      "source_text": "2024"
+    },
+    {
+      "name": "@minOrders",
+      "value": "3",
+      "source_text": "more than 3 orders"
+    }
+  ],
+  "confidence": 92,
+  "safe": true,
+  "issues": [],
+  "explanation": "Complex query with JOIN between Customers and Orders tables, filtering by year 2024, grouping by customer details, applying HAVING clause for order count > 3, and ordering by total order value descending with TOP 5 limit."
+}
+```
+
 #### Execute SQL Query
 ```http
 POST /api/query/{profileId}/execute
