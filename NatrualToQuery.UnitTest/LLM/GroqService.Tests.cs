@@ -26,10 +26,10 @@ namespace NatrualToQuery.UnitTest.LLM
     {
         private readonly Mock<IAppLogger<LLMService>> _loggerMock = new();
 
-        private LLMService CreateService(HttpResponseMessage responseMessage, LLMOptions _options = null)
+        private LLMService CreateService(HttpResponseMessage responseMessage, LLMOptions? _options = null)
         {
             var handlerMock = new Mock<HttpMessageHandler>(MockBehavior.Strict);
-            var user = new Mock<UserInfo>();
+            var user = UserInfo.Create("test-api-key", NaturalToQuery.SharedKernal.DTOs.Domain.AIMode.Groq);
             handlerMock.Protected()
                 .Setup<Task<HttpResponseMessage>>(
                     "SendAsync",
@@ -50,7 +50,7 @@ namespace NatrualToQuery.UnitTest.LLM
             };
 
             var opts = Options.Create(_opts);
-            return new LLMService(user.Object, opts, _loggerMock.Object, httpClient);
+            return new LLMService(user, opts, _loggerMock.Object, httpClient);
         }
         [Fact]
         public void GroqService_ThrowsGroqServiceException_OnNullApi()
@@ -66,7 +66,7 @@ namespace NatrualToQuery.UnitTest.LLM
             //assert
             var ex = Assert.Throws<LLMServiceException>(() => CreateService(response, options));
 
-            Assert.Equal("No Groq API key provided", ex.Message);
+            Assert.Equal("No System Prompts Provided", ex.Message);
         }
         [Fact]
         public void GroqService_ThrowsGroqServiceException_OnNullSystemPrompt()
@@ -130,7 +130,7 @@ namespace NatrualToQuery.UnitTest.LLM
             var ex = await Assert.ThrowsAsync<LLMServiceException>(() =>
                 service.ConvertToSqlAsync("{}", "query", ExecutionMode.ReadOnly));
 
-            Assert.Equal("Failed to deserialize Groq API response", ex.Message);
+            Assert.Equal("Failed to deserialize LLM API response", ex.Message);
         }
         [Fact]
         public async Task GroqService_ThrowsGroqServiceException_NoResponse()
@@ -147,7 +147,7 @@ namespace NatrualToQuery.UnitTest.LLM
             var ex = await Assert.ThrowsAsync<LLMServiceException>(() =>
                 service.ConvertToSqlAsync("{}", "query", ExecutionMode.ReadOnly));
 
-            Assert.Equal("Failed to deserialize Groq API response", ex.Message);
+            Assert.Equal("Failed to deserialize LLM API response", ex.Message);
         }
         [Fact]
         public async Task GroqService_ThrowsGroqServiceException_NonSuccessfulResponse()
@@ -202,7 +202,7 @@ namespace NatrualToQuery.UnitTest.LLM
             var ex = await Assert.ThrowsAsync<LLMServiceException>(() =>
                 service.ConvertToSqlAsync("{}", "query", ExecutionMode.ReadOnly));
 
-            Assert.Equal("Groq API response contained no choices", ex.Message);
+            Assert.Equal("Received empty or null content from LLM provider", ex.Message);
         }
 
     }

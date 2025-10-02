@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Zyad\\Documents\\NaturalToSql\\NaturalToSql\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2F57D9-4E8A-43B7-BDF9-C0E0FD8F7E1D}|NatrualToQuery.UnitTest\\NatrualToQuery.UnitTest.csproj|c:\\users\\zyad\\documents\\naturaltosql\\naturaltosql\\natrualtoquery.unittest\\integration\\queryorchestrationintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2F57D9-4E8A-43B7-BDF9-C0E0FD8F7E1D}|NatrualToQuery.UnitTest\\NatrualToQuery.UnitTest.csproj|solutionrelative:natrualtoquery.unittest\\integration\\queryorchestrationintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2F57D9-4E8A-43B7-BDF9-C0E0FD8F7E1D}|NatrualToQuery.UnitTest\\NatrualToQuery.UnitTest.csproj|c:\\users\\zyad\\documents\\naturaltosql\\naturaltosql\\natrualtoquery.unittest\\infrastructure\\llm\\llmservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2F57D9-4E8A-43B7-BDF9-C0E0FD8F7E1D}|NatrualToQuery.UnitTest\\NatrualToQuery.UnitTest.csproj|solutionrelative:natrualtoquery.unittest\\infrastructure\\llm\\llmservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2F57D9-4E8A-43B7-BDF9-C0E0FD8F7E1D}|NatrualToQuery.UnitTest\\NatrualToQuery.UnitTest.csproj|c:\\users\\zyad\\documents\\naturaltosql\\naturaltosql\\natrualtoquery.unittest\\infrastructure\\cache\\providercachetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2F57D9-4E8A-43B7-BDF9-C0E0FD8F7E1D}|NatrualToQuery.UnitTest\\NatrualToQuery.UnitTest.csproj|solutionrelative:natrualtoquery.unittest\\infrastructure\\cache\\providercachetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2F57D9-4E8A-43B7-BDF9-C0E0FD8F7E1D}|NatrualToQuery.UnitTest\\NatrualToQuery.UnitTest.csproj|c:\\users\\zyad\\documents\\naturaltosql\\naturaltosql\\natrualtoquery.unittest\\cache\\providercache.tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2F57D9-4E8A-43B7-BDF9-C0E0FD8F7E1D}|NatrualToQuery.UnitTest\\NatrualToQuery.UnitTest.csproj|solutionrelative:natrualtoquery.unittest\\cache\\providercache.tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QueryOrchestrationIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\Zyad\\Documents\\NaturalToSql\\NaturalToSql\\NatrualToQuery.UnitTest\\Integration\\QueryOrchestrationIntegrationTests.cs",
+              "RelativeDocumentMoniker": "NatrualToQuery.UnitTest\\Integration\\QueryOrchestrationIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\Zyad\\Documents\\NaturalToSql\\NaturalToSql\\NatrualToQuery.UnitTest\\Integration\\QueryOrchestrationIntegrationTests.cs",
+              "RelativeToolTip": "NatrualToQuery.UnitTest\\Integration\\QueryOrchestrationIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T08:32:34.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LLMServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Zyad\\Documents\\NaturalToSql\\NaturalToSql\\NatrualToQuery.UnitTest\\Infrastructure\\LLM\\LLMServiceTests.cs",
+              "RelativeDocumentMoniker": "NatrualToQuery.UnitTest\\Infrastructure\\LLM\\LLMServiceTests.cs",
+              "ToolTip": "C:\\Users\\Zyad\\Documents\\NaturalToSql\\NaturalToSql\\NatrualToQuery.UnitTest\\Infrastructure\\LLM\\LLMServiceTests.cs",
+              "RelativeToolTip": "NatrualToQuery.UnitTest\\Infrastructure\\LLM\\LLMServiceTests.cs",
+              "ViewState": "AgIAADQBAAAAAAAAAAAcwEQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T08:32:18.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProviderCacheTests.cs",
+              "DocumentMoniker": "C:\\Users\\Zyad\\Documents\\NaturalToSql\\NaturalToSql\\NatrualToQuery.UnitTest\\Infrastructure\\Cache\\ProviderCacheTests.cs",
+              "RelativeDocumentMoniker": "NatrualToQuery.UnitTest\\Infrastructure\\Cache\\ProviderCacheTests.cs",
+              "ToolTip": "C:\\Users\\Zyad\\Documents\\NaturalToSql\\NaturalToSql\\NatrualToQuery.UnitTest\\Infrastructure\\Cache\\ProviderCacheTests.cs",
+              "RelativeToolTip": "NatrualToQuery.UnitTest\\Infrastructure\\Cache\\ProviderCacheTests.cs",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAmwE8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T08:32:10.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProviderCache.Tests.cs",
+              "DocumentMoniker": "C:\\Users\\Zyad\\Documents\\NaturalToSql\\NaturalToSql\\NatrualToQuery.UnitTest\\Cache\\ProviderCache.Tests.cs",
+              "RelativeDocumentMoniker": "NatrualToQuery.UnitTest\\Cache\\ProviderCache.Tests.cs",
+              "ToolTip": "C:\\Users\\Zyad\\Documents\\NaturalToSql\\NaturalToSql\\NatrualToQuery.UnitTest\\Cache\\ProviderCache.Tests.cs",
+              "RelativeToolTip": "NatrualToQuery.UnitTest\\Cache\\ProviderCache.Tests.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T05:51:33.269Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

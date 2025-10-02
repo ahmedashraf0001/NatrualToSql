@@ -67,7 +67,10 @@ public class ProfileRepository : IProfileRepository
 
     public async Task<IReadOnlyList<Profile>> ListAllAsync(CancellationToken ct = default)
     {
-        var list = await _dbSet.Include(e => e.Queries).AsNoTracking().ToListAsync(ct);
+        var list = await _dbSet.Include(e => e.Queries)
+            .AsNoTracking()
+            .OrderByDescending(p => p.CreatedUtc)
+            .ToListAsync(ct);
         return list;
     }
 

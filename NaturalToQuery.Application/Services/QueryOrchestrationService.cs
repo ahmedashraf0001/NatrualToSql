@@ -35,13 +35,14 @@ namespace NaturalToQuery.Application.Services
                 throw new ArgumentException("User Id cannot be empty.", nameof(UserId));
 
             var user = await userInfoRepository.GetByIdAsync(UserId, ct);
-            var schema = await dbService.GetSchemaAsync(profileId);
-
+            
             if(user == null)
             {
                 _logger.LogError("No user found for UserId {UserId}", UserId);
                 throw new InvalidOperationException($"User with ID {UserId} was not found.");
             }
+
+            var schema = await dbService.GetSchemaAsync(profileId);
             if (schema == null)
             {
                 _logger.LogError("No schema returned for profile {ProfileId}", profileId);

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NaturalToQuery.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d81d21a3d2ca56901cc539a7e5d089ed3b2a2fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("NaturalToQuery.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NaturalToQuery.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

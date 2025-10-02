@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Zyad\\Documents\\NaturalToSql\\NaturalToSql\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2F57D9-4E8A-43B7-BDF9-C0E0FD8F7E1D}|NatrualToQuery.UnitTest\\NatrualToQuery.UnitTest.csproj|c:\\users\\zyad\\documents\\naturaltosql\\naturaltosql\\natrualtoquery.unittest\\cache\\providercache.tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2F57D9-4E8A-43B7-BDF9-C0E0FD8F7E1D}|NatrualToQuery.UnitTest\\NatrualToQuery.UnitTest.csproj|solutionrelative:natrualtoquery.unittest\\cache\\providercache.tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProviderCache.Tests.cs",
+              "DocumentMoniker": "C:\\Users\\Zyad\\Documents\\NaturalToSql\\NaturalToSql\\NatrualToQuery.UnitTest\\Cache\\ProviderCache.Tests.cs",
+              "RelativeDocumentMoniker": "NatrualToQuery.UnitTest\\Cache\\ProviderCache.Tests.cs",
+              "ToolTip": "C:\\Users\\Zyad\\Documents\\NaturalToSql\\NaturalToSql\\NatrualToQuery.UnitTest\\Cache\\ProviderCache.Tests.cs",
+              "RelativeToolTip": "NatrualToQuery.UnitTest\\Cache\\ProviderCache.Tests.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T05:51:33.269Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
