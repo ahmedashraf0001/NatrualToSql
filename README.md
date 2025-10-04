@@ -1,4 +1,4 @@
-# NaturalToSQL 🚀
+# NaturalToSQL 
 
 [![.NET 9.0](https://img.shields.io/badge/.NET-9.0-blue.svg)](https://dotnet.microsoft.com/download/dotnet/9.0)
 [![React 19](https://img.shields.io/badge/React-19-61dafb.svg)](https://reactjs.org/)
@@ -9,7 +9,7 @@
 
 NaturalToSQL is a comprehensive desktop application that leverages advanced AI models to convert natural language queries into precise SQL statements. Built with modern .NET architecture and featuring both web and desktop interfaces, it provides seamless database interaction for developers, analysts, and database administrators.
 
-## 📸 Screenshots
+## Screenshots
 
 ### Main Application Interface
 ![Main Screen](Project-images/main-screen.png)
@@ -23,38 +23,38 @@ NaturalToSQL is a comprehensive desktop application that leverages advanced AI m
 ### Complex Query Handling
 ![Complex Query](Project-images/main-screen-complexquerygenerateresponse.png)
 
-## ✨ Key Features
+## Key Features
 
-### 🤖 **AI-Powered Query Generation**
+### **AI-Powered Query Generation**
 - **Multiple AI Backends**: Support for Groq API, Local LLM (Ollama), and Basic mode
 - **Intelligent SQL Generation**: Context-aware query generation with schema validation
 - **Parameter Handling**: Automatic parameterization for SQL injection protection
 - **Complex Query Support**: Handles joins, aggregations, subqueries, and advanced SQL patterns
 
-### 🗄️ **Database Support**
+### **Database Support**
 - **SQL Server Integration**: Full support with automatic server discovery
 - **Schema Discovery**: Real-time database schema extraction and caching
 - **Connection Management**: Secure credential storage using Windows Credential Store
 - **Query History**: Persistent storage of query execution history
 
-### 🔒 **Security & Performance**
+### **Security & Performance**
 - **Rate Limiting**: 100 requests/minute per IP protection
 - **Memory Caching**: Intelligent caching for query results and schema data
 - **Parameterized Queries**: Built-in SQL injection protection
 - **Execution Modes**: Read-only and write operation controls
 
-### 🖥️ **Multiple Interfaces**
+### **Multiple Interfaces**
 - **Desktop Application**: Feature-rich Electron app with Monaco editor
 - **Web Interface**: React-based web application
 - **REST API**: Comprehensive API for integration and automation
 
-### 📊 **Advanced Features**
+### **Advanced Features**
 - **Profile Management**: Multiple database connection profiles
 - **Health Monitoring**: Real-time system health checks
 - **Query Analytics**: Detailed execution metrics and performance data
 - **Export Capabilities**: Query result export in multiple formats
 
-## 🏗️ Architecture
+## Architecture
 
 NaturalToSQL follows **Clean Architecture** principles with clear separation of concerns:
 
@@ -88,7 +88,7 @@ NaturalToSQL follows **Clean Architecture** principles with clear separation of 
 └───────────────────────────────────────────────────────────────┘
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -148,7 +148,7 @@ npm start
 
 ![Setup Process](Project-images/setup-mode-groq.png)
 
-## 📋 API Documentation
+## API Documentation
 
 ### Base URLs
 - **Production**: `https://localhost:7202`
@@ -343,7 +343,7 @@ For complete API documentation, see [API Reference](docs/api-reference.md).
 | `LOCAL_LLM_URL` | Local LLM endpoint | `http://localhost:11434` |
 | `LOG_LEVEL` | Logging level | `Information` |
 
-## 🧪 Testing
+## Testing
 
 ### Running Unit Tests
 
@@ -367,12 +367,12 @@ dotnet test NatrualToQuery.UnitTest
 ### Test Coverage
 
 The project maintains high test coverage across:
-- ✅ Application Services (95%+)
-- ✅ Domain Logic (90%+)
-- ✅ API Endpoints (85%+)
-- ✅ Database Providers (80%+)
+-  Application Services (95%+)
+-  Domain Logic (90%+)
+-  API Endpoints (85%+)
+-  Database Providers (80%+)
 
-## 🔐 Security
+## Security
 
 ### Built-in Security Features
 
@@ -390,7 +390,7 @@ The project maintains high test coverage across:
 4. **Monitor query patterns** for suspicious activity
 5. **Limit write operations** to authorized users only
 
-## 🚢 Deployment
+## Deployment
 
 ### Docker Deployment
 
@@ -423,7 +423,7 @@ npm run build:app
 # - Portable: NaturalToSQL-Portable-1.0.0.exe
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
@@ -443,7 +443,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - Include **unit tests** for new features
 - Follow **Clean Architecture** principles
 
-## 🗺️ Roadmap
+## Roadmap
 
 ### Version 2.0 (Q1 2025)
 - [ ] **PostgreSQL Support** - Extended database compatibility
@@ -463,7 +463,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - [ ] **Advanced Visualizations** - Query result charts and graphs
 - [ ] **API Gateway Integration** - Enterprise authentication
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 ### Benchmark Results
 
@@ -488,7 +488,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - **Storage**: 2GB
 - **CPU**: Multi-core processor
 
-## 🆘 Support
+## Support
 
 ### Getting Help
 
