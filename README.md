@@ -477,16 +477,17 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ### System Requirements
 
 **Minimum:**
-- **OS**: Windows 10, macOS 10.14, Ubuntu 18.04
+- **OS**: Windows 10
 - **RAM**: 4GB
 - **Storage**: 500MB
 - **Network**: Internet connection for AI services
 
 **Recommended:**
-- **OS**: Windows 11, macOS 12+, Ubuntu 20.04+
+- **OS**: Windows 11
 - **RAM**: 8GB+
-- **Storage**: 2GB
+- **Storage**: 5GB
 - **CPU**: Multi-core processor
+- **GPU**: Nvidia 10-series or above (8GB+ vram)
 
 ## Support
 
@@ -495,7 +496,6 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - 📖 **Documentation**: [Wiki](https://github.com/ahmedashraf0001/NatrualToSql/wiki)
 - 🐛 **Bug Reports**: [Issues](https://github.com/ahmedashraf0001/NatrualToSql/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/ahmedashraf0001/NatrualToSql/discussions)
-- 📧 **Email**: support@naturaltosql.com
 
 ### Troubleshooting
 
