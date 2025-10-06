@@ -14,9 +14,6 @@ NaturalToSQL is a comprehensive desktop application that leverages advanced AI m
 ### Main Application Interface
 ![Main Screen](Project-images/main-screen.png)
 
-### Setup Process
-![Setup Process](Project-images/setup-1.png)
-
 ### Query Generation in Action
 ![Query Generation](Project-images/main-screen-querywrittenwithgeneratedresponse.png)
 
